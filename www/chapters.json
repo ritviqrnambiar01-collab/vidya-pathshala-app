@@ -1,122 +1,1145 @@
 [
   {
-    "id": "evs-1-1",
-    "classLevel": 1,
+    "id": "c1-math-01",
+    "class": 1,
+    "subject": "Mathematics",
+    "chapter": "Spatial Understanding & Pre-Number Concepts",
+    "summary": "Understanding positions, sizes, and relationships between everyday objects before doing arithmetic.",
+    "notes": [
+      "Inside vs. Outside: A bird inside a cage is inside; a bird sitting on top is outside.",
+      "Top vs. Bottom & Above vs. Below: The fan is above/at the top; the floor/mat is below/at the bottom.",
+      "Near vs. Far: Compare distances from a reference point like a tree or house.",
+      "Big vs. Small, Tall vs. Short, Thick vs. Thin, Heavy vs. Light: Visual and physical comparison of two or more objects.",
+      "Rolling vs. Sliding: Round objects like balls and cylinders roll; flat-bottomed boxes and books slide."
+    ],
+    "key_terms": {
+      "Inside / Outside": "ಒಳಗೆ / ಹೊರಗೆ",
+      "Big / Small": "ದೊಡ್ಡದು / ಚಿಕ್ಕದು",
+      "Heavy / Light": "ಭಾರ / ಹಗುರ"
+    }
+  },
+  {
+    "id": "c1-math-02",
+    "class": 1,
+    "subject": "Mathematics",
+    "chapter": "Numbers from 1 to 20 & Counting",
+    "summary": "Counting objects accurately, recognizing numerals and number names, and comparing quantities up to 20.",
+    "notes": [
+      "One-to-One Correspondence: Point to each object once while counting aloud from 1 to 9, then up to 20.",
+      "Zero (0): Represents 'nothing' or an empty group (e.g., 0 apples left in a basket after eating all).",
+      "Tens and Ones (10–20): A bundle of 10 items makes 1 ten; 14 is 1 ten and 4 ones.",
+      "Before, After, and Between: Identify which number comes just before, just after, or in the middle.",
+      "Greater Than, Less Than, and Equal To: Compare two groups to find which has more, fewer, or the same count."
+    ],
+    "key_terms": {
+      "Number": "ಸಂಖ್ಯೆ",
+      "Zero": "ಸೊನ್ನೆ",
+      "More / Less": "ಹೆಚ್ಚು / ಕಡಿಮೆ"
+    }
+  },
+  {
+    "id": "c1-math-03",
+    "class": 1,
+    "subject": "Mathematics",
+    "chapter": "Addition and Subtraction up to 20",
+    "summary": "Combining groups to add and taking away or comparing groups to subtract using objects and number lines.",
+    "notes": [
+      "Addition (+): Putting groups together increases the total count (e.g., 3 pencils + 2 pencils = 5 pencils).",
+      "Counting On: Start from the bigger number and count forward to add quickly.",
+      "Order in Addition: Changing the order of numbers being added does not change the sum (2 + 5 = 5 + 2).",
+      "Subtraction (-): Taking away items, finding how many are left, or comparing how many more one group has.",
+      "Counting Back / Number Line: Hop backward on a number line or cross out items to find the difference."
+    ],
+    "key_terms": {
+      "Addition": "ಸಂಕಲನ / ಕೂಡಿಸುವುದು",
+      "Subtraction": "ವ್ಯವಕಲನ / ಕಳೆಯುವುದು",
+      "Total": "ಒಟ್ಟು"
+    }
+  },
+  {
+    "id": "c1-math-04",
+    "class": 1,
+    "subject": "Mathematics",
+    "chapter": "Shapes, Patterns, Money, Time & Data Handling",
+    "summary": "Recognizing basic 2D/3D shapes, repeating patterns, coins/notes, daily routines, and simple tally counts.",
+    "notes": [
+      "Basic Shapes: Circle (round, no corners), Triangle (3 sides/corners), Square (4 equal sides), Rectangle (opposite sides equal).",
+      "Patterns: Spot what repeats in colors, shapes, sounds, or numbers (ABAB or AAB patterns) and predict the next item.",
+      "Money: Identify coins (₹1, ₹2, ₹5, ₹10) and currency notes; combine small coins to match a price.",
+      "Time & Daily Routine: Morning, afternoon, evening, night; before/after school; days of the week and months.",
+      "Data Handling: Count and group similar items in a table or picture chart to answer 'which is most/least?'."
+    ],
+    "key_terms": {
+      "Shape": "ಆಕಾರ",
+      "Pattern": "ನಮೂನೆ",
+      "Money": "ಹಣ"
+    }
+  },
+  {
+    "id": "c1-evs-01",
+    "class": 1,
     "subject": "EVS",
-    "chapterNumber": 1,
-    "title": "Living and Non-Living Things",
-    "kannadaTitle": "ಜೀವಿಗಳು ಮತ್ತು ನಿರ್ಜೀವ ವಸ್ತುಗಳು",
-    "reference": "KTBS Class 1 EVS",
-    "summary": [
-      "Living things grow, breathe, move on their own, and need food and water (e.g., children, dogs, trees, birds).",
-      "Non-living things do not grow or breathe on their own (e.g., stones, books, chairs, water)."
+    "chapter": "Myself, Body Parts, Family, Food & Water",
+    "summary": "Knowing personal identity, parts of the body, family members, healthy food habits, and uses of water.",
+    "notes": [
+      "Myself & Body: Know your name, age, and main body parts (head, eyes, ears, nose, mouth, hands, legs).",
+      "Sense Organs: Eyes (see), ears (hear), nose (smell), tongue (taste), skin (touch/feel).",
+      "Family & Neighbourhood: Parents, grandparents, siblings, and neighbours help and care for one another; share household work.",
+      "Food: We need food to grow and stay active; eat fruits, vegetables, grains, and drink clean water; wash hands before and after meals.",
+      "Water: Essential for drinking, cooking, bathing, cleaning, plants, and animals; never waste or pollute water."
     ],
-    "glossary": [
-      { "en": "Living Thing", "kn": "ಜೀವಿ (Grows and needs food/water)" },
-      { "en": "Non-Living Thing", "kn": "ನಿರ್ಜೀವ ವಸ್ತು (Does not grow or breathe)" }
-    ],
-    "examHotspots": [
-      { "marks": "Quick Check", "q": "Is a tree living or non-living?", "a": "Living—it grows bigger and needs water and sunlight." }
-    ],
-    "flashcards": [
-      { "front": "Does a toy car eat food or grow?", "back": "No—it is a non-living thing." }
-    ]
+    "key_terms": {
+      "Body": "ದೇಹ",
+      "Family": "ಕುಟುಂಬ",
+      "Water": "ನೀರು"
+    }
   },
   {
-    "id": "math-4-1",
-    "classLevel": 4,
+    "id": "c1-evs-02",
+    "class": 1,
+    "subject": "EVS",
+    "chapter": "Plants, Animals, Shelter & Safety",
+    "summary": "Observing living things around us, types of houses, and basic safety habits at home, school, and on roads.",
+    "notes": [
+      "Plants Around Us: Plants are living things; big tall trees (like banyan/mango), medium shrubs, small herbs, and climbers.",
+      "Animals Around Us: Domestic/pet animals (cow, dog, goat, hen) and wild animals (lion, elephant, deer); birds have wings and feathers.",
+      "Shelter / Houses: Houses protect us from rain, sun, wind, cold, and wild animals; keep rooms and surroundings clean.",
+      "Clothes: Cotton clothes keep us cool in summer; woollen clothes keep us warm in winter; raincoats keep us dry in rain.",
+      "Safety Habits: Do not play with sharp objects, fire, or switches; walk on the footpath and cross roads safely."
+    ],
+    "key_terms": {
+      "Plant": "ಗಿಡ / ಸಸ್ಯ",
+      "Animal": "ಪ್ರಾಣಿ",
+      "House": "ಮನೆ"
+    }
+  },
+  {
+    "id": "c1-lang-01",
+    "class": 1,
+    "subject": "Languages (Kannada & English)",
+    "chapter": "Foundational Letters, Sounds, Rhymes & Simple Words",
+    "summary": "Building listening, speaking, reading, and writing readiness in Kannada (1st Language) and English (2nd Language).",
+    "notes": [
+      "Kannada Foundations (Siri Kannada): Recognize vowels (ಸ್ವರಗಳು - ಅ to ಔ) and consonants (ವ್ಯಂಜನಗಳು - ಕ to ಳ), hear beginning sounds, and recite simple rhymes.",
+      "English Foundations: Recognize capital and small letters A–Z, phonic sounds, and common everyday words.",
+      "Greeting & Polite Words: Namaskara / Hello, Please, Thank you, Sorry, Good morning.",
+      "Picture Reading: Describe what people, animals, and objects are doing in a picture in short sentences."
+    ],
+    "key_terms": {
+      "Letter / Alphabet": "ಅಕ್ಷರ",
+      "Poem / Rhyme": "ಪದ್ಯ / ಗೀತೆ",
+      "Story": "ಕಥೆ"
+    }
+  },
+  {
+    "id": "c2-math-01",
+    "class": 2,
     "subject": "Mathematics",
-    "chapterNumber": 1,
-    "title": "Fractions — Halves and Quarters",
-    "kannadaTitle": "ಭಿನ್ನರಾಶಿಗಳು — ಅರ್ಧ ಮತ್ತು ಕಾಲು ಭಾಗ",
-    "reference": "KTBS Class 4 Mathematics",
-    "summary": [
-      "A fraction shows equal parts of a whole.",
-      "1/2 means one out of two equal parts (half); 1/4 means one out of four equal parts (quarter)."
+    "chapter": "Two-Digit Numbers, Place Value & Ordering",
+    "summary": "Reading, writing, expanding, and ordering 2-digit numbers up to 99 using tens and ones.",
+    "notes": [
+      "Place Value (Tens & Ones): In 47, 4 is in the tens place (40) and 7 is in the ones place (7), so 47 = 40 + 7.",
+      "Expanded & Short Form: Write 63 as 6 tens + 3 ones = 60 + 3, and combine 80 + 5 into 85.",
+      "Comparing 2-Digit Numbers: First compare the tens digit; if tens are equal, compare the ones digit.",
+      "Ascending & Descending Order: Arrange numbers from smallest to largest (ascending) or largest to smallest (descending).",
+      "Ordinal Numbers: First (1st), Second (2nd), Third (3rd) up to Tenth (10th) to show position in a line."
     ],
-    "glossary": [
-      { "en": "Half (1/2)", "kn": "ಅರ್ಧ (1 equal part out of 2)" },
-      { "en": "Quarter (1/4)", "kn": "ಕಾಲು ಭಾಗ (1 equal part out of 4)" }
-    ],
-    "examHotspots": [
-      { "marks": "Quick Check", "q": "If a roti is cut into 4 equal pieces and you eat 1 piece, what fraction is that?", "a": "1/4 (one-fourth or quarter)." }
-    ],
-    "flashcards": [
-      { "front": "How many quarters (1/4) make 1 whole?", "back": "4 quarters make 1 whole." }
-    ]
+    "key_terms": {
+      "Place Value": "ಸ್ಥಾನ ಬೆಲೆ",
+      "Tens": "ಹತ್ತುಗಳು",
+      "Ones": "ಒಂದುಗಳು"
+    }
   },
   {
-    "id": "sci-7-1",
-    "classLevel": 7,
-    "subject": "Science",
-    "chapterNumber": 1,
-    "title": "Nutrition in Plants",
-    "kannadaTitle": "ಸಸ್ಯಗಳಲ್ಲಿ ಪೋಷಣೆ",
-    "reference": "KTBS Class 7 Science",
-    "summary": [
-      "Autotrophic nutrition: Green plants make their own food using sunlight, water, carbon dioxide, and chlorophyll (photosynthesis).",
-      "Heterotrophic nutrition: Organisms that depend on others for food (e.g., animals, non-green plants)."
-    ],
-    "glossary": [
-      { "en": "Photosynthesis", "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ (Making food using sunlight)" },
-      { "en": "Chlorophyll", "kn": "ಪತ್ರಹರಿತ್ತು (Green pigment in leaves)" }
-    ],
-    "examHotspots": [
-      { "marks": "2 Marks", "q": "Why are leaves called the food factories of plants?", "a": "Because photosynthesis takes place mainly in the leaves." }
-    ],
-    "flashcards": [
-      { "front": "Which gas is released during photosynthesis?", "back": "Oxygen gas." }
-    ]
-  },
-  {
-    "id": "sci-10-1",
-    "classLevel": 10,
-    "subject": "Science",
-    "chapterNumber": 1,
-    "title": "Chemical Reactions and Equations",
-    "kannadaTitle": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಸಮೀಕರಣಗಳು",
-    "reference": "KTBS Class 10 Science, Ch. 1",
-    "summary": [
-      "Chemical reactions form new substances with new properties (e.g., milk setting into curd, iron rusting).",
-      "Law of Conservation of Mass: Atoms are neither created nor destroyed, so equations must be balanced.",
-      "Main types: Combination, Decomposition, Displacement, and Double Displacement."
-    ],
-    "glossary": [
-      { "en": "Exothermic Reaction", "kn": "ಉಷ್ಣವರ್ಧಕ ಕ್ರಿಯೆ (Releases heat)" },
-      { "en": "Oxidation", "kn": "ಉತ್ಕರ್ಷಣ (Addition of oxygen)" },
-      { "en": "Rancidity", "kn": "ಕಮಟುವಿಕೆ (Spoiling of fats/oils)" }
-    ],
-    "examHotspots": [
-      { "marks": "2 Marks", "q": "Why should a magnesium ribbon be cleaned before burning in air?", "a": "To remove the protective oxide/carbonate layer so it burns smoothly." },
-      { "marks": "3 Marks", "q": "Give one example each of exothermic and endothermic reactions.", "a": "Exothermic: Respiration / burning gas. Endothermic: Photosynthesis." }
-    ],
-    "flashcards": [
-      { "front": "What gas is released when zinc reacts with dilute HCl?", "back": "Hydrogen gas (H₂) — burns with a 'pop' sound." },
-      { "front": "Which gas is flushed in chips packets to prevent rancidity?", "back": "Nitrogen gas." }
-    ]
-  },
-  {
-    "id": "math-10-2",
-    "classLevel": 10,
+    "id": "c2-math-02",
+    "class": 2,
     "subject": "Mathematics",
-    "chapterNumber": 2,
-    "title": "Polynomials",
-    "kannadaTitle": "ಬಹುಪದೋಕ್ತಿಗಳು",
-    "reference": "KTBS Class 10 Mathematics, Ch. 2",
-    "summary": [
-      "A polynomial p(x) of degree n has at most n zeroes.",
-      "Graphically, zeroes are x-coordinates where y = p(x) cuts or touches the x-axis.",
-      "For ax² + bx + c (a ≠ 0): Sum of zeroes = -b/a and Product of zeroes = c/a."
+    "chapter": "Addition, Subtraction, Multiplication & Division",
+    "summary": "Performing 2-digit addition and subtraction with/without regrouping, repeated addition as multiplication, and equal sharing.",
+    "notes": [
+      "2-Digit Addition with Regrouping: Add ones first; if the sum of ones is 10 or more, carry 1 ten to the tens column.",
+      "2-Digit Subtraction with Borrowing: If top ones digit is smaller than bottom ones digit, borrow 1 ten (10 ones) from tens.",
+      "Multiplication as Repeated Addition: 4 groups of 3 = 3 + 3 + 3 + 3 = 12, written as 4 × 3 = 12.",
+      "Multiplication Tables: Practice tables of 2, 3, 4, 5, and 10 for fast mental calculation.",
+      "Division as Equal Sharing / Grouping: Sharing 12 laddus equally among 4 children gives 3 laddus each (12 ÷ 4 = 3)."
     ],
-    "glossary": [
-      { "en": "Zeroes of a Polynomial", "kn": "ಬಹುಪದೋಕ್ತಿಯ ಶೂನ್ಯಗಳು" },
-      { "en": "Quadratic Polynomial", "kn": "ವರ್ಗ ಬಹುಪದೋಕ್ತಿ (Degree 2)" }
+    "key_terms": {
+      "Carry / Regroup": "ದಶಕ ವರ್ಗಾವಣೆ",
+      "Multiplication": "ಗುಣಾಕಾರ",
+      "Division": "ಭಾಗಾಕಾರ"
+    }
+  },
+  {
+    "id": "c2-math-03",
+    "class": 2,
+    "subject": "Mathematics",
+    "chapter": "Measurement (Length, Weight, Capacity), Money, Time & Data",
+    "summary": "Measuring everyday quantities with standard and non-standard units, handling rupees and paise, reading clocks, and reading charts.",
+    "notes": [
+      "Length: Measure shorter lengths in centimetres (cm) and longer distances in metres (m) using a ruler or metre scale.",
+      "Weight: Measure light and heavy items in grams (g) and kilograms (kg) using a balance scale.",
+      "Capacity: Measure liquid volume (milk, water, oil) in millilitres (ml) and litres (L).",
+      "Money: Rupees (₹) and paise; add prices of two items and find change returned from a note.",
+      "Time & Data: Read hour and half-hour on a clock, days/months on a calendar, and interpret simple pictographs/tally marks."
     ],
-    "examHotspots": [
-      { "marks": "2 Marks", "q": "Find sum and product of zeroes of 2x² - 8x + 6.", "a": "Sum = 4; Product = 3." }
+    "key_terms": {
+      "Length": "ಉದ್ದ",
+      "Weight": "ತೂಕ",
+      "Capacity": "ಧಾರಣಾ ಸಾಮರ್ಥ್ಯ"
+    }
+  },
+  {
+    "id": "c2-evs-01",
+    "class": 2,
+    "subject": "EVS",
+    "chapter": "Surroundings, Air, Water, Shelter & Seasons",
+    "summary": "Exploring neighborhood places, air and weather around us, kinds of houses, and seasonal changes.",
+    "notes": [
+      "Our Surroundings & Neighbourhood: School, hospital, post office, market, bank, and police station serve community needs.",
+      "Air Around Us: Air is everywhere around us; moving air is called wind, and strong wind is a storm. Clean air is needed for breathing.",
+      "Water Sources & Storage: Rain, rivers, lakes, wells, and borewells; store drinking water in clean covered vessels.",
+      "Houses & Materials: Kutcha houses (mud, straw, bamboo) vs. pucca houses (brick, cement, steel, tiles) suited to climate and place.",
+      "Seasons & Sky: Summer (hot), rainy/monsoon (wet), winter (cool); sun, moon, clouds, and stars in the sky."
     ],
-    "flashcards": [
-      { "front": "Maximum number of zeroes of a cubic polynomial?", "back": "At most 3 zeroes." }
-    ]
+    "key_terms": {
+      "Air": "ಗಾಳಿ",
+      "Season": "ಋತು",
+      "Neighbourhood": "ನೆರೆಹೊರೆ"
+    }
+  },
+  {
+    "id": "c2-evs-02",
+    "class": 2,
+    "subject": "EVS",
+    "chapter": "Transport, Communication, Festivals & Good Habits",
+    "summary": "How people and messages travel, celebrating festivals together, and practicing healthy daily habits.",
+    "notes": [
+      "Means of Transport: Land (bicycle, bus, car, train), water (boat, ship), and air (aeroplane, helicopter).",
+      "Means of Communication: Letters, telephone/mobile phone, newspaper, radio, and television help share messages and news.",
+      "Festivals: National festivals (Independence Day, Republic Day, Gandhi Jayanti) and cultural/harvest festivals bring joy and unity.",
+      "Health & Hygiene: Brush teeth twice a day, bathe daily, trim nails, wear clean clothes, and sleep well."
+    ],
+    "key_terms": {
+      "Transport": "ಸಾರಿಗೆ",
+      "Festival": "ಹಬ್ಬ",
+      "Cleanliness": "ಶುಚಿತ್ವ"
+    }
+  },
+  {
+    "id": "c2-lang-01",
+    "class": 2,
+    "subject": "Languages (Kannada & English)",
+    "chapter": "Reading Short Stories, Poems, Vocabulary & Simple Sentences",
+    "summary": "Developing fluent word reading, comprehension, rhyming awareness, and sentence framing in Kannada and English.",
+    "notes": [
+      "Kannada (Siri Kannada): Read simple words and short prose/poems with proper pronunciation; identify action words and naming words.",
+      "English: Read short stories and poems, answer who/what/where questions, and form simple present-tense sentences.",
+      "Opposites & Rhyming Words: Match opposite pairs (hot–cold, big–small, up–down) and rhyming word families (cat–bat–mat)."
+    ],
+    "key_terms": {
+      "Opposite": "ವಿರುದ್ಧಾರ್ಥಕ ಪದ",
+      "Sentence": "ವಾಕ್ಯ"
+    }
+  },
+  {
+    "id": "c3-math-01",
+    "class": 3,
+    "subject": "Mathematics",
+    "chapter": "Three-Digit Numbers, Place Value & Basic Operations",
+    "summary": "Reading, writing, expanding, and ordering 3-digit numbers up to 999, plus addition, subtraction, multiplication, and division.",
+    "notes": [
+      "Hundreds, Tens, and Ones: In 458, 4 is in the hundreds place (400), 5 is in the tens place (50), and 8 is in the ones place (8), so 458 = 400 + 50 + 8.",
+      "Smallest & Largest 3-Digit Numbers: Smallest 3-digit number is 100; largest 3-digit number is 999.",
+      "Addition & Subtraction: Line up hundreds, tens, and ones neatly; regroup/borrow carefully across place values.",
+      "Multiplication & Division: Multiply 2-digit/3-digit numbers by 1-digit numbers; division is repeated subtraction or equal grouping with dividend, divisor, quotient, and remainder."
+    ],
+    "key_terms": {
+      "Hundreds": "ನೂರುಗಳು",
+      "Quotient": "ಭಾಗಲಬ್ಧ",
+      "Remainder": "ಶೇಷ"
+    }
+  },
+  {
+    "id": "c3-math-02",
+    "class": 3,
+    "subject": "Mathematics",
+    "chapter": "Fractions, Measurement (Length, Weight, Volume), Money, Time & Shapes",
+    "summary": "Understanding halves and quarters, measuring length/weight/liquid volume, handling money, reading time, and identifying shapes.",
+    "notes": [
+      "Fractions: A whole divided into 2 equal parts gives halves (1/2 each); 4 equal parts give quarters (1/4 each).",
+      "Length & Weight: Convert between metres and centimetres (1 m = 100 cm) and kilograms and grams (1 kg = 1000 g).",
+      "Volume / Capacity: Measure liquids in litres (L) and millilitres (ml) (1 L = 1000 ml); compare jugs, bottles, and vessels.",
+      "Time & Money: Read hours and minutes on an analog clock; calculate total cost and balance in rupees and paise.",
+      "Shapes & Data: Identify edges, corners, and faces of common shapes; read simple bar/tally charts."
+    ],
+    "key_terms": {
+      "Fraction": "ಭಿನ್ನರಾಶಿ",
+      "Half": "ಅರ್ಧ",
+      "Quarter": "ಕಾಲು"
+    }
+  },
+  {
+    "id": "c3-evs-01",
+    "class": 3,
+    "subject": "EVS",
+    "chapter": "Sense Organs, Teeth, Food, Health & Safety",
+    "summary": "Caring for sense organs and teeth, understanding balanced food and first aid, and following safety rules.",
+    "notes": [
+      "Sense Organs & Care: Protect eyes from bright glare/rubbing, clean ears safely, keep nose/skin clean, and avoid very hot/spicy foods.",
+      "Teeth: Milk teeth appear in childhood and are replaced by permanent teeth; brush morning and night and rinse after meals.",
+      "Food & Nutrition: Energy-giving foods (cereals, sugar/potatoes), body-building foods (pulses, milk, eggs, meat), and protective foods (fruits, vegetables).",
+      "Safety & First Aid: Follow road safety signals, avoid electrical hazards, and use basic first aid for minor cuts or burns."
+    ],
+    "key_terms": {
+      "Teeth": "ಹಲ್ಲುಗಳು",
+      "Health": "ಆರೋಗ್ಯ",
+      "Safety": "ಸುರಕ್ಷತೆ"
+    }
+  },
+  {
+    "id": "c3-evs-02",
+    "class": 3,
+    "subject": "EVS",
+    "chapter": "Plants, Animals, Birds, Insects & Shelter",
+    "summary": "Observing diversity in plants and animals, bird beaks/nests, insects, and how animals and humans build shelters.",
+    "notes": [
+      "Parts of a Plant: Roots (fix plant in soil, absorb water), stem (supports & carries water/food), leaves (make food), flowers, fruits, and seeds.",
+      "Animals & Birds: Different animals move, eat, and live in different habitats; birds have varied beaks and claws suited to food and perching.",
+      "Insects: Six-legged small creatures like ants, butterflies, honeybees, and mosquitoes; keep surroundings clean to prevent mosquitoes.",
+      "Shelters: Humans build houses suited to local climate and materials; animals use burrows, nests, sheds, caves, or hives."
+    ],
+    "key_terms": {
+      "Root": "ಬೇರು",
+      "Bird": "ಹಕ್ಕಿ",
+      "Nest": "ಗೂಡು"
+    }
+  },
+  {
+    "id": "c3-evs-03",
+    "class": 3,
+    "subject": "EVS",
+    "chapter": "Water, Communication, Local Maps & District Geography",
+    "summary": "Uses and conservation of water, communication tools, reading simple maps, and knowing one's taluk/district.",
+    "notes": [
+      "Water & Conservation: Rain is the main source of water; harvest rainwater, fix leaks, and keep ponds/wells clean.",
+      "Communication & Occupations: Post office, newspapers, phones, internet, and community helpers (farmers, teachers, doctors, artisans).",
+      "Maps & Directions: Four main directions—North, South, East, West (sun rises roughly in the East); use symbols to read simple maps.",
+      "Our District: Know your village/town, taluk, district headquarters, local landmarks, crops, and cultural spots."
+    ],
+    "key_terms": {
+      "Direction": "ದಿಕ್ಕು",
+      "Map": "ನಕ್ಷೆ",
+      "District": "ಜಿಲ್ಲೆ"
+    }
+  },
+  {
+    "id": "c3-lang-01",
+    "class": 3,
+    "subject": "Languages (Kannada & English)",
+    "chapter": "Prose, Poetry, Grammar Basics & Reading Comprehension",
+    "summary": "Reading stories and poems fluently, building vocabulary, and learning basic parts of speech in Kannada and English.",
+    "notes": [
+      "Kannada (Siri Kannada): Read prose and poems with expression, understand moral lessons, and practice basic word forms and singular/plural ideas.",
+      "English: Read short passages and poems, identify nouns (naming words), verbs (action words), and adjectives (describing words).",
+      "Writing Skills: Write short answers, complete sentences, and simple descriptions of familiar people or events."
+    ],
+    "key_terms": {
+      "Noun": "ನಾಮಪದ",
+      "Verb": "ಕ್ರಿಯಾಪದ",
+      "Poem": "ಕವನ / ಪದ್ಯ"
+    }
+  },
+  {
+    "id": "c4-math-01",
+    "class": 4,
+    "subject": "Mathematics",
+    "chapter": "Four- and Five-Digit Numbers, Place Value & Four Operations",
+    "summary": "Working with 4- and 5-digit numbers up to 99,999, place value, rounding/estimation, and all four arithmetic operations.",
+    "notes": [
+      "Place Value up to Ten Thousands: Ones, Tens, Hundreds, Thousands (1,000), Ten Thousands (10,000). Smallest 5-digit number is 10,000.",
+      "Face Value vs. Place Value: Face value is the digit itself; place value is digit × value of its place.",
+      "Addition & Subtraction: Solve multi-step word problems carefully, checking answers using inverse operations.",
+      "Multiplication & Division: Multiply up to 3/4-digit numbers by 1- or 2-digit numbers; divide and verify using Dividend = (Divisor × Quotient) + Remainder."
+    ],
+    "key_terms": {
+      "Thousand": "ಸಾವಿರ",
+      "Place Value": "ಸ್ಥಾನ ಬೆಲೆ",
+      "Estimation": "ಅಂದಾಜು"
+    }
+  },
+  {
+    "id": "c4-math-02",
+    "class": 4,
+    "subject": "Mathematics",
+    "chapter": "Fractions, Geometry (Circles, Symmetry), Perimeter & Area",
+    "summary": "Comparing simple fractions, exploring circles and lines of symmetry, and finding perimeter and area of flat shapes.",
+    "notes": [
+      "Fractions: Numerator (top—parts taken) and denominator (bottom—total equal parts); compare unit fractions and like fractions.",
+      "Circles: Centre, radius (distance from centre to boundary), diameter (line through centre = 2 × radius), and chord.",
+      "Symmetry: A shape has line symmetry if folding along a line gives two matching halves.",
+      "Perimeter & Area: Perimeter is the total boundary length around a closed figure; area is the surface enclosed inside it."
+    ],
+    "key_terms": {
+      "Radius": "ತ್ರಿಜ್ಯ",
+      "Diameter": "ವ್ಯಾಸ",
+      "Perimeter": "ಸುತ್ತಳತೆ"
+    }
+  },
+  {
+    "id": "c4-evs-01",
+    "class": 4,
+    "subject": "EVS",
+    "chapter": "Plant Morphology, Water Conservation & Mapping",
+    "summary": "Functions of plant parts, saving water and traditional water sources, and using maps and directions.",
+    "notes": [
+      "Plants: Tap root vs. fibrous root; leaves prepare food using sunlight, air, and water (photosynthesis basics); flowers/fruits/seeds help reproduce.",
+      "Water Conservation: Lakes, tanks (kere), stepwells, check dams, and drip/sprinkler saving methods prevent drought and water scarcity.",
+      "Maps & Scales: Use landmarks, compass directions, and simple legends/symbols to locate places and trace routes."
+    ],
+    "key_terms": {
+      "Leaf": "ಎಲೆ",
+      "Lake / Tank": "ಕೆರೆ",
+      "Conservation": "ಸಂರಕ್ಷಣೆ"
+    }
+  },
+  {
+    "id": "c4-evs-02",
+    "class": 4,
+    "subject": "EVS",
+    "chapter": "Human Body Systems, Traffic Rules & Karnataka Heritage",
+    "summary": "How internal body organs work together, safe traffic behavior, and cultural/historical heritage of Karnataka.",
+    "notes": [
+      "Body Systems: Digestive system (breaks down food), respiratory system (breathing air), circulatory system (pumping blood), skeletal & nervous systems.",
+      "Traffic Rules: Obey traffic lights (red = stop, yellow = get ready, green = go), use zebra crossings, wear helmets/seatbelts, never use phones while crossing.",
+      "State Heritage: Karnataka's monuments, folk arts (Yakshagana, Dollu Kunitha), festivals, languages, and famous historical sites."
+    ],
+    "key_terms": {
+      "Heritage": "ಪರಂಪರೆ",
+      "Traffic": "ಸಂಚಾರ",
+      "Digestive System": "ಜೀರ್ಣಾಂಗ ವ್ಯವಸ್ಥೆ"
+    }
+  },
+  {
+    "id": "c4-lang-01",
+    "class": 4,
+    "subject": "Languages (Kannada & English)",
+    "chapter": "Comprehension, Vocabulary, Tenses & Composition",
+    "summary": "Reading stories and poems critically, expanding vocabulary, using tenses correctly, and writing short paragraphs/letters.",
+    "notes": [
+      "Kannada (Siri Kannada): Understand prose themes and poetic imagery, learn synonyms/antonyms, and write short answers cleanly.",
+      "English: Use present, past, and future tenses; punctuation (capital letters, full stops, question marks, commas); write short paragraphs and informal notes."
+    ],
+    "key_terms": {
+      "Tense": "ಕಾಲ",
+      "Paragraph": "ಪ್ಯಾರಾಗ್ರಾಫ್ / ಗದ್ಯಭಾಗ"
+    }
+  },
+  {
+    "id": "c5-math-01",
+    "class": 5,
+    "subject": "Mathematics",
+    "chapter": "Large Numbers, Factors & Multiples, Fractions & Decimals",
+    "summary": "Reading large numbers, prime/composite numbers, LCM and HCF basics, fraction operations, and decimal tenths/hundredths.",
+    "notes": [
+      "Large Numbers: Indian place value system (ones, tens, hundreds, thousands, ten thousands, lakhs, ten lakhs) with commas.",
+      "Factors & Multiples: A factor divides a number with zero remainder; multiples are products of a number (e.g., multiples of 6: 6, 12, 18, 24...).",
+      "Prime & Composite Numbers: Prime numbers have only two factors (1 and itself, e.g., 2, 3, 5, 7, 11); composite numbers have more than two. 1 is neither prime nor composite.",
+      "Decimals: Tenths (1/10 = 0.1) and hundredths (1/100 = 0.01); align decimal points when adding or subtracting."
+    ],
+    "key_terms": {
+      "Factor": "ಅಪವರ್ತನ",
+      "Multiple": "ಅಪವರ್ತ್ಯ",
+      "Decimal": "ದಶಮಾಂಶ"
+    }
+  },
+  {
+    "id": "c5-math-02",
+    "class": 5,
+    "subject": "Mathematics",
+    "chapter": "Angles, Symmetry, 3D Shapes, Perimeter, Area & Volume",
+    "summary": "Measuring angles, rotational/line symmetry, nets and faces of 3D solids, and calculating area and volume.",
+    "notes": [
+      "Angles: Acute (< 90°), right (= 90°), obtuse (> 90° and < 180°), and straight (= 180°), measured with a protractor in degrees (°).",
+      "3D Shapes: Cube, cuboid, cylinder, cone, sphere, prism, and pyramid—count faces, edges, and vertices and recognize 2D nets.",
+      "Area & Volume: Area of rectangle = length × breadth; volume of a cuboid = length × breadth × height (in cubic cm or cubic m)."
+    ],
+    "key_terms": {
+      "Angle": "ಕೋನ",
+      "Volume": "ಘನಫಲ",
+      "Symmetry": "ಸಮಮಿತಿ"
+    }
+  },
+  {
+    "id": "c5-evs-01",
+    "class": 5,
+    "subject": "EVS",
+    "chapter": "Natural Resources, Agriculture, Energy & States of Matter",
+    "summary": "Renewable vs. non-renewable resources, farming and soil care, forms of energy, and solids, liquids, and gases.",
+    "notes": [
+      "Natural Resources: Renewable (solar, wind, water, forest regrowth) vs. non-renewable (coal, petroleum—must be conserved).",
+      "Agriculture & Food Production: Ploughing, sowing, irrigation, manuring, harvesting, and storage; different crops grow in different soils and climates.",
+      "Energy: Heat, light, sound, electrical, and mechanical energy; energy cannot be created or destroyed, only changed from one form to another.",
+      "Matter: Solid (fixed shape and volume), liquid (fixed volume, takes shape of container), gas (neither fixed shape nor fixed volume)."
+    ],
+    "key_terms": {
+      "Agriculture": "ಕೃಷಿ",
+      "Energy": "ಶಕ್ತಿ",
+      "Matter": "ವಸ್ತು / ದ್ರವ್ಯ"
+    }
+  },
+  {
+    "id": "c5-evs-02",
+    "class": 5,
+    "subject": "EVS",
+    "chapter": "Indian Geography, Environment & Community Living",
+    "summary": "Physical features of India, biodiversity and pollution control, and civic responsibility.",
+    "notes": [
+      "India's Geography: Northern mountains (Himalayas), northern plains, peninsular plateau, coastal plains, islands, major rivers, and neighbouring countries.",
+      "Environment & Pollution: Reduce, reuse, recycle (3Rs); prevent air, water, soil, and noise pollution; protect wildlife and forests.",
+      "Community & Citizenship: Respect diversity, follow rules, help elders/neighbours, and care for public property."
+    ],
+    "key_terms": {
+      "Plateau": "ಪ್ರಸ್ಥಭೂಮಿ",
+      "Environment": "ಪರಿಸರ",
+      "Citizen": "ನಾಗರಿಕ"
+    }
+  },
+  {
+    "id": "c5-lang-01",
+    "class": 5,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "Literature, Grammar & Expressive Writing (1st, 2nd & 3rd Language)",
+    "summary": "Reading prose and poetry, mastering grammar rules, and writing structured responses across Kannada, English, and Hindi.",
+    "notes": [
+      "Kannada (Siri Kannada): Analyze story characters, poetic meaning, idioms/proverbs (ಗಾದೆಗಳು), and write clear short/long answers.",
+      "English: Parts of speech, tenses, prepositions, conjunctions, active/passive basics, reading comprehension, and short letters/paragraphs.",
+      "Hindi (Hindi Vallari): Read simple prose and poems, build vocabulary (विलोम/पर्यायवाची), and practice basic sentence formation."
+    ],
+    "key_terms": {
+      "Proverb": "ಗಾದೆ",
+      "Comprehension": "ಗ್ರಹಿಕೆ / ಬೋಧನೆ"
+    }
+  },
+  {
+    "id": "c6-math-01",
+    "class": 6,
+    "subject": "Mathematics",
+    "chapter": "Knowing Our Numbers, Whole Numbers & Playing with Numbers",
+    "summary": "Large numbers, estimation, whole number properties, divisibility rules, prime/composite numbers, factors, multiples, HCF, and LCM.",
+    "notes": [
+      "Knowing Our Numbers: Compare large numbers, use Indian (lakhs, crores) and International (millions, billions) place value systems, and round/estimate sums, differences, and products.",
+      "Whole Numbers: Natural numbers (1, 2, 3...) plus 0 form whole numbers; 0 is the smallest whole number and has no predecessor among whole numbers.",
+      "Properties of Whole Numbers: Closure, commutativity, associativity, and distributivity of multiplication over addition/subtraction; additive identity is 0 and multiplicative identity is 1.",
+      "Divisibility Rules: Divisible by 2 (even last digit), 3 (sum of digits divisible by 3), 5 (ends in 0 or 5), 6 (divisible by both 2 and 3), 8 (last 3 digits divisible by 8), 9 (sum of digits divisible by 9), and 11 (difference of alternating digit sums is 0 or multiple of 11).",
+      "HCF & LCM: Highest Common Factor (HCF) is the greatest factor common to given numbers; Lowest Common Multiple (LCM) is the smallest common multiple; HCF × LCM = Product of two numbers."
+    ],
+    "key_terms": {
+      "Whole Numbers": "ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳು",
+      "Divisibility": "ಭಾಜ್ಯತೆಯ ನಿಯಮ",
+      "LCM / HCF": "ಲ.ಸಾ.ಅ / ಮ.ಸಾ.ಅ"
+    }
+  },
+  {
+    "id": "c6-math-02",
+    "class": 6,
+    "subject": "Mathematics",
+    "chapter": "Basic Geometrical Ideas, Elementary Shapes, Integers & Fractions",
+    "summary": "Points, lines, angles, polygons, triangles, quadrilaterals, circles, 3D shapes, positive/negative integers, and fraction operations.",
+    "notes": [
+      "Basic Geometry: A point has no size; line segment has two endpoints; ray has one endpoint and extends endlessly one way; line has no endpoints. Parallel lines never meet; intersecting lines cross at a point.",
+      "Elementary Shapes: Angles measured in degrees (acute < 90°, right = 90°, obtuse 90°–180°, straight = 180°, reflex 180°–360°, complete = 360°); triangles classified by sides (scalene, isosceles, equilateral) and angles (acute, right, obtuse).",
+      "Integers: Include negative numbers (...-3, -2, -1), 0, and positive integers (1, 2, 3...); moving right on a number line increases value, moving left decreases value.",
+      "Fractions: Proper (numerator < denominator), improper (numerator ≥ denominator), mixed fractions, equivalent fractions, simplifying to lowest terms, and adding/subtracting like and unlike fractions."
+    ],
+    "key_terms": {
+      "Integer": "ಪೂರ್ಣಾಂಕ",
+      "Line Segment": "ರೇಖಾಖಂಡ",
+      "Equivalent Fraction": "ಸಮಮೌಲ್ಯ ಭಿನ್ನರಾಶಿ"
+    }
+  },
+  {
+    "id": "c6-math-03",
+    "class": 6,
+    "subject": "Mathematics",
+    "chapter": "Decimals, Data Handling, Mensuration, Algebra, Ratio & Proportion, Symmetry & Practical Geometry",
+    "summary": "Decimal place value and arithmetic, pictographs/bar graphs, perimeter/area, algebraic expressions/equations, ratios, symmetry, and ruler-compass constructions.",
+    "notes": [
+      "Decimals: Tenths (0.1), hundredths (0.01), thousandths (0.001); convert fractions to decimals and vice versa; align decimal points when adding/subtracting.",
+      "Data Handling: Organize raw data into frequency tables; represent data cleanly using pictographs with a chosen scale and bar graphs with equal bar widths and spacing.",
+      "Mensuration: Perimeter of rectangle = 2(l + b), square = 4 × side, equilateral triangle = 3 × side; area of rectangle = l × b, square = side × side.",
+      "Algebra & Ratio: Variables represent unknown numbers to form expressions and simple equations; ratio compares two quantities in the same unit (a:b), and four quantities are in proportion if a:b = c:d.",
+      "Symmetry & Constructions: Lines of symmetry and reflection symmetry; construct segments, perpendicular bisectors, and angles (60°, 90°, 120°, angle bisectors) using ruler and compass."
+    ],
+    "key_terms": {
+      "Variable": "ಚರರಾಶಿ",
+      "Ratio": "ಅನುಪಾತ",
+      "Proportion": "ಸಮಾನುಪಾತ"
+    }
+  },
+  {
+    "id": "c6-sci-01",
+    "class": 6,
+    "subject": "Science",
+    "chapter": "Food, Components of Food, Fibre to Fabric, Materials, Separation & Changes",
+    "summary": "Food sources, nutrients and deficiency diseases, natural/synthetic fibres, sorting materials, separation techniques, and reversible/irreversible changes.",
+    "notes": [
+      "Food & Nutrients: Carbohydrates and fats give energy; proteins for growth and repair; vitamins and minerals protect against disease; dietary fibre (roughage) and water aid digestion. Deficiency causes disorders like scurvy (Vit C), rickets (Vit D), goitre (iodine), anaemia (iron).",
+      "Fibre to Fabric: Fibres spun into yarn and woven/knitted into fabric; plant fibres like cotton (from cotton bolls, black soil/warm climate) and jute (from stem, rainy season) vs. synthetic fibres.",
+      "Sorting Materials & Separation: Group objects by appearance, hardness, solubility in water, transparency (transparent, translucent, opaque), and float/sink. Separation methods: handpicking, threshing, winnowing, sieving, sedimentation, decantation, filtration, evaporation, and condensation.",
+      "Changes Around Us: Reversible changes (melting ice, folding paper) vs. irreversible/chemical changes (baking dough, burning paper, rusting); expansion/contraction on heating/cooling."
+    ],
+    "key_terms": {
+      "Nutrient": "ಪೋಷಕಾಂಶ",
+      "Filtration": "ಸೋಸುವಿಕೆ",
+      "Reversible Change": "ಪ್ರತ್ಯವರ್ತನೀಯ ಬದಲಾವಣೆ"
+    }
+  },
+  {
+    "id": "c6-sci-02",
+    "class": 6,
+    "subject": "Science",
+    "chapter": "Plants, Body Movements, Habitats, Motion, Light, Electricity, Magnets, Water, Air & Waste",
+    "summary": "Plant structure and photosynthesis, joints and locomotion, adaptations in habitats, measurement, light/shadows, electric circuits, magnets, water cycle, air composition, and waste management.",
+    "notes": [
+      "Plants & Body Movements: Herbs, shrubs, trees, climbers, creepers; leaf venation (reticulate vs. parallel) and transpiration; joints (ball-and-socket, pivotal, hinge, fixed), skeleton, cartilage, and how earthworms, snails, fish, birds, and snakes move.",
+      "Living Organisms & Habitats: Terrestrial (deserts, mountains, grasslands) and aquatic (ponds, lakes, oceans) habitats; biotic and abiotic components; camel humps/water conservation, cactus spines/fleshy stems, fish gills/streamlined bodies.",
+      "Motion, Light, Electricity & Magnets: Standard SI unit of length is metre (m); rectilinear (straight-line) vs. circular/periodic motion. Light travels in straight lines; opaque objects cast shadows; pinhole camera and plane mirrors reflect light. Electric cell (+ and - terminals), complete closed circuit vs. open circuit, conductors vs. insulators. Magnets have North and South poles; opposite poles attract, like poles repel; compass points roughly North-South.",
+      "Water, Air & Garbage: Evaporation, condensation, transpiration, and precipitation drive the water cycle; air is a mixture of nitrogen (~78%), oxygen (~21%, supports burning & breathing), carbon dioxide, dust, and water vapour. Reduce/reuse/recycle waste, segregate biodegradable vs. non-biodegradable garbage, and avoid plastics."
+    ],
+    "key_terms": {
+      "Habitat": "ಆವಾಸಸ್ಥಾನ",
+      "Conductor": "ವಾಹಕ",
+      "Magnetism": "ಅಯಸ್ಕಾಂತೀಯತೆ"
+    }
+  },
+  {
+    "id": "c6-soc-01",
+    "class": 6,
+    "subject": "Social Science",
+    "chapter": "History: Early Human Society, Civilizations, Religions, Dynasties & Our Karnataka",
+    "summary": "Sources of history, Karnataka's heritage, stone ages, river valley civilizations, Vedic age, Jainism/Buddhism, Christianity/Islam, and North/South Indian dynasties.",
+    "notes": [
+      "Sources & Our Karnataka: Literary and archaeological sources (inscriptions, coins, monuments, artifacts); Karnataka's rich geographical, cultural, and historical legacy.",
+      "Pre-Historic & Ancient Civilizations: Palaeolithic (Old Stone Age), Mesolithic, Neolithic (New Stone Age—farming & settled life), and Metal Age; major river-valley civilizations like Mesopotamian, Egyptian, Chinese, and Harappan/Indus Valley (planned cities, drainage, seals).",
+      "Vedic Period & New Religions: Early vs. Later Vedic society, literature, and lifestyle; rise of Jainism (Mahavira—ahimsa, truth, non-stealing, non-possession, celibacy) and Buddhism (Gautama Buddha—Four Noble Truths and Eightfold Path), plus overview of Christianity and Islam.",
+      "North & South Indian Dynasties: Mauryas (Chandragupta, Ashoka's Dhamma), Kushans (Kanishka), Guptas (Golden Age in art, science, literature), and South Indian powers (Shatavahanas, Kadambas of Banavasi, Gangas, Chalukyas of Badami, Pallavas of Kanchi)."
+    ],
+    "key_terms": {
+      "Inscription": "ಶಾಸನ",
+      "Civilization": "ನಾಗರಿಕತೆ",
+      "Heritage": "ಪರಂಪರೆ"
+    }
+  },
+  {
+    "id": "c6-soc-02",
+    "class": 6,
+    "subject": "Social Science",
+    "chapter": "Civics & Geography: Constitution, Government, Globe/Maps, Landforms & Asia",
+    "summary": "Citizenship, national symbols, Indian Constitution, rights/duties, Union/State/local governance, defence, neighbours, globes/maps, landforms, and Asia.",
+    "notes": [
+      "Citizenship & Constitution: Meaning of citizenship, national symbols (Tricolour, National Emblem, Anthem) promoting unity; the Constitution is the supreme law guiding democracy, Fundamental Rights, Directive Principles, and Fundamental Duties.",
+      "Government, Judiciary & Defence: Three organs—Legislature (makes laws), Executive (implements laws), Judiciary (interprets laws & protects justice) at Union and State levels; Armed Forces (Army, Navy, Air Force) protect sovereignty alongside friendly ties with neighbouring countries.",
+      "Globe, Maps & Landforms: Latitudes (parallels, Equator 0°, Tropics, Arctic/Antarctic circles) and longitudes (meridians, Prime Meridian 0°, IST); major landforms—mountains, plateaus, plains, valleys, deserts, islands.",
+      "Asia – Land of Contrasts: Largest and most populous continent with diverse climates, highest peaks (Mount Everest), vast plateaus, river basins, and varied cultures."
+    ],
+    "key_terms": {
+      "Constitution": "ಸಂವಿಧಾನ",
+      "Latitude": "ಅಕ್ಷಾಂಶ",
+      "Longitude": "ರೇಖಾಂಶ"
+    }
+  },
+  {
+    "id": "c6-lang-01",
+    "class": 6,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "Siri Kannada, 2nd Language English & Hindi Vallari (Prose, Poetry & Grammar)",
+    "summary": "Core themes, characters, poems, and foundational language skills across 1st Language Kannada, 2nd Language English, and 3rd Language Hindi.",
+    "notes": [
+      "1st Language (Siri Kannada): 16 prose/poetry units and supplementary reading focusing on Karnataka culture, folklore, nature, honesty, and values; practice word meanings, grammatical forms, and short/long answers.",
+      "2nd Language (English): Key lessons include 'The Lighthouse', 'The Scholar's Mother Tongue', 'How do Bees Make Honey?', 'The Kindness of Strangers', 'The King's Ministers', 'Netaji Subhas Chandra Bose', 'The Way to Succeed', and 'Neerja Bhanot: Brave in Life, Brave in Death' with poems.",
+      "3rd Language (Hindi Vallari): 16 foundational prose, poem, and basic grammar units building vocabulary, reading fluency, and simple sentence writing."
+    ],
+    "key_terms": {
+      "Prose": "ಗದ್ಯ",
+      "Poetry": "ಪದ್ಯ",
+      "Supplementary Reading": "ಪೂರಕ ಓದು"
+    }
+  },
+  {
+    "id": "c7-math-01",
+    "class": 7,
+    "subject": "Mathematics",
+    "chapter": "Integers, Fractions & Decimals, Data Handling, Simple Equations & Lines and Angles",
+    "summary": "Integer operations, multiplying/dividing fractions and decimals, mean/median/mode/bar graphs, solving linear equations, and angle pairs.",
+    "notes": [
+      "Integers: Rules for adding, subtracting, multiplying, and dividing positive and negative integers; same signs give positive product/quotient, opposite signs give negative.",
+      "Fractions & Decimals: Multiply fractions (product of numerators / product of denominators); divide by multiplying with reciprocal; multiply/divide decimals and shift decimal point for 10, 100, 1000.",
+      "Data Handling: Arithmetic mean = (Sum of observations) / (Number of observations), mode (most frequent value), median (middle value when ordered), range, and double bar graphs.",
+      "Simple Equations: Balance equations by doing the same operation on both sides or transposing terms across '=' (sign flips when moving across '=').",
+      "Lines & Angles: Complementary angles sum to 90°; supplementary sum to 180°; vertically opposite angles are equal; parallel lines cut by a transversal create equal corresponding and alternate interior angles."
+    ],
+    "key_terms": {
+      "Mean": "ಸರಾಸರಿ",
+      "Supplementary Angles": "ಪೂರಕ ಕೋನಗಳು",
+      "Equation": "ಸಮೀಕರಣ"
+    }
+  },
+  {
+    "id": "c7-math-02",
+    "class": 7,
+    "subject": "Mathematics",
+    "chapter": "Triangles, Congruence, Comparing Quantities, Rational Numbers, Geometry, Mensuration, Algebra, Exponents, Symmetry & 3D Shapes",
+    "summary": "Triangle properties and congruence criteria, percentages/profit-loss/simple interest, rational numbers, constructions, perimeter/area, algebraic expressions, exponents, symmetry, and solid visualization.",
+    "notes": [
+      "Triangles & Congruence: Angle sum property of a triangle = 180°; exterior angle = sum of two opposite interior angles; sum of any two sides > third side; right triangles follow Pythagoras theorem. Congruence criteria: SSS, SAS, ASA, RHS.",
+      "Comparing Quantities & Rational Numbers: Convert ratios to percentages; Profit/Loss % on CP; Simple Interest SI = (P × R × T)/100. Rational numbers are numbers of the form p/q where p and q are integers and q ≠ 0.",
+      "Perimeter, Area & Algebra: Area of parallelogram = base × height; triangle = (1/2) × base × height; circle circumference = 2πr, area = πr². Combine like terms to add/subtract algebraic expressions and evaluate at given values.",
+      "Exponents, Symmetry & Solid Shapes: aⁿ means 'a' multiplied 'n' times (aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ / aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1); rotational symmetry order and angle of rotation; faces, edges, vertices, nets, and oblique/isometric sketches of 3D solids."
+    ],
+    "key_terms": {
+      "Congruence": "ಸರ್ವಸಮತೆ",
+      "Rational Number": "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ",
+      "Exponent": "ಘಾತಾಂಕ"
+    }
+  },
+  {
+    "id": "c7-sci-01",
+    "class": 7,
+    "subject": "Science",
+    "chapter": "Nutrition, Fibres, Heat, Acids-Bases-Salts, Changes, Weather/Climate, Winds/Cyclones & Soil",
+    "summary": "Autotrophic vs. heterotrophic nutrition, animal fibres, temperature and heat transfer, indicators and neutralization, physical/chemical changes, climate adaptations, air pressure/storms, and soil profiles.",
+    "notes": [
+      "Nutrition & Fibres: Green plants make food via photosynthesis (6CO₂ + 6H₂O → glucose + O₂ using chlorophyll and sunlight); insectivorous plants (pitcher plant), saprotrophs (fungi), parasites (Cuscuta), symbiosis (Lichens, Rhizobium). Animals show holozoic nutrition (ingestion, digestion, absorption, assimilation, egestion); wool comes from sheep/goat fleece and silk from silkworm cocoons (sericulture).",
+      "Heat, Acids-Bases-Salts & Changes: Clinical/laboratory thermometers; conduction (solids), convection (fluids—sea & land breezes), radiation (no medium needed). Acids taste sour (turn blue litmus red), bases taste bitter/feel soapy (turn red litmus blue); indicators like litmus, turmeric, china rose, phenolphthalein; neutralization (acid + base → salt + water + heat). Physical changes are reversible/no new substance; chemical changes form new substances (e.g., rusting of iron needs oxygen and water).",
+      "Weather, Climate, Cyclones & Soil: Weather is day-to-day atmospheric condition; climate is long-term average pattern; animals adapt to polar or tropical rainforest climates. Warm air rises creating low pressure; moving air is wind; cyclones form over warm seas. Soil horizons (topsoil/humus, subsoil, weathered rock, bedrock); sandy, clayey, and loamy soils hold water and air differently."
+    ],
+    "key_terms": {
+      "Photosynthesis": "ದ್ಯುತಿ ಸಂಶ್ಲೇಷಣೆ",
+      "Neutralization": "ತಟಸ್ಥೀಕರಣ",
+      "Conduction": "ವಾಹಕತೆ"
+    }
+  },
+  {
+    "id": "c7-sci-02",
+    "class": 7,
+    "subject": "Science",
+    "chapter": "Respiration, Transport, Plant Reproduction, Motion & Time, Electric Current, Light, Water, Forests & Wastewater",
+    "summary": "Aerobic/anaerobic respiration, heart/blood/xylem/phloem transport, sexual/asexual plant reproduction, speed/graphs, heating/magnetic effects of current, reflection/lenses, water conservation, forest ecosystems, and sewage treatment.",
+    "notes": [
+      "Respiration & Transport: Cellular respiration breaks down food to release energy; aerobic (uses oxygen) vs. anaerobic (without oxygen—produces lactic acid in muscles or alcohol/CO₂ in yeast). Humans transport via heart, blood (RBCs, WBCs, platelets, plasma), and blood vessels (arteries, veins, capillaries); plants transport water via xylem and food via phloem, with transpiration pulling water upward.",
+      "Plant Reproduction, Motion & Current: Asexual reproduction via vegetative propagation, budding, fragmentation, spore formation; sexual reproduction via flower stamens (anther/filament) and pistil (stigma/style/ovary) leading to pollination, fertilization, seed, and fruit. Speed = Distance / Time; uniform vs. non-uniform motion and distance-time graphs. Electric current produces heating effect (fuse, electric iron/heater) and magnetic effect (electromagnet).",
+      "Light, Water, Forests & Wastewater: Plane mirror forms virtual, erect, laterally inverted image of same size; spherical mirrors (concave/convex) and lenses (convex converges, concave diverges); white light has 7 colours (VIBGYOR). Forests act as 'green lungs', prevent soil erosion, maintain rainfall, and support food chains. Wastewater treatment removes grit, sludge, and microbes in WWTPs; avoid pouring oil/chemicals down drains."
+    ],
+    "key_terms": {
+      "Respiration": "ಉಸಿರಾಟ",
+      "Electromagnet": "ವಿದ್ಯುತ್ ಅಯಸ್ಕಾಂತ",
+      "Wastewater": "ತ್ಯಾಜ್ಯ ನೀರು"
+    }
+  },
+  {
+    "id": "c7-soc-01",
+    "class": 7,
+    "subject": "Social Science",
+    "chapter": "History: Karnataka Dynasties, Bhakti & Sufi Movements, Delhi Sultanate, Mughals, Marathas & Freedom Struggle",
+    "summary": "Vijayanagara, Bahamani/Adil Shahs, Bhakti/Sufi saints, Nayakas/Palegaras, Wodeyars of Mysuru, Delhi Sultans, Mughals, Marathas, British arrival, 1857 uprising, reform movements, and independence struggle.",
+    "notes": [
+      "Karnataka & Regional Powers: Vijayanagara Empire (Harihara & Bukka, Krishnadevaraya—literature, art, administration), Bahamani & Adil Shahs of Vijayapura, Nayakas, Palegaras, and Wodeyars of Mysuru; Bhakti and Sufi movements preached devotion, equality, and social harmony.",
+      "Delhi Sultanate, Mughals & Marathas: Five Sultanate dynasties (Slave, Khilji, Tughlaq, Sayyid, Lodi), Mughal rulers (Babur, Akbar, Shah Jahan, Aurangzeb), and Shivaji Maharaj & the Maratha Confederacy.",
+      "Colonial Rule, 1857, Reforms & Freedom Movement: Arrival of European trading companies, First War of Indian Independence (1857), social-religious reform movements (Raja Ram Mohan Roy, Dayananda Saraswati, Jyotiba Phule, etc.), and the Indian freedom struggle led by leaders including Mahatma Gandhi, Subhas Chandra Bose, Bhagat Singh, and others."
+    ],
+    "key_terms": {
+      "Bhakti Movement": "ಭಕ್ತಿ ಚಳವಳಿ",
+      "Freedom Struggle": "ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟ",
+      "Empire": "ಸಾಮ್ರಾಜ್ಯ"
+    }
+  },
+  {
+    "id": "c7-soc-02",
+    "class": 7,
+    "subject": "Social Science",
+    "chapter": "Civics & Geography: Constitution, Rights/Duties, Amendments, Defence & Continents",
+    "summary": "Constitutional framework, Fundamental Rights & Duties, Directive Principles, Defence Forces, constitutional amendments, and geography of North/South America, Australia, and Antarctica.",
+    "notes": [
+      "Civics & Constitution: Fundamental Rights protect citizens' liberties, Fundamental Duties remind citizens of civic responsibilities, Directive Principles guide state welfare, Defence Forces safeguard borders, and Constitutional Amendments allow updating provisions with changing times.",
+      "Continents Geography: North America (prairies, Great Lakes, Rockies, diverse climates/economy), South America (Andes mountains, Amazon basin, varied ecosystems), Australia (smallest/flattest continent, island nation, outback), and Antarctica (icy white continent dedicated to scientific research)."
+    ],
+    "key_terms": {
+      "Amendment": "ತಿದ್ದುಪಡಿ",
+      "Continent": "ಖಂಡ",
+      "Fundamental Duties": "ಮೂಲಭೂತ ಕರ್ತವ್ಯಗಳು"
+    }
+  },
+  {
+    "id": "c7-lang-01",
+    "class": 7,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "Siri Kannada, 2nd Language English & Hindi Vallari (Prose, Poetry, Supplementary & Grammar)",
+    "summary": "Lessons, poems, supplementary reading, and grammar across 1st Language Kannada, 2nd Language English, and 3rd Language Hindi.",
+    "notes": [
+      "1st Language (Siri Kannada): 16 prose and poetry lessons plus Supplementary Reading (ಪೂರಕ ಓದು); focus on theme, character sketches, poetic appreciation, and Kannada grammar.",
+      "2nd Language (English): Key chapters include 'Healthy Life', 'Avoid Plastics', 'Ekalavya', 'Leg Trap', 'The Wonder Bowl', 'Journey to the Top', 'Nest with Grandparents', and 'Dear Grandma and Grandpa' along with poems, comprehension, and grammar.",
+      "3rd Language (Hindi Vallari): 18 prose and poetry lessons strengthening reading, vocabulary, grammar, and short answer writing."
+    ],
+    "key_terms": {
+      "Comprehension": "ಗ್ರಹಿಕೆ",
+      "Grammar": "ವ್ಯಾಕರಣ",
+      "Moral": "ನೈತಿಕ ಮೌಲ್ಯ"
+    }
+  },
+  {
+    "id": "c8-math-01",
+    "class": 8,
+    "subject": "Mathematics",
+    "chapter": "Playing with Numbers, Algebraic Expressions, Linear Equations, Quadrilaterals, Squares & Square Roots, Graphs, Constructions & Comparing Quantities",
+    "summary": "Generalized numbers and divisibility puzzles, algebraic identities, one-variable linear equations, polygon/quadrilateral properties, squares/square roots, line graphs, constructions, and percentage/compound interest applications.",
+    "notes": [
+      "Playing with Numbers & Graphs: Write numbers in generalized form (10a + b for 2-digit, 100a + 10b + c for 3-digit), solve digit puzzles and divisibility tests, and read/plot linear and line graphs.",
+      "Algebra & Linear Equations: Terms, factors, coefficients, polynomials/expressions, and standard identities ((a+b)² = a²+2ab+b², (a-b)² = a²-2ab+b², (a+b)(a-b) = a²-b², (x+a)(x+b) = x²+(a+b)x+ab); solve linear equations in one variable by isolating the unknown.",
+      "Quadrilaterals, Squares & Constructions: Angle sum of an n-sided polygon = (n - 2) × 180°; exterior angles of any polygon sum to 360°; properties of parallelograms, rhombus, rectangle, square, and trapezium. Squares and square roots (prime factorization and long division methods); construct quadrilaterals given sides, diagonals, or angles.",
+      "Comparing Quantities: Discounts, sales tax/GST, compound interest A = P(1 + R/100)ⁿ, CI = A - P, and half-yearly/quarterly compounding basics."
+    ],
+    "key_terms": {
+      "Linear Equation": "ರೇಖೀಯ ಸಮೀಕರಣ",
+      "Quadrilateral": "ಚತುರ್ಭುಜ",
+      "Square Root": "ವರ್ಗಮೂಲ"
+    }
+  },
+  {
+    "id": "c8-math-02",
+    "class": 8,
+    "subject": "Mathematics",
+    "chapter": "Factorisation, Cubes & Cube Roots, Direct & Inverse Proportions, Mensuration, Exponents & Data Handling",
+    "summary": "Factoring algebraic expressions, cubes and cube roots, direct and inverse variation, surface area/volume of solids, negative exponents, and grouped data/pie charts.",
+    "notes": [
+      "Factorisation & Exponents: Factor out common terms, regrouping, and algebraic identities; negative exponents: a⁻ⁿ = 1/aⁿ, with standard form (scientific notation) for very large or small numbers.",
+      "Cubes & Cube Roots: Perfect cubes (1³=1, 2³=8, 3³=27...) and cube roots via prime factorization and estimation.",
+      "Direct & Inverse Proportions: Direct proportion (x/y = k, as one increases the other increases proportionally); inverse proportion (x × y = k, as one increases the other decreases proportionally).",
+      "Mensuration & Data Handling: Area of trapezium = (1/2)h(a+b), rhombus = (1/2)d₁d₂; surface area and volume of cube, cuboid, and right circular cylinder (1 L = 1000 cm³). Grouped frequency distributions, histograms, and pie charts (sector angle = (value/total) × 360°)."
+    ],
+    "key_terms": {
+      "Factorisation": "ಅಪವರ್ತನೀಕರಣ",
+      "Cube Root": "ಘನಮೂಲ",
+      "Direct Proportion": "ನೇರ ಅನುಪಾತ"
+    }
+  },
+  {
+    "id": "c8-sci-01",
+    "class": 8,
+    "subject": "Science",
+    "chapter": "Crop Production, Microorganisms, Synthetic Fibres & Plastics, Metals & Non-Metals, Coal & Petroleum, Combustion, Conservation, Cell & Reproduction",
+    "summary": "Farming practices and food storage, microbes (helpful & harmful), polymers/plastics, properties/reactions of metals & non-metals, fossil fuels, flames/fire safety, wildlife conservation, cell structure, and animal reproduction.",
+    "notes": [
+      "Crops, Microbes & Conservation: Kharif (rainy/monsoon) and Rabi (winter) crops; soil prep, sowing, manuring/fertilizers, irrigation (drip/sprinkler), weeding, harvesting, storage. Microorganisms (bacteria, fungi, protozoa, algae, viruses) help in curd/bread/alcohol/nitrogen fixation/vaccines, or cause diseases/food spoilage. Conservation via biosphere reserves, national parks, sanctuaries, Red Data Book, and migration.",
+      "Materials & Fossil Fuels: Synthetic fibres (rayon, nylon, polyester, acrylic) and plastics (thermoplastics vs. thermosetting—4R principle); metals are malleable, ductile, sonorous, good conductors and form basic oxides, whereas non-metals are mostly brittle/non-conductors and form acidic oxides; displacement reactions depend on reactivity series. Coal, petroleum, and natural gas are exhaustible fossil fuels; fractional distillation of petroleum yields petrol, diesel, kerosene, LPG, bitumen.",
+      "Combustion, Cells & Reproduction: Combustion needs fuel, air/oxygen, and ignition temperature; flame zones (outer non-luminous hottest zone, middle luminous zone, inner dark zone); fire extinguishers cut oxygen or lower temperature. Cell is the structural/functional unit of life (cell membrane, cytoplasm, nucleus; plant cells also have cell wall, chloroplasts, large vacuole). Asexual (binary fission, budding) vs. sexual reproduction (male/female gametes, internal/external fertilization, oviparous vs. viviparous, metamorphosis)."
+    ],
+    "key_terms": {
+      "Microorganism": "ಸೂಕ್ಷ್ಮಜೀವಿ",
+      "Combustion": "ದಹನ ಕ್ರಿಯೆ",
+      "Cell": "ಜೀವಕೋಶ"
+    }
+  },
+  {
+    "id": "c8-sci-02",
+    "class": 8,
+    "subject": "Science",
+    "chapter": "Adolescence, Force & Pressure, Friction, Sound, Chemical Effects of Current, Natural Phenomena, Light, Solar System & Pollution",
+    "summary": "Puberty and hormones, contact/non-contact forces and fluid/atmospheric pressure, friction types, wave pitch/loudness/hearing, electroplating, lightning/earthquakes, reflection/refraction/human eye, stars/planets, and air/water pollution.",
+    "notes": [
+      "Adolescence, Force & Friction: Adolescence brings physical, emotional, and hormonal changes (sex hormones, balanced diet, personal hygiene, say no to drugs). Force is a push or pull that can change motion/shape; pressure = Force / Area (liquids and gases exert pressure in all directions). Friction opposes relative motion (static > sliding > rolling friction); increased by rough surfaces/treads, reduced by lubricants/ball bearings/streamlining.",
+      "Sound & Chemical Effects of Current: Sound is produced by vibrating bodies and needs a material medium (cannot travel in vacuum); amplitude controls loudness (decibel), frequency controls pitch (Hertz, audible range 20 Hz–20,000 Hz), noise vs. music. Conducting liquids (electrolytes) allow current; chemical effects include gas bubbles, metal deposition, colour change, and electroplating.",
+      "Natural Phenomena, Light, Astronomy & Pollution: Charging by friction/induction, electroscope, earthing, lightning safety, and tectonic earthquakes (Richter scale, seismograph). Laws of reflection (∠i = ∠r), multiple images (kaleidoscope, periscope), dispersion, human eye (cornea, iris, pupil, lens, retina, blind spot), Braille system. Solar system (Sun, 8 planets, moons, asteroids, comets, meteors), stars, constellations; reducing air (smog, greenhouse gases, ozone care) and water pollution (potable water purification, Ganga Action Plan)."
+    ],
+    "key_terms": {
+      "Pressure": "ಒತ್ತಡ",
+      "Friction": "ಘರ್ಷಣೆ",
+      "Electroplating": "ವಿದ್ಯುತ್ ಲೇಪನ"
+    }
+  },
+  {
+    "id": "c8-soc-01",
+    "class": 8,
+    "subject": "Social Science",
+    "chapter": "History: Ancient Civilizations, Classical Empires & South Indian / Karnataka Dynasties",
+    "summary": "Sources and pre-history, Indian and world civilizations, Jainism/Buddhism, Mauryas/Kushans/Guptas/Vardhanas, and major South Indian/Karnataka dynasties (Shatavahana, Kadamba, Ganga, Badami Chalukya, Pallava, Rashtrakuta, Kalyana Chalukya, Chola, Hoysala).",
+    "notes": [
+      "Ancient World & India: Archaeological/literary sources, geographical features of India, Stone Age to Metal Age, Harappan civilization, and Greek, Roman, and American civilizations.",
+      "North Indian Empires & Religions: Jainism and Buddhism; Mauryan administration and Ashoka's inscriptions, Kushans, Guptas (art, literature, astronomy/Aryabhata, metallurgy), and Harshavardhana.",
+      "South India & Karnataka Dynasties: Shatavahanas, Kadambas of Banavasi, Gangas of Talakadu, Chalukyas of Badami, Pallavas of Kanchi, Rashtrakutas of Manyakheta, Chalukyas of Kalyana, Cholas (local self-government & naval/temple art), and Hoysalas of Dwarasamudra (Halebid/Belur temple architecture)."
+    ],
+    "key_terms": {
+      "Architecture": "ವಾಸ್ತುಶಿಲ್ಪ",
+      "Dynasty": "ರಾಜವಂಶ",
+      "Archaeology": "ಪುರಾತತ್ವ ಶಾಸ್ತ್ರ"
+    }
+  },
+  {
+    "id": "c8-soc-02",
+    "class": 8,
+    "subject": "Social Science",
+    "chapter": "Civics, Sociology, Geography, Economics & Business Studies",
+    "summary": "Citizenship and democracy/local government, society/culture/sociology, Earth spheres, Indian resources/poverty, and business fundamentals.",
+    "notes": [
+      "Political Science & Sociology: Meaning of political science, citizenship rights/duties, pillars and types of democracy, and rural/urban local self-government (Gram Panchayat, Zilla Panchayat, Municipalities/Corporations). Sociology studies human society, culture, daily social life, and types of societies.",
+      "Geography (Earth Spheres): Earth as a living planet; Lithosphere (rocks, landforms, plate movements), Atmosphere (layers—troposphere, stratosphere, etc., weather/climate), Hydrosphere (oceans, water cycle), and Biosphere (life zone).",
+      "Economics & Business Studies: Basic economic concepts, natural and human resources of India, causes/remedies of poverty and hunger; business vs. industry vs. commerce, sole proprietorship, partnership, Hindu undivided family, cooperative societies, and joint stock companies."
+    ],
+    "key_terms": {
+      "Democracy": "ಪ್ರಜಾಪ್ರಭುತ್ವ",
+      "Lithosphere": "ಶಿಲಾಗೋಳ",
+      "Commerce": "ವಾಣಿಜ್ಯ"
+    }
+  },
+  {
+    "id": "c8-lang-01",
+    "class": 8,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "Siri Kannada, 2nd Language English & Hindi Vallari (Prose, Poetry, Supplementary & Grammar)",
+    "summary": "Literary texts, poetry, supplementary reading, and language skills across 1st Language Kannada, 2nd Language English, and 3rd Language Hindi.",
+    "notes": [
+      "1st Language (Siri Kannada): 16 prose and poetry chapters plus Supplementary Reading; practice literary themes, poetic devices, Kannada grammar, and structured answer writing.",
+      "2nd Language (English): Key units include 'A Day in the Ashram', 'Sir C.V. Raman', 'Jamaican Fragment', 'The Boy Who Asked for More', 'The Swan and the Princess', 'All the World Her Stage', 'The Emperor's New Clothes', and 'Luther Burbank' with poems and grammar.",
+      "3rd Language (Hindi Vallari): 18 prose and poetry chapters building comprehension, vocabulary, grammar, and expression."
+    ],
+    "key_terms": {
+      "Literature": "ಸಾಹಿತ್ಯ",
+      "Poetic Device": "ಕಾವ್ಯಾಲಂಕಾರ / ಭಾಷಾ ವೈಶಿಷ್ಟ್ಯ"
+    }
+  },
+  {
+    "id": "c9-math-01",
+    "class": 9,
+    "subject": "Mathematics",
+    "chapter": "Number Systems, Euclid's Geometry, Lines & Angles, Polynomials, Triangles, Constructions & Quadrilaterals",
+    "summary": "Real/irrational numbers and laws of exponents, Euclid's axioms/postulates, angle theorems, factor/remainder theorems for polynomials, triangle congruence/inequalities, geometric constructions, and midpoint/parallelogram theorems.",
+    "notes": [
+      "Number Systems & Polynomials: Terminating vs. non-terminating recurring decimals; irrational numbers (√2, √3, π) on number line; laws of exponents for real bases. Polynomials classified by degree/terms; Remainder Theorem and Factor Theorem; algebraic identities including (x+y+z)², (x±y)³, and x³+y³+z³ - 3xyz.",
+      "Euclid's Geometry, Lines, Angles & Constructions: Axioms and postulates; linear pair, vertically opposite angles, transversal angle pairs, and triangle angle sum = 180°. Bisect angles/segments, construct 60°/90°/45° angles, and construct triangles given base, base angle, and sum/difference of other two sides or perimeter.",
+      "Triangles & Quadrilaterals: Congruence criteria (SSS, SAS, ASA, AAS, RHS), angles opposite equal sides are equal, larger angle is opposite longer side; diagonal divides parallelogram into two congruent triangles, opposite sides/angles equal, diagonals bisect each other, and Mid-Point Theorem."
+    ],
+    "key_terms": {
+      "Polynomial": "ಬಹುಪದೋಕ್ತಿ",
+      "Irrational Number": "ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ",
+      "Mid-Point Theorem": "ಮಧ್ಯಬಿಂದು ಪ್ರಮೇಯ"
+    }
+  },
+  {
+    "id": "c9-math-02",
+    "class": 9,
+    "subject": "Mathematics",
+    "chapter": "Heron's Formula, Coordinate Geometry, Linear Equations in Two Variables, Areas of Parallelograms & Triangles, Circles, Surface Areas & Volumes, Statistics & Probability",
+    "summary": "Heron's area formula, Cartesian coordinates, two-variable linear equations, equal-area theorems, circle chord/arc/cyclic theorems, 3D surface areas/volumes, grouped data/histograms/frequency polygons, and empirical probability.",
+    "notes": [
+      "Heron's Formula & Coordinate Geometry: Semi-perimeter s = (a+b+c)/2; Area = √[s(s-a)(s-b)(s-c)]. Cartesian plane with x-axis (abscissa) and y-axis (ordinate), four quadrants, and plotting ordered pairs (x, y).",
+      "Linear Equations in Two Variables & Areas: Standard form ax + by + c = 0 has infinitely many solutions forming a straight line on a graph. Parallelograms on the same base and between the same parallels have equal area; a triangle has half the area of a parallelogram on the same base and between the same parallels.",
+      "Circles & Mensuration: Equal chords subtend equal angles at the centre; perpendicular from centre to chord bisects chord; angle subtended at centre is double angle at remaining circle; angles in same segment are equal; opposite angles of cyclic quadrilateral sum to 180°. Surface area and volume of cube, cuboid, right circular cylinder, right circular cone, and sphere/hemisphere.",
+      "Statistics & Probability: Ungrouped/grouped frequency tables, class intervals, histograms, frequency polygons, mean/median/mode; empirical probability P(E) = (Number of trials in which E happens) / (Total number of trials), always between 0 and 1."
+    ],
+    "key_terms": {
+      "Coordinate": "ನಿರ್ದೇಶಾಂಕ",
+      "Cyclic Quadrilateral": "ಚಕ್ರೀಯ ಚತುರ್ಭುಜ",
+      "Probability": "ಸಂಭವನೀಯತೆ"
+    }
+  },
+  {
+    "id": "c9-sci-01",
+    "class": 9,
+    "subject": "Science",
+    "chapter": "Matter, Purity of Matter, Atoms & Molecules, Cell, Tissues, Motion, Laws of Motion & Gravitation",
+    "summary": "States of matter and interconversion, mixtures/solutions/colloids/separations, laws of chemical combination/mole & formula mass, cell organelles/division, plant & animal tissues, kinematics, Newton's laws & momentum, and gravitation/buoyancy/Archimedes' principle.",
+    "notes": [
+      "Matter, Mixtures & Atoms: Matter has particulate nature with inter-particle spaces and forces; solid, liquid, gas interconvert via temperature/pressure (latent heat of fusion/vaporization, evaporation causes cooling). Pure substances (elements, compounds) vs. homogeneous/heterogeneous mixtures, solutions, suspensions, colloids (Tyndall effect), chromatography, and fractional distillation. Law of Conservation of Mass and Constant Proportions; Dalton's atomic theory, atoms, molecules, ions, chemical formulae, and molecular/molar mass.",
+      "Cell & Tissues: Prokaryotic vs. eukaryotic cells; plasma membrane (osmosis/diffusion), cell wall, nucleus (chromosomes/DNA), mitochondria ('powerhouse'), ribosomes, endoplasmic reticulum, Golgi apparatus, lysosomes ('suicidal bags'), plastids, vacuoles; mitosis vs. meiosis. Plant tissues: meristematic (apical, lateral, intercalary) and permanent (simple—parenchyma, collenchyma, sclerenchyma; complex—xylem, phloem). Animal tissues: epithelial, connective (blood, bone, cartilage, ligament, tendon, adipose), muscular (striated, smooth, cardiac), nervous (neurons).",
+      "Motion, Newton's Laws & Gravitation: Distance vs. displacement, speed vs. velocity, acceleration a = (v - u)/t, equations of motion (v = u + at, s = ut + ½at², v² - u² = 2as), uniform circular motion. Newton's 1st law (inertia & mass), 2nd law (F = ma, momentum p = mv, impulse), 3rd law (action-reaction on different bodies), conservation of momentum. Universal law of gravitation F = G(m₁m₂)/r², free fall under g ≈ 9.8 m/s², mass vs. weight (W = mg), thrust, pressure, buoyancy, and Archimedes' principle."
+    ],
+    "key_terms": {
+      "Osmosis": "ಆಸ್ಮೋಸಿಸ್ / ಅಭಿಸರಣ",
+      "Inertia": "ಜಡತ್ವ",
+      "Buoyancy": "ತೇಲುವಿಕೆ / ಪ್ಲವನ ಶಕ್ತಿ"
+    }
+  },
+  {
+    "id": "c9-sci-02",
+    "class": 9,
+    "subject": "Science",
+    "chapter": "Atomic Structure, Diversity in Living Organisms, Health & Disease, Work & Energy, Sound, Natural Resources & Food Improvement",
+    "summary": "Subatomic particles and Bohr model/valency/isotopes, five-kingdom classification, infectious/non-infectious diseases and immunity, work/KE/PE/power/conservation of energy, longitudinal sound waves & echo/SONAR, biogeochemical cycles, and crop/livestock improvement.",
+    "notes": [
+      "Structure of Atom & Classification: Cathode rays (electron), canal rays (proton), neutron; Thomson, Rutherford (nucleus), and Bohr models (shells 2n²); atomic number (Z), mass number (A), valency, isotopes (same Z, different A), and isobars (same A, different Z). Classification hierarchy (Kingdom, Phylum/Division, Class, Order, Family, Genus, Species) and five kingdoms (Monera, Protista, Fungi, Plantae—Thallophyta, Bryophyta, Pteridophyta, Gymnosperms, Angiosperms; Animalia—Porifera to Mammalia).",
+      "Health, Work & Energy, Sound: Acute vs. chronic diseases, infectious pathogens (bacteria, viruses, fungi, protozoa), vectors, antibiotics, prevention/vaccination. Work W = Fd cos θ, Kinetic Energy KE = ½mv², Potential Energy PE = mgh, Law of Conservation of Energy, Power P = W/t (1 kWh = 3.6 × 10⁶ J). Sound is a longitudinal mechanical wave (compressions and rarefactions); v = νλ, echo (minimum ~17.2 m in air), reverberation, ultrasound & SONAR.",
+      "Natural Resources & Food Improvement: Air, water, soil, biogeochemical cycles (water, nitrogen, carbon, oxygen cycles), greenhouse effect & ozone depletion. Crop variety improvement, nutrient management (manure vs. fertilizers), cropping patterns (mixed, intercropping, crop rotation), irrigation, crop protection, animal husbandry (cattle, poultry, apiculture/bee-keeping, pisciculture/fisheries)."
+    ],
+    "key_terms": {
+      "Isotope": "ಸಮಸ್ಥಾನಿ",
+      "Kinetic Energy": "ಚಲನ ಶಕ್ತಿ",
+      "Echo": "ಪ್ರತಿಧ್ವನಿ"
+    }
+  },
+  {
+    "id": "c9-soc-01",
+    "class": 9,
+    "subject": "Social Science",
+    "chapter": "History & Political Science: Medieval & Modern World, Karnataka Kingdoms, Constitution, Governance & Elections",
+    "summary": "Christianity/Islam, medieval transitions, Bhakti/reformers, Vijayanagara/Bahamani, Ahoms/Mughals/Marathas, modern Europe & revolutions/unification, plus Indian Constitution, Union/State/Judiciary, elections, defence, and national integration.",
+    "notes": [
+      "History: Christianity and Islam; political transitions in medieval India, Bhakti saints and social reformers; Vijayanagara Empire and Bahamani Kingdom; Ahoms, Mughals, and Marathas; Renaissance/modern Europe, American & French revolutions, Industrial Revolution, and unification of Italy and Germany.",
+      "Political Science: Drafting and features of the Indian Constitution; Union Government (President, Prime Minister & Council of Ministers, Parliament—Lok Sabha & Rajya Sabha), State Government (Governor, Chief Minister & Council, State Legislature), independent Judiciary (Supreme Court, High Courts, subordinate courts), Election Commission & voting process, Armed Forces, and national integration."
+    ],
+    "key_terms": {
+      "Sovereignty": "ಸಾರ್ವಭೌಮತ್ವ",
+      "Electorate": "ಮತದಾರ ವರ್ಗ",
+      "Revolution": "ಕ್ರಾಂತಿ"
+    }
+  },
+  {
+    "id": "c9-soc-02",
+    "class": 9,
+    "subject": "Social Science",
+    "chapter": "Sociology, Geography of Karnataka, Economics & Business Studies",
+    "summary": "Social institutions and change, detailed geography of Karnataka (physiography, climate, soils, vegetation/wildlife, water, land, minerals, transport, industries, tourism, population), resources/poverty/labour, and business management/finance/accounting.",
+    "notes": [
+      "Sociology & Economics: Family, socialization, social change, and community; natural and human resources, poverty and hunger, labour and employment in India.",
+      "Geography of Karnataka: Physiographic divisions (Coastal Plains/Karavali, Malnad/Western Ghats, Maidan/Northern & Southern Plains), climate/seasons, soil types, natural vegetation & wildlife sanctuaries/national parks, river basins & irrigation/hydro projects, land use & agriculture, minerals, transport & communication, major industries, tourist centres, and population distribution.",
+      "Business Studies: Planning, organizing, staffing, directing, controlling in business management; short/long-term financial management; basic accounting principles, ledgers, and financial statements."
+    ],
+    "key_terms": {
+      "Malnad": "ಮಲೆನಾಡು",
+      "Socialization": "ಸಾಮಾಜೀಕರಣ",
+      "Accounting": "ಲೆಕ್ಕಪತ್ರ ನಿರ್ವಹಣೆ"
+    }
+  },
+  {
+    "id": "c9-lang-01",
+    "class": 9,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "Siri Kannada, 2nd Language English & Hindi Vallari (Prose, Poetry, Supplementary & Grammar)",
+    "summary": "Classical and modern Kannada literature, English prose/poems, and Hindi lessons/grammar for Class 9.",
+    "notes": [
+      "1st Language (Siri Kannada): 16 prose and poetry units spanning old/vachana/modern Kannada literature plus Supplementary Reading; practice theme analysis, grammar (sandhi, samasa, vibhakti, alankara/chandas basics), and composition.",
+      "2nd Language (English): Key lessons include 'The Enchanted Pool', 'Three Questions', 'My Beginnings', 'Whatever We Do', 'Justice Above Self', 'The Noble Bishop', 'The Will of Sacrifice', and 'To My Countrymen' alongside poems, comprehension, letter/paragraph writing, and grammar.",
+      "3rd Language (Hindi Vallari): 18 prose and poetry lessons plus grammar—focus on summary, character/moral points, vocabulary, and sentence structures."
+    ],
+    "key_terms": {
+      "Vachana": "ವಚನ ಸಾಹಿತ್ಯ",
+      "Comprehension": "ಗದ್ಯ / ಪದ್ಯ ಗ್ರಹಿಕೆ"
+    }
+  },
+  {
+    "id": "c10-math-01",
+    "class": 10,
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Progressions, Triangles, Linear Equations, Circles, Sectors, Constructions, Coordinate Geometry & Real Numbers",
+    "summary": "AP nth term and sum formulas, similarity/Thales/Pythagoras theorems, pair of two-variable linear equations, tangents to circles, sector/segment areas, geometric constructions, distance/section/triangle area in coordinate geometry, and Euclid's lemma/fundamental theorem of arithmetic.",
+    "notes": [
+      "Arithmetic Progressions & Real Numbers: AP has constant common difference d = aₙ - aₙ₋₁; nth term aₙ = a + (n - 1)d; sum of first n terms Sₙ = (n/2)[2a + (n - 1)d] = (n/2)(a + l). Euclid's division lemma (a = bq + r, 0 ≤ r < b), HCF via division lemma, Fundamental Theorem of Arithmetic (unique prime factorization), irrationality proofs (√2, √3, √5), and decimal expansions of rational numbers (terminating iff denominator is 2ⁿ5ᵐ).",
+      "Triangles, Circles, Sectors & Constructions: Similar triangles have equal corresponding angles and proportional sides; Basic Proportionality Theorem (Thales theorem) and its converse; similarity criteria (AAA/AA, SSS, SAS); areas of similar triangles are proportional to squares of corresponding sides; Pythagoras theorem and converse. Tangent to a circle is perpendicular to radius at point of contact; tangents from an external point are equal in length. Area of sector = (θ/360°)πr², arc length = (θ/360°)2πr, segment area = sector area - triangle area. Constructions: divide line segment in ratio m:n, construct similar triangle with scale factor, construct tangents from external point.",
+      "Pair of Linear Equations & Coordinate Geometry: Two lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are consistent/intersecting if a₁/a₂ ≠ b₁/b₂, inconsistent/parallel if a₁/a₂ = b₁/b₂ ≠ c₁/c₂, and dependent/coincident if a₁/a₂ = b₁/b₂ = c₁/c₂; solved via graphical, substitution, elimination, or cross-multiplication methods. Distance formula √[(x₂ - x₁)² + (y₂ - y₁)²], section formula for internal division ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)), midpoint ((x₁+x₂)/2, (y₁+y₂)/2), and area of triangle = (1/2)|x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂)|."
+    ],
+    "key_terms": {
+      "Arithmetic Progression": "ಸಮಾಂತರ ಶ್ರೇಢಿ",
+      "Tangent": "ಸ್ಪರ್ಶಕ",
+      "Section Formula": "ವಿಭಾಜಕ ಸೂತ್ರ"
+    }
+  },
+  {
+    "id": "c10-math-02",
+    "class": 10,
+    "subject": "Mathematics",
+    "chapter": "Polynomials, Quadratic Equations, Trigonometry, Heights & Distances, Statistics, Probability & Surface Areas/Volumes",
+    "summary": "Zeroes and division algorithm of polynomials, quadratic equations/discriminant/quadratic formula, trigonometric ratios/identities/angles of elevation & depression, mean/median/mode of grouped data, classical probability, and surface areas/volumes of combinations of solids and frustum of a cone.",
+    "notes": [
+      "Polynomials & Quadratic Equations: Quadratic polynomial ax² + bx + c has sum of zeroes α + β = -b/a and product αβ = c/a; cubic has α + β + γ = -b/a, αβ + βγ + γα = c/a, αβγ = -d/a; division algorithm p(x) = g(x)q(x) + r(x). Quadratic equation ax² + bx + c = 0 (a ≠ 0) solved by completing the square or quadratic formula x = [-b ± √(b² - 4ac)] / 2a; discriminant D = b² - 4ac gives two distinct real roots (D > 0), two equal real roots (D = 0), or no real roots (D < 0).",
+      "Trigonometry & Applications: sin θ = P/H, cos θ = B/H, tan θ = P/B, cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ = cos θ/sin θ; standard angles (0°, 30°, 45°, 60°, 90°); complementary angles (sin(90° - θ) = cos θ, etc.); identities sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ. Angle of elevation (looking up above horizontal) and angle of depression (looking down below horizontal) help find heights and distances.",
+      "Statistics, Probability & 3D Mensuration: Mean of grouped data via direct, assumed mean, or step-deviation methods; median = l + [(N/2 - cf)/f] × h; mode = l + [(f₁ - f₀)/(2f₁ - f₀ - f₂)] × h; empirical relation Mode = 3 Median - 2 Mean. Probability P(E) = (Number of favourable outcomes) / (Total number of possible outcomes), with P(E) + P(not E) = 1 and impossible event = 0, sure event = 1. Surface areas and volumes of combined solids (cylinder + hemispheres/cones) and frustum of a cone: V = (1/3)πh(r₁² + r₂² + r₁r₂), CSA = πl(r₁ + r₂), TSA = πl(r₁ + r₂) + πr₁² + πr₂², l² = h² + (r₁ - r₂)²."
+    ],
+    "key_terms": {
+      "Quadratic Equation": "ವರ್ಗ ಸಮೀಕರಣ",
+      "Trigonometry": "ತ್ರಿಕೋನಮಿತಿ",
+      "Frustum": "ಶಂಕುವಿನ ತುಂಡು"
+    }
+  },
+  {
+    "id": "c10-sci-01",
+    "class": 10,
+    "subject": "Science",
+    "chapter": "Chemical Reactions, Acids-Bases-Salts, Metals & Non-Metals, Life Processes, Control & Coordination, Electricity, Magnetism & Our Environment",
+    "summary": "Balanced equations and reaction types/redox/corrosion/rancidity, pH/salts/chlor-alkali/bleaching/baking/washing/POP, metallurgy/reactivity/ionic bonding, nutrition/respiration/circulation/excretion, nervous & hormonal control, Ohm's law/resistors/heating effect, magnetic fields/motors/induction, and ecosystems/food chains/ozone/waste.",
+    "notes": [
+      "Chemistry (Reactions, Acids-Bases-Salts & Metals): Combination, decomposition (thermal, electrolytic, photolytic), displacement, double displacement (precipitation/neutralization), oxidation-reduction (redox), corrosion (rusting, green patina on copper, black tarnish on silver), and rancidity (prevented by antioxidants/nitrogen flushing). pH scale (0–14; acidic < 7, neutral = 7, basic > 7; importance in soil, digestion, tooth decay, acid rain); important salts: bleaching powder (CaOCl₂), baking soda (NaHCO₃), washing soda (Na₂CO₃·10H₂O), Plaster of Paris (CaSO₄·½H₂O → gypsum with water). Metals vs. non-metals, ionic bond transfer, occurrence/extraction (roasting sulphides, calcination carbonates, reduction, electrolytic refining), and corrosion prevention (galvanization, alloying).",
+      "Biology (Life Processes & Control-Coordination): Nutrition (autotrophic chloroplasts, heterotrophic human digestive tract & enzymes), respiration (glycolysis in cytoplasm → pyruvate → aerobic in mitochondria or anaerobic in yeast/muscle), transportation (double circulation in 4-chambered heart, arteries/veins/capillaries, transpiration & translocation in plants), excretion (nephrons in kidneys—ultrafiltration, selective reabsorption, secretion). Control and coordination via neurons, synapse, reflex arc, brain (forebrain, midbrain, hindbrain—cerebellum, pons, medulla), spinal cord, plant tropisms/hormones (auxin, gibberellins, cytokinins, ABA, ethylene), and human endocrine glands (pituitary, thyroid, adrenal, pancreas/insulin, testes/ovaries).",
+      "Physics & Environment (Electricity, Magnetism & Ecology): Electric current I = Q/t (Ampere), potential difference V = W/Q (Volt), Ohm's law V = IR (Resistance R = ρl/A, Ohm·m); series resistance Rs = R₁ + R₂ + ... (same current), parallel 1/Rp = 1/R₁ + 1/R₂ + ... (same voltage); Joule heating H = I²Rt (fuse, bulb filament, electric heater) and electric power P = VI = I²R = V²/R. Magnetic field around straight conductor/circular loop/solenoid, right-hand thumb rule, force on current-carrying conductor (Fleming's left-hand rule), electric motor principle, electromagnetic induction (Fleming's right-hand rule), AC vs. DC, domestic circuit & fuse/earthing. Biotic/abiotic ecosystem components, food chains/webs & 10% energy law, biomagnification, ozone (O₃) protection from UV rays, and biodegradable vs. non-biodegradable waste."
+    ],
+    "key_terms": {
+      "Redox Reaction": "ಉತ್ಕರ್ಷಣ-ಅಪಕರ್ಷಣ ಕ್ರಿಯೆ",
+      "Nephron": "ನೆಫ್ರಾನ್ / ಮೂತ್ರಪಿಂಡದ ಘಟಕ",
+      "Ohm's Law": "ಓಮ್ ನಿಯಮ"
+    }
+  },
+  {
+    "id": "c10-sci-02",
+    "class": 10,
+    "subject": "Science",
+    "chapter": "Carbon Compounds, Periodic Classification, Reproduction, Heredity & Evolution, Light, Human Eye, Energy Sources & Natural Resources",
+    "summary": "Covalent bonding, allotropes, homologous series, IUPAC naming, ethanol/ethanoic acid/soaps & detergents, periodic trends, asexual/sexual reproduction & reproductive health, Mendel's inheritance & evolution concepts, mirror/lens formulas & refractive index, eye defects/prisms/scattering, conventional & non-conventional energy, and sustainable resource management.",
+    "notes": [
+      "Chemistry (Carbon & Periodic Classification): Carbon forms covalent bonds (catenation, tetravalency); diamond, graphite, fullerenes; saturated (alkanes, CₙH₂ₙ₊₂) vs. unsaturated (alkenes CₙH₂ₙ, alkynes CₙH₂ₙ₋₂) hydrocarbons, functional groups (halo, alcohol -OH, aldehyde -CHO, ketone >C=O, carboxylic acid -COOH), homologous series, combustion, addition, substitution; ethanol, ethanoic acid (esterification), soaps (sodium/potassium salts of fatty acids) vs. detergents (work in hard water, no scum). Periodic trends (Dobereiner, Newlands, Mendeleev, Modern Periodic Table by atomic number): valency, atomic size (decreases across period, increases down group), metallic character (decreases across period, increases down group).",
+      "Biology (Reproduction, Heredity & Evolution): Asexual (fission, fragmentation, regeneration, budding, vegetative propagation, spore formation) vs. sexual reproduction in flowering plants (pollination, double fertilization, seed/embryo) and humans (male/female reproductive systems, puberty, contraception & reproductive health). Heredity transfers traits via DNA/genes/chromosomes; Mendel's monohybrid (3:1 phenotypic ratio, dominant vs. recessive traits) and dihybrid crosses (9:3:3:1 ratio, independent assortment), sex determination; evolution (acquired vs. inherited traits, natural selection, speciation, homologous vs. analogous organs, fossils).",
+      "Physics & Resources (Light, Eye, Energy & Resource Management): Spherical mirror formula 1/f = 1/v + 1/u, magnification m = -v/u = h'/h; refraction Snell's law n = sin i / sin r = c/v, spherical lens formula 1/f = 1/v - 1/u, power of lens P = 1/f (in metres, unit Dioptre D). Human eye accommodation, myopia (concave lens correction), hypermetropia (convex lens correction), presbyopia; refraction through glass prism, dispersion, rainbow, atmospheric refraction (twinkling stars, advanced sunrise/delayed sunset), Tyndall scattering (blue sky, red sunset). Fossil fuels, thermal/hydro/biomass/wind/solar/nuclear energy; 5Rs (Refuse, Reduce, Reuse, Repurpose, Recycle), forests/wildlife, water harvesting (khadins, bundhis, ahars, kattas), and coal/petroleum conservation."
+    ],
+    "key_terms": {
+      "Catenation": "ಸರಪಳಿ ಬಂಧನ / ಕ್ಯಾಟಿನೇಷನ್",
+      "Myopia": "ಸಮೀಪ ದೃಷ್ಟಿ ದೋಷ",
+      "Heredity": "ಅನುವಂಶೀಯತೆ"
+    }
+  },
+  {
+    "id": "c10-soc-01",
+    "class": 10,
+    "subject": "Social Science",
+    "chapter": "History, Political Science & Sociology: British Rule, Freedom Movement, Post-Independence, World Wars, Foreign Policy, World Bodies & Social Issues",
+    "summary": "European entry and British expansion/impact in India and Karnataka (Wodeyars, Kittur Chennamma, Sangolli Rayanna, Halagali Bedas, etc.), reform movements, 1857 uprising, freedom struggle, independent India, World Wars, domestic/global challenges, foreign policy, UN/world organizations, social stratification, labour, collective behaviour, and social challenges.",
+    "notes": [
+      "History (British Rule to Post-Independence & World Wars): Advent of Europeans, Subsidiary Alliance & Doctrine of Lapse, economic/administrative/land-revenue/judicial/educational impact of British rule; opposition in Karnataka and Wodeyars of Mysuru; 19th-century social and religious reform movements; First War of Indian Independence (1857); Indian National Movement (Moderates, Extremists, Revolutionaries, Gandhian eras—Non-Cooperation, Civil Disobedience, Quit India, INA, integration of princely states); post-independence challenges; First and Second World Wars and India's role.",
+      "Political Science (Challenges, Foreign Policy & World Organisations): Internal/external challenges (communalism, regionalism, illiteracy, corruption, economic inequality, population) and remedies; principles and evolution of India's foreign policy (Panchsheel, Non-Alignment, anti-colonialism, disarmament) and global challenges (human rights, terrorism, arms race, economic inequality); role and agencies of the United Nations (UN) and international organizations.",
+      "Sociology: Social stratification (caste, class, gender, race, disability and untouchability prohibition); division of labour and organized vs. unorganized sector work/economic life; collective behaviour and social movements/protests (environmental, women's, farmers', labour movements); social challenges (child labour, child marriage, dowry, female foeticide/infanticide)."
+    ],
+    "key_terms": {
+      "Non-Alignment": "ಅಲಿಪ್ತ ನೀತಿ",
+      "Social Stratification": "ಸಾಮಾಜಿಕ ಸ್ತರವಿನ್ಯಾಸ",
+      "Sovereignty": "ಸಾರ್ವಭೌಮತ್ವ"
+    }
+  },
+  {
+    "id": "c10-soc-02",
+    "class": 10,
+    "subject": "Social Science",
+    "chapter": "Geography, Economics & Business Studies: Physical Features, Climate, Soils, Forests, Water, Agriculture, Minerals, Transport, Industries, Disasters, Population, Development & Banking",
+    "summary": "India's physiography, seasons, soils, natural vegetation/wildlife, water resources, cropping seasons/types of farming, mineral/power resources, transport/communication, major industries, natural disasters, population growth/distribution, development & rural development, public finance/budget, banking transactions, entrepreneurship, and consumer protection.",
+    "notes": [
+      "Geography of India: Four major physiographic divisions (Northern Mountains, Northern Great Plains, Peninsular Plateau, Coastal Plains & Islands); four seasons (Summer, South-West Monsoon, Retreating Monsoon, Winter) and rainfall distribution; soil types (alluvial, black/regur, red, laterite, desert, mountain) and soil erosion/conservation; natural vegetation types (evergreen, deciduous, tropical grassland, mangrove, desert, alpine) and biosphere reserves/national parks. Multipurpose river valley projects and water conservation; Kharif, Rabi, Zaid crops and major food/commercial crops; metallic/non-metallic minerals and conventional/non-conventional energy; roadways, railways, waterways, airways, and communication; agro-based and mineral-based industries; cyclones, floods, landslides, coastal erosion, earthquakes and disaster management; population size, growth, distribution, and density.",
+      "Economics & Business Studies: Economic development vs. human development indicators, rural development & Panchayati Raj/Gram Swaraj, government budget/revenue/expenditure/public debt in public finance. Types of banks and banking transactions (savings, current, recurring deposit, fixed deposit accounts), qualities and functions of an entrepreneur, and Consumer Protection Act rights, remedies, and consumer forums."
+    ],
+    "key_terms": {
+      "Rural Development": "ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ",
+      "Budget": "ಆಯವ್ಯಯ / ಬಜೆಟ್",
+      "Entrepreneur": "ಉದ್ಯಮಿ"
+    }
+  },
+  {
+    "id": "c10-lang-01",
+    "class": 10,
+    "subject": "Languages (Kannada, English & Hindi)",
+    "chapter": "SSLC 1st Language Kannada (Siri Kannada), 2nd Language English & 3rd Language Hindi (Prose, Poetry, Supplementary & Grammar)",
+    "summary": "Core prose, poetry, supplementary reading, and exam grammar/composition across SSLC 1st Language Kannada, 2nd Language English, and 3rd Language Hindi.",
+    "notes": [
+      "1st Language (Siri Kannada): 16 prose and poetry lessons—including 'Yuddhha', 'Shabari', 'London Nagara', 'Bhagya Shilpigalu', 'Edege Bidda Akshara', 'Vyaghra Geethe', 'Vrukshasakshi', 'Sukumaraswamiya Kathe'—plus Supplementary Reading; master summary writing, character/theme answers, sandhi, samasa, avyaya, vibhakti, alankara, chandas, letter writing, and essay/comprehension.",
+      "2nd Language (English): Key prose lessons include 'A Hero', 'There's a Girl by the Tracks!', 'Gentleman of Rio en Medio', 'Dr. B.R. Ambedkar', 'The Concert', 'The Discovery', 'Colours of Silence', and 'Science and Hope of Survival', alongside poems like 'Grandma Climbs a Tree', 'Quality of Mercy', 'I am the Land', and 'The Song of India'; focus on extract/value questions, figures of speech, tense/voice/reported speech/clauses/degree grammar, letter writing, and unseen passage comprehension.",
+      "3rd Language (Hindi Vallari): 18 prose and poetry lessons—including 'Matrubhumi', 'Kashmiri Seb', 'Gillu', 'Mera Bachpan', 'Basant Ki Sacchai', 'Tulsi Ke Dohe', and 'Sur-Shyam'—along with Hindi grammar, summary/question-answers, letter writing, and translation/comprehension."
+    ],
+    "key_terms": {
+      "Figures of Speech": "ಅಲಂಕಾರ / ಕಾವ್ಯ ವೈಶಿಷ್ಟ್ಯ",
+      "Composition": "ರಚನೆ / ಪ್ರಬಂಧ",
+      "Comprehension": "ಗ್ರಹಿಕೆ"
+    }
   }
 ]
