@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidya Pathshala (Classes 1–10)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Vidya Pathshala</h1>
+      <span class="badge">Offline Study Companion • Classes 1–10</span>
+    </div>
+    <div class="progress-pill" id="progressText">0/0 Revised</div>
+  </header>
+
+  <nav class="mode-nav">
+    <button class="mode-btn active" id="tabNotes" onclick="switchMode('notes')">📘 Chapter Notes</button>
+    <button class="mode-btn" id="tabDeck" onclick="switchMode('deck')">🃏 3D Formula Deck</button>
+  </nav>
+
+  <section class="controls-bar">
+    <label for="classSelect"><strong>Class:</strong></label>
+    <select id="classSelect" onchange="onFilterChange()">
+      <option value="all">All Classes (1–10)</option>
+      <option value="1">Class 1</option>
+      <option value="2">Class 2</option>
+      <option value="3">Class 3</option>
+      <option value="4">Class 4</option>
+      <option value="5">Class 5</option>
+      <option value="6">Class 6</option>
+      <option value="7">Class 7</option>
+      <option value="8">Class 8</option>
+      <option value="9">Class 9</option>
+      <option value="10">Class 10</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Search topic or term..." oninput="renderNotes()" />
+  </section>
+
+  <!-- NOTES VIEW -->
+  <main id="notesView">
+    <div class="sub-tabs">
+      <button class="sub-tab active" data-filter="all" onclick="setSubFilter('all', this)">All Chapters</button>
+      <button class="sub-tab" data-filter="saved" onclick="setSubFilter('saved', this)">Saved (<span id="savedCount">0</span>)</button>
+    </div>
+    <div id="notesContainer"></div>
+  </main>
+
+  <!-- 3D FORMULA DECK VIEW -->
+  <section id="deckView" style="display:none;">
+    <div class="deck-header">
+      <span id="deckCounter">Card 1 of 1</span>
+      <span class="mastered-pill">Mastered: <strong id="masteredCount">0</strong></span>
+    </div>
+
+    <div class="scene" onclick="flipCard()">
+      <div class="flip-card" id="flipCard">
+        <div class="face front">
+          <div class="card-meta" id="cardMeta">Class 10 • Physics</div>
+          <div class="card-q" id="cardQ">Think of the formula...</div>
+          <div class="hint">Tap card to flip &amp; check answer</div>
+        </div>
+        <div class="face back">
+          <div class="card-meta">Formula &amp; Memory Trick</div>
+          <div class="card-ans" id="cardAns"></div>
+          <div class="card-tip" id="cardTip"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="deck-actions">
+      <button class="btn retry-btn" onclick="rateCard(false)">Practice Again</button>
+      <button class="btn gotit-btn" onclick="rateCard(true)">Got It!</button>
+    </div>
+  </section>
+
+  <footer class="disclaimer">
+    <strong>Disclaimer:</strong> Independent student community project. Not affiliated with KTBS, KSEAB, or Govt. of Karnataka. Created to support Classes 1–10 revision and offline access.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
