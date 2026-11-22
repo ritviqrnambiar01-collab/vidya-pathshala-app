@@ -8,13 +8,49 @@ let subFilter = "all";
 let savedIds = JSON.parse(localStorage.getItem("vp_saved") || "[]");
 let revisedIds = JSON.parse(localStorage.getItem("vp_revised") || "[]");
 
+function escapeHtml(str) {
+  return String(str ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function showLoadError(message) {
+  const notesEl = document.getElementById("notesContainer");
+  if (notesEl) {
+    notesEl.innerHTML = `<div class="card"><strong>Could not load study data:</strong> ${escapeHtml(message)}</div>`;
+  }
+  const cardQ = document.getElementById("cardQ");
+  if (cardQ) {
+    cardQ.textContent = "Unable to load formulas. Check formulas.json syntax.";
+  }
+}
+
 async function loadData() {
-  const [chRes, fRes] = await Promise.all([
-    fetch("chapters.json"),
-    fetch("formulas.json")
-  ]);
-  chapters = await chRes.json();
-  allFormulas = await fRes.json();
+  try {
+    const [chRes, fRes] = await Promise.all([
+      fetch("./chapters.json"),
+      fetch("./formulas.json")
+    ]);
+
+    if (!chRes.ok) {
+      throw new Error(`chapters.json failed (${chRes.status})`);
+    }
+    if (!fRes.ok) {
+      throw new Error(`formulas.json failed (${fRes.status})`);
+    }
+
+    const chData = await chRes.json();
+    const fData = await fRes.json();
+
+    chapters = Array.isArray(chData) ? chData : [];
+    allFormulas = Array.isArray(fData) ? fData : [];
+  } catch (err) {
+    console.error("Failed to load Vidya Pathshala data:", err);
+    showLoadError(err.message || "Invalid JSON or missing file.");
+  }
+
   resetDeck();
   updateProgress();
   renderNotes();
@@ -64,7 +100,8 @@ function renderNotes() {
   const container = document.getElementById("notesContainer");
 
   const filtered = chapters.filter(ch => {
-    if (selectedClass !== "all" && String(ch.classLevel) !== selectedClass) return false;
+    const cls = String(ch.class ?? ch.classLevel ?? "");
+    if (selectedClass !== "all" && cls !== selectedClass) return false;
     if (subFilter === "saved" && !savedIds.includes(ch.id)) return false;
     if (query && !JSON.stringify(ch).toLowerCase().includes(query)) return false;
     return true;
@@ -78,42 +115,44 @@ function renderNotes() {
   container.innerHTML = filtered.map(ch => {
     const isSaved = savedIds.includes(ch.id);
     const isRevised = revisedIds.includes(ch.id);
+    const clsLabel = ch.class ?? ch.classLevel ?? "";
+    const heading = ch.chapter ?? ch.title ?? "Untitled Chapter";
+    const notesList = Array.isArray(ch.notes) ? ch.notes : [];
+    const termsEntries = ch.key_terms && typeof ch.key_terms === "object"
+      ? Object.entries(ch.key_terms)
+      : [];
+
+    const summaryHtml = Array.isArray(ch.summary)
+      ? `<ul>${ch.summary.map(s => `<li>${escapeHtml(s)}</li>`).join("")}</ul>`
+      : ch.summary
+        ? `<p>${escapeHtml(ch.summary)}</p>`
+        : "";
+
+    const notesHtml = notesList.length
+      ? `<div class="sec-title">Key Study Notes</div><ul>${notesList.map(n => `<li>${escapeHtml(n)}</li>`).join("")}</ul>`
+      : "";
+
+    const termsHtml = termsEntries.length
+      ? `<div class="sec-title">Key Terms &amp; Kannada</div>${termsEntries.map(([en, kn]) => `<div class="item-box"><strong>${escapeHtml(en)}:</strong> ${escapeHtml(kn)}</div>`).join("")}`
+      : "";
+
     return `
       <article class="card">
         <div class="top-meta">
-          <span class="class-tag">Class ${ch.classLevel} • ${ch.subject} • Ch. ${ch.chapterNumber}</span>
-          <span>${ch.reference}</span>
+          <span class="class-tag">Class ${escapeHtml(clsLabel)} • ${escapeHtml(ch.subject)}</span>
+          <span>${escapeHtml(ch.id)}</span>
         </div>
-        <h2>${ch.title}</h2>
-        <div class="kn-title">${ch.kannadaTitle}</div>
+        <h2>${escapeHtml(heading)}</h2>
 
-        <div class="sec-title">Quick Summary</div>
-        <ul>${ch.summary.map(s => `<li>${s}</li>`).join("")}</ul>
-
-        <div class="sec-title">English ↔ Kannada Key Terms</div>
-        ${ch.glossary.map(g => `<div class="item-box"><strong>${g.en}:</strong> ${g.kn}</div>`).join("")}
-
-        <div class="sec-title">Key Questions &amp; Checkpoints</div>
-        ${ch.examHotspots.map(h => `
-          <div class="q-box">
-            <span class="mark-pill">${h.marks}</span> <strong>${h.q}</strong><br/>
-            <span>Ans: ${h.a}</span>
-          </div>
-        `).join("")}
-
-        <div class="sec-title">Tap-to-Reveal Quick Check</div>
-        ${ch.flashcards.map((fc, i) => `
-          <div class="fc-box" onclick="const a=this.querySelector('.fc-ans'); a.style.display = a.style.display==='block' ? 'none' : 'block';">
-            <strong>Q${i + 1}:</strong> ${fc.front}
-            <div class="fc-ans">→ ${fc.back}</div>
-          </div>
-        `).join("")}
+        ${summaryHtml ? `<div class="sec-title">Summary</div>${summaryHtml}` : ""}
+        ${notesHtml}
+        ${termsHtml}
 
         <div class="card-actions">
-          <button class="act-btn ${isSaved ? "saved" : ""}" onclick="toggleSaved('${ch.id}')">
+          <button class="act-btn ${isSaved ? "saved" : ""}" onclick="toggleSaved('${escapeHtml(ch.id)}')">
             ${isSaved ? "★ Saved" : "☆ Save"}
           </button>
-          <button class="act-btn ${isRevised ? "done" : ""}" onclick="toggleRevised('${ch.id}')">
+          <button class="act-btn ${isRevised ? "done" : ""}" onclick="toggleRevised('${escapeHtml(ch.id)}')">
             ${isRevised ? "✓ Revised" : "Mark Revised"}
           </button>
         </div>
@@ -122,11 +161,26 @@ function renderNotes() {
   }).join("");
 }
 
+function matchesClassFilter(classRangeOrLevel, selectedClass) {
+  if (selectedClass === "all") return true;
+  const target = Number(selectedClass);
+  const raw = String(classRangeOrLevel ?? "").trim();
+  if (!raw) return true;
+  if (/^\d+$/.test(raw)) return Number(raw) === target;
+  const rangeMatch = raw.match(/^(\d+)\s*[-–]\s*(\d+)$/);
+  if (rangeMatch) {
+    const start = Number(rangeMatch[1]);
+    const end = Number(rangeMatch[2]);
+    return target >= start && target <= end;
+  }
+  return raw.split(",").map(s => s.trim()).includes(String(target));
+}
+
 function resetDeck() {
   const selectedClass = document.getElementById("classSelect").value;
-  deck = selectedClass === "all"
-    ? [...allFormulas]
-    : allFormulas.filter(f => String(f.classLevel) === selectedClass);
+  deck = allFormulas.filter(f =>
+    matchesClassFilter(f.class_range ?? f.classLevel, selectedClass)
+  );
   deckIndex = 0;
   document.getElementById("flipCard").classList.remove("flipped");
   renderCard();
@@ -143,10 +197,16 @@ function renderCard() {
     return;
   }
   const item = deck[deckIndex];
-  document.getElementById("cardMeta").textContent = `Class ${item.classLevel} • ${item.subject}`;
-  document.getElementById("cardQ").textContent = item.q;
-  document.getElementById("cardAns").textContent = item.formula;
-  document.getElementById("cardTip").textContent = item.tip;
+  const classInfo = item.class_range ? `Classes ${item.class_range}` : `Class ${item.classLevel ?? ""}`;
+  const topicInfo = item.topic ? ` • ${item.topic}` : "";
+  const questionText = item.title ?? item.q ?? "Formula Card";
+  const answerText = item.formula ?? "";
+  const tipParts = [item.explanation ?? item.tip, item.example ? `Example: ${item.example}` : ""].filter(Boolean);
+
+  document.getElementById("cardMeta").textContent = `${classInfo} • ${item.subject ?? ""}${topicInfo}`;
+  document.getElementById("cardQ").textContent = questionText;
+  document.getElementById("cardAns").textContent = answerText;
+  document.getElementById("cardTip").textContent = tipParts.join(" — ");
   document.getElementById("deckCounter").textContent = `Card ${deckIndex + 1} of ${deck.length}`;
 }
 
