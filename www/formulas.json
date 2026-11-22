@@ -1,44 +1,202 @@
 [
   {
-    "classLevel": 10,
-    "subject": "Physics",
-    "q": "Ohm's Law formula connecting Voltage (V), Current (I), and Resistance (R)?",
-    "formula": "V = I × R",
-    "tip": "Memory Trick: 'Very Important Rule' — Units: Volts (V), Amperes (A), Ohms (Ω)."
+    "id": "f-01",
+    "class_range": "4-10",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "title": "Area & Perimeter of Square",
+    "formula": "Area = side × side (a²) | Perimeter = 4 × side (4a)",
+    "explanation": "All 4 sides are equal. Use square units (cm², m²) for area and linear units (cm, m) for perimeter.",
+    "example": "If side = 6 cm → Area = 36 cm², Perimeter = 24 cm."
   },
   {
-    "classLevel": 10,
-    "subject": "Math",
-    "q": "Quadratic formula to find roots of ax² + bx + c = 0?",
-    "formula": "x = [-b ± √(b² - 4ac)] / 2a",
-    "tip": "Exam Tip: Check D = b² - 4ac first! If D < 0, there are no real roots."
+    "id": "f-02",
+    "class_range": "4-10",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "title": "Area & Perimeter of Rectangle",
+    "formula": "Area = length × breadth (l × b) | Perimeter = 2 × (l + b)",
+    "explanation": "Opposite sides of a rectangle are equal. Add length and breadth first, then multiply by 2 for perimeter.",
+    "example": "l = 8 cm, b = 5 cm → Area = 40 cm², Perimeter = 26 cm."
   },
   {
-    "classLevel": 9,
-    "subject": "Physics",
-    "q": "Second equation of motion (distance s in time t)?",
-    "formula": "s = ut + ½at²",
-    "tip": "Remember: u = initial velocity, a = acceleration. If starting from rest, u = 0."
+    "id": "f-03",
+    "class_range": "6-10",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "title": "Area of Triangle",
+    "formula": "Area = (1/2) × base × height",
+    "explanation": "Height must be perpendicular (90°) to the chosen base. Any triangle's area is half of a parallelogram with the same base and height.",
+    "example": "base = 10 cm, height = 6 cm → Area = 0.5 × 10 × 6 = 30 cm²."
   },
   {
-    "classLevel": 10,
-    "subject": "Math",
-    "q": "Curved Surface Area (CSA) of a right circular cylinder?",
-    "formula": "CSA = 2πrh",
-    "tip": "Visual Trick: Unroll the curved side into a rectangle of width 2πr and height h."
+    "id": "f-04",
+    "class_range": "6-10",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "title": "Circle Circumference & Area",
+    "formula": "Circumference = 2πr = πd | Area = πr²",
+    "explanation": "r is radius, d is diameter (d = 2r), and π ≈ 22/7 or 3.14.",
+    "example": "r = 7 cm → Circumference = 44 cm, Area = 154 cm²."
   },
   {
-    "classLevel": 9,
-    "subject": "Physics",
-    "q": "Kinetic Energy of an object of mass m and velocity v?",
-    "formula": "KE = ½mv²",
-    "tip": "Watch Out: Velocity is squared—doubling speed makes Kinetic Energy 4× larger."
+    "id": "f-05",
+    "class_range": "7-10",
+    "subject": "Mathematics",
+    "topic": "Mensuration",
+    "title": "Area of Parallelogram & Trapezium",
+    "formula": "Parallelogram = b × h | Trapezium = (1/2) × (a + b) × h",
+    "explanation": "For a trapezium, 'a' and 'b' are the two parallel sides and 'h' is the perpendicular distance between them.",
+    "example": "Parallel sides 6 cm & 10 cm, h = 4 cm → Area = 0.5 × 16 × 4 = 32 cm²."
   },
   {
-    "classLevel": 8,
-    "subject": "Math",
-    "q": "Amount formula for Compound Interest (compounded annually)?",
-    "formula": "A = P(1 + R/100)ⁿ",
-    "tip": "Exam Trap: A is Total Amount. Subtract Principal (P) at the end to get CI."
+    "id": "f-06",
+    "class_range": "8-10",
+    "subject": "Mathematics",
+    "topic": "3D Shapes",
+    "title": "Cube: Surface Area & Volume",
+    "formula": "TSA = 6a² | LSA = 4a² | Volume = a³",
+    "explanation": "A cube has 6 equal square faces of edge length 'a'. Volume measures space inside in cubic units.",
+    "example": "Edge a = 4 cm → TSA = 96 cm², Volume = 64 cm³."
+  },
+  {
+    "id": "f-07",
+    "class_range": "8-10",
+    "subject": "Mathematics",
+    "topic": "3D Shapes",
+    "title": "Cuboid: Surface Area & Volume",
+    "formula": "TSA = 2(lb + bh + hl) | Volume = l × b × h",
+    "explanation": "l = length, b = breadth, h = height. Lateral surface area of 4 walls is 2h(l + b).",
+    "example": "l = 5, b = 3, h = 2 cm → Volume = 30 cm³, TSA = 62 cm²."
+  },
+  {
+    "id": "f-08",
+    "class_range": "8-10",
+    "subject": "Mathematics",
+    "topic": "3D Shapes",
+    "title": "Right Circular Cylinder",
+    "formula": "CSA = 2πrh | TSA = 2πr(r + h) | Volume = πr²h",
+    "explanation": "CSA is the curved outer wrap; TSA adds top and bottom circular bases.",
+    "example": "r = 7 cm, h = 10 cm → Volume = 1540 cm³."
+  },
+  {
+    "id": "f-09",
+    "class_range": "9-10",
+    "subject": "Mathematics",
+    "topic": "3D Shapes",
+    "title": "Right Circular Cone & Sphere",
+    "formula": "Cone Vol = (1/3)πr²h, CSA = πrl | Sphere Vol = (4/3)πr³, SA = 4πr²",
+    "explanation": "Slant height of a cone satisfies l² = r² + h².",
+    "example": "A cone has 1/3 the volume of a cylinder with the same radius and height."
+  },
+  {
+    "id": "f-10",
+    "class_range": "7-10",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "title": "Pythagoras Theorem",
+    "formula": "Hypotenuse² = Base² + Height² (c² = a² + b²)",
+    "explanation": "Applies strictly to right-angled triangles (90°). The hypotenuse is the longest side opposite the right angle.",
+    "example": "Base = 3, Height = 4 → Hypotenuse = √(9 + 16) = 5."
+  },
+  {
+    "id": "f-11",
+    "class_range": "8-10",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "title": "Core Algebraic Identities",
+    "formula": "(a + b)² = a² + 2ab + b² | (a - b)² = a² - 2ab + b² | a² - b² = (a + b)(a - b)",
+    "explanation": "Use these identities to expand expressions fast or factorize quadratic terms without long multiplication.",
+    "example": "102² = (100 + 2)² = 10000 + 400 + 4 = 10404."
+  },
+  {
+    "id": "f-12",
+    "class_range": "10",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "title": "Arithmetic Progression (AP) & Quadratic Formula",
+    "formula": "aₙ = a + (n - 1)d | Sₙ = (n/2)[2a + (n - 1)d] | x = [-b ± √(b² - 4ac)] / 2a",
+    "explanation": "In an AP, 'a' is first term and 'd' is common difference. Discriminant D = b² - 4ac shows nature of roots.",
+    "example": "For 2, 5, 8, 11...: a = 2, d = 3, 5th term = 2 + 4(3) = 14."
+  },
+  {
+    "id": "f-13",
+    "class_range": "10",
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "title": "Basic Trigonometric Ratios & Identity",
+    "formula": "sin θ = P/H | cos θ = B/H | tan θ = P/B | sin²θ + cos²θ = 1",
+    "explanation": "For an acute angle θ in a right triangle: P = Perpendicular (opposite), B = Base (adjacent), H = Hypotenuse.",
+    "example": "tan θ = sin θ / cos θ; also 1 + tan²θ = sec²θ and 1 + cot²θ = cosec²θ."
+  },
+  {
+    "id": "f-14",
+    "class_range": "7-10",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "title": "Percentage, Profit/Loss & Simple Interest",
+    "formula": "Profit% = (Profit/CP) × 100 | SI = (P × R × T) / 100",
+    "explanation": "Profit or loss percentage is always calculated on Cost Price (CP). P = Principal, R = Rate % p.a., T = Time in years.",
+    "example": "CP = ₹200, SP = ₹250 → Profit = ₹50 → Profit% = 25%."
+  },
+  {
+    "id": "f-15",
+    "class_range": "7-10",
+    "subject": "Science",
+    "topic": "Physics",
+    "title": "Speed, Force, Work & Ohm's Law",
+    "formula": "Speed = Distance / Time | Force = m × a | Work = F × d | V = I × R",
+    "explanation": "SI units: Speed (m/s), Force (Newton, N), Work/Energy (Joule, J), Voltage (Volt, V), Current (Ampere, A), Resistance (Ohm, Ω).",
+    "example": "Current I = 2 A through R = 5 Ω resistor → Voltage V = 10 V."
+  },
+  {
+    "id": "f-16",
+    "class_range": "9-10",
+    "subject": "Science",
+    "topic": "Physics",
+    "title": "Mirror Formula, Magnification & Kinetic Energy",
+    "formula": "1/f = 1/v + 1/u | m = h'/h = -v/u | KE = (1/2)mv²",
+    "explanation": "Follow sign convention carefully for concave/convex mirrors; KE depends on mass (m) and square of velocity (v).",
+    "example": "Doubling speed increases Kinetic Energy by 4 times (2² = 4)."
+  },
+  {
+    "id": "f-17",
+    "class_range": "8-10",
+    "subject": "Science",
+    "topic": "Physics — SI Units",
+    "title": "Resistivity (ρ) & Electric Power / Energy",
+    "formula": "Resistivity: Ω·m (Ohm-metre) | Power: W (Watt = J/s) | Energy: J (Joule) or kWh",
+    "explanation": "Don't confuse Resistance (Ω) with Resistivity (Ω·m)—resistivity is a material property, not dependent on length or area. 1 kWh = 3.6 × 10⁶ J.",
+    "example": "R = ρ(l/A) → ρ = R·A/l has unit (Ω × m²) / m = Ω·m."
+  },
+  {
+    "id": "f-18",
+    "class_range": "8-10",
+    "subject": "Science",
+    "topic": "Physics — SI Units",
+    "title": "Lens Power (Dioptre), Pressure & Frequency",
+    "formula": "Lens Power: m⁻¹ or Dioptre (D) | Pressure: Pa (Pascal = N/m²) | Frequency: Hz (Hertz = s⁻¹)",
+    "explanation": "Focal length (f) in Power formula P = 1/f MUST be in metres (m), so 1 D = 1 m⁻¹. Pascal (Pa) equals one Newton per square metre.",
+    "example": "f = +0.5 m → P = 1 / 0.5 = +2 D (convex lens)."
+  },
+  {
+    "id": "f-19",
+    "class_range": "9-10",
+    "subject": "Science",
+    "topic": "Physics — SI Units",
+    "title": "Momentum, Impulse, Torque/Moment & Specific Heat",
+    "formula": "Momentum: kg·m/s (N·s) | Frequency/Decay: s⁻¹ (Hz) | Specific Heat: J/(kg·K)",
+    "explanation": "Momentum (p = mv) and Impulse (F·Δt) share the exact same SI unit (kg·m/s = N·s). Temperature difference in SI uses Kelvin (K) or °C interval.",
+    "example": "p = 2 kg × 3 m/s = 6 kg·m/s."
+  },
+  {
+    "id": "f-20",
+    "class_range": "9-10",
+    "subject": "Science",
+    "topic": "Chemistry & Measurement — SI Units",
+    "title": "Amount of Substance (Mole), Density & Volume",
+    "formula": "Amount: mol (Mole) | Density: kg/m³ | Volume: m³ (1 m³ = 1000 L)",
+    "explanation": "While labs often use g/cm³ or mL, the strict SI unit of volume is cubic metre (m³) and density is kg/m³ (1 g/cm³ = 1000 kg/m³).",
+    "example": "Water density ≈ 1000 kg/m³ = 1 g/cm³."
   }
 ]
