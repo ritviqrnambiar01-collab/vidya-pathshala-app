@@ -18,18 +18,33 @@ jobs:
           node-version: 20
 
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
       - name: Build Android APK with Capacitor
         run: |
+          set -e
           npm init -y
           npm install @capacitor/core @capacitor/cli @capacitor/android
           npx cap init "Vidya Pathshala" "com.vidyapathshala.app" --web-dir=www
           npx cap add android
           npx cap sync android
+          cat << 'EOF' >> android/build.gradle
+
+          subprojects {
+            configurations.all {
+              resolutionStrategy {
+                eachDependency { details ->
+                  if (details.requested.group == 'org.jetbrains.kotlin' && details.requested.name.startsWith('kotlin-stdlib')) {
+                    details.useVersion '1.9.24'
+                  }
+                }
+              }
+            }
+          }
+          EOF
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug
