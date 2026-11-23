@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "app": "Vidya Pathshala",
+    "board": "Karnataka State Board (KTBS / DSERT)",
+    "classes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "academic_year": "2026-27",
+    "offline_first": true,
+    "copyright_note": "Original student study notes, summaries, examples, and practice questions aligned with official curriculum topics; not a reproduction of copyrighted textbook pages."
+  },
+  "chapters": [
+    {
+      "id": "ktbs-c1-math-01",
+      "class": 1,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Spatial Understanding",
+        "kn": "ಸ್ಥಾನಾವಕಾಶದ ಅರಿವು"
+      },
+      "summary": {
+        "en": "Spatial understanding helps learners describe where objects are placed around them—such as inside or outside, on top or at the bottom, and near or far—using everyday surroundings.",
+        "kn": "ಸ್ಥಾನಾವಕಾಶದ ಅರಿವು ನಮ್ಮ ಸುತ್ತಲಿನ ವಸ್ತುಗಳು ಎಲ್ಲಿವೆ ಎಂಬುದನ್ನು—ಒಳಗೆ ಅಥವಾ ಹೊರಗೆ, ಮೇಲೆ ಅಥವಾ ಕೆಳಗೆ, ಹತ್ತಿರ ಅಥವಾ ದೂರ—ದೈನಂದಿನ ಉದಾಹರಣೆಗಳ ಮೂಲಕ ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c1-m1-01",
+          "topic_title": {
+            "en": "Inside and Outside",
+            "kn": "ಒಳಗೆ ಮತ್ತು ಹೊರಗೆ"
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "An object is 'inside' when it is enclosed within a boundary, box, room, or container. An object is 'outside' when it is beyond or on the outer side of that boundary.",
+              "kn": "ಒಂದು ವಸ್ತುವು ಗಡಿ, ಪೆಟ್ಟಿಗೆ, ಕೊಠಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಭಾಗದಲ್ಲಿದ್ದರೆ ಅದು 'ಒಳಗೆ' (Inside) ಇದೆ ಎನ್ನಲಾಗುತ್ತದೆ. ಆ ಗಡಿಯ ಹೊರಭಾಗದಲ್ಲಿದ್ದರೆ ಅದು 'ಹೊರಗೆ' (Outside) ಇದೆ ಎನ್ನಲಾಗುತ್ತದೆ."
+            },
+            "important_definitions": [
+              {
+                "term": { "en": "Inside", "kn": "ಒಳಗೆ" },
+                "definition": {
+                  "en": "Located within an enclosed space or boundary.",
+                  "kn": "ಒಂದು ಸುತ್ತುವರಿದ ಜಾಗ ಅಥವಾ ಗಡಿಯ ಒಳಗಿರುವ ಸ್ಥಾನ."
+                }
+              },
+              {
+                "term": { "en": "Outside", "kn": "ಹೊರಗೆ" },
+                "definition": {
+                  "en": "Located beyond or outside an enclosed space or boundary.",
+                  "kn": "ಒಂದು ಸುತ್ತುವರಿದ ಜಾಗ ಅಥವಾ ಗಡಿಯ ಹೊರಗಿರುವ ಸ್ಥಾನ."
+                }
+              }
+            ],
+            "chapter_notes": {
+              "en": [
+                "Look at the boundary of a room, basket, or school compound first.",
+                "Items kept inside a school bag are inside; a water bottle kept beside the bag on the floor is outside."
+              ],
+              "kn": [
+                "ಮೊದಲು ಕೊಠಡಿ, ಬುಟ್ಟಿ ಅಥವಾ ಶಾಲೆಯ ಆವರಣದ ಗಡಿಯನ್ನು ಗಮನಿಸಿ.",
+                "ಸ್ಕೂಲ್ ಬ್ಯಾಗ್ ಒಳಗೆ ಇಟ್ಟ ಪುಸ್ತಕಗಳು ಒಳಗೆ ಇರುತ್ತವೆ; ಬ್ಯಾಗ್ ಪಕ್ಕದಲ್ಲಿ ನೆಲದ ಮೇಲಿಟ್ಟ ಬಾಟಲಿ ಹೊರಗೆ ಇರುತ್ತದೆ."
+              ]
+            },
+            "important_keywords": [
+              { "en": "Inside", "kn": "ಒಳಗೆ" },
+              { "en": "Outside", "kn": "ಹೊರಗೆ" },
+              { "en": "Boundary", "kn": "ಗಡಿ" }
+            ],
+            "real_life_examples": {
+              "en": [
+                "A calf tied inside a cowshed vs. a hen walking outside in the yard.",
+                "Chalk pieces inside a chalk box vs. a duster kept on the table outside the box."
+              ],
+              "kn": [
+                "ದನದ ಕೊಟ್ಟಿಗೆಯ ಒಳಗೆ ಇರುವ ಕರು ಮತ್ತು ಅಂಗಳದಲ್ಲಿ ಓಡಾಡುವ ಕೋಳಿ (ಹೊರಗೆ).",
+                "ಸೀಮೆಸುಣ್ಣದ ಪೆಟ್ಟಿಗೆಯ ಒಳಗಿರುವ ಸೀಮೆಸುಣ್ಣ ಮತ್ತು ಪೆಟ್ಟಿಗೆಯ ಹೊರಗೆ ಮೇಜಿನ ಮೇಲಿರುವ ಡಸ್ಟರ್."
+              ]
+            },
+            "revision_notes": {
+              "en": "Inside = enclosed within the boundary; Outside = not enclosed within the boundary.",
+              "kn": "ಒಳಗೆ = ಗಡಿಯ ಒಳಭಾಗದಲ್ಲಿರುವುದು; ಹೊರಗೆ = ಗಡಿಯ ಹೊರಭಾಗದಲ್ಲಿರುವುದು."
+            },
+            "practice_exercises": [
+              {
+                "prompt": {
+                  "en": "Name two things kept INSIDE your school bag and two things kept OUTSIDE your school bag.",
+                  "kn": "ನಿಮ್ಮ ಸ್ಕೂಲ್ ಬ್ಯಾಗ್‌ನ ಒಳಗೆ (INSIDE) ಇಡುವ ಎರಡು ವಸ್ತುಗಳು ಮತ್ತು ಹೊರಗೆ (OUTSIDE) ಇಡುವ ಎರಡು ವಸ್ತುಗಳನ್ನು ಹೆಸರಿಸಿ."
+                },
+                "solution_guide": {
+                  "en": "Inside: notebook, pencil box. Outside: umbrella, slippers/shoes.",
+                  "kn": "ಒಳಗೆ: ನೋಟ್‌ಬುಕ್, ಪೆನ್ಸಿಲ್ ಬಾಕ್ಸ್. ಹೊರಗೆ: ಕೊಡೆ, ಚಪ್ಪಲಿ/ಶೂ."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "topic_id": "t-c1-m1-02",
+          "topic_title": {
+            "en": "Top and Bottom / Near and Far",
+            "kn": "ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ / ಹತ್ತಿರ ಮತ್ತು ದೂರ"
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "'Top' refers to the highest position or upper surface, while 'bottom' refers to the lowest position or base. 'Near' means close to a chosen point, and 'far' means at a greater distance from that point.",
+              "kn": "'ಮೇಲೆ' (Top) ಎಂದರೆ ಅತ್ಯಂತ ಎತ್ತರದ ಸ್ಥಾನ ಅಥವಾ ಮೇಲ್ಭಾಗ; 'ಕೆಳಗೆ' (Bottom) ಎಂದರೆ ಅತ್ಯಂತ ಕೆಳಗಿನ ಸ್ಥಾನ ಅಥವಾ ತಳಭಾಗ. 'ಹತ್ತಿರ' (Near) ಎಂದರೆ ಆಯ್ದ ಬಿಂದುವಿಗೆ ಸಮೀಪದಲ್ಲಿರುವುದು; 'ದೂರ' (Far) ಎಂದರೆ ಹೆಚ್ಚು ಅಂತರದಲ್ಲಿರುವುದು."
+            },
+            "important_definitions": [
+              {
+                "term": { "en": "Near", "kn": "ಹತ್ತಿರ" },
+                "definition": {
+                  "en": "Close in distance to a given reference object or place.",
+                  "kn": "ಸೂಚಿಸಿದ ವಸ್ತು ಅಥವಾ ಸ್ಥಳಕ್ಕೆ ಕಡಿಮೆ ದೂರದಲ್ಲಿರುವುದು."
+                }
+              },
+              {
+                "term": { "en": "Far", "kn": "ದೂರ" },
+                "definition": {
+                  "en": "At a greater distance from a given reference object or place.",
+                  "kn": "ಸೂಚಿಸಿದ ವಸ್ತು ಅಥವಾ ಸ್ಥಳಕ್ಕೆ ಹೆಚ್ಚು ದೂರದಲ್ಲಿರುವುದು."
+                }
+              }
+            ],
+            "chapter_notes": {
+              "en": [
+                "Always check which object is the reference point before saying 'near' or 'far'.",
+                "On a shelf or staircase, the top step is higher than the bottom step."
+              ],
+              "kn": [
+                "'ಹತ್ತಿರ' ಅಥವಾ 'ದೂರ' ಎಂದು ಹೇಳುವ ಮೊದಲು ಯಾವ ವಸ್ತುವನ್ನು ಆಧಾರವಾಗಿ ಇಟ್ಟುಕೊಂಡಿದ್ದೇವೆ ಎಂಬುದನ್ನು ನೋಡಿ.",
+                "ಮೆಟ್ಟಿಲು ಅಥವಾ ಕಪಾಟಿನಲ್ಲಿ ಮೇಲಿನ ಹಂತವು ಕೆಳಗಿನ ಹಂತಕ್ಕಿಂತ ಎತ್ತರದಲ್ಲಿರುತ್ತದೆ."
+              ]
+            },
+            "important_keywords": [
+              { "en": "Top", "kn": "ಮೇಲೆ / ತುದಿ" },
+              { "en": "Bottom", "kn": "ಕೆಳಗೆ / ತಳ" },
+              { "en": "Near", "kn": "ಹತ್ತಿರ" },
+              { "en": "Far", "kn": "ದೂರ" }
+            ],
+            "real_life_examples": {
+              "en": [
+                "A bird sitting at the top of a tree vs. roots at the bottom under the soil.",
+                "A house near the bus stop vs. a farm far away from the bus stop."
+              ],
+              "kn": [
+                "ಮರದ ತುದಿಯಲ್ಲಿ (Top) ಕುಳಿತಿರುವ ಹಕ್ಕಿ ಮತ್ತು ಮಣ್ಣಿನ ಕೆಳಗಿರುವ (Bottom) ಬೇರುಗಳು.",
+                "ಬಸ್ ನಿಲ್ದಾಣದ ಹತ್ತಿರವಿರುವ (Near) ಮನೆ ಮತ್ತು ಬಸ್ ನಿಲ್ದಾಣದಿಂದ ದೂರವಿರುವ (Far) ಹೊಲ."
+              ]
+            },
+            "revision_notes": {
+              "en": "Top vs. Bottom compares height/position; Near vs. Far compares distance from a reference point.",
+              "kn": "ಮೇಲೆ vs. ಕೆಳಗೆ ಎತ್ತರ/ಸ್ಥಾನವನ್ನು ಹೋಲಿಸುತ್ತದೆ; ಹತ್ತಿರ vs. ದೂರ ಆಧಾರ ಬಿಂದುವಿನಿಂದ ದೂರವನ್ನು ಹೋಲಿಸುತ್ತದೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": {
+                  "en": "If you stand at the classroom door, is the blackboard near you or far from you?",
+                  "kn": "ನೀವು ತರಗತಿಯ ಬಾಗಿಲ ಬಳಿ ನಿಂತರೆ, ಕಪ್ಪು ಹಲಗೆ ನಿಮಗೆ ಹತ್ತಿರವಿದೆಯೇ ಅಥವಾ ದೂರವಿದೆಯೇ?"
+                },
+                "solution_guide": {
+                  "en": "Generally far from the door compared to a bench right next to the door.",
+                  "kn": "ಬಾಗಿಲ ಪಕ್ಕದ ಬೆಂಚ್‌ಗೆ ಹೋಲಿಸಿದರೆ ಕಪ್ಪು ಹಲಗೆ ಸಾಮಾನ್ಯವಾಗಿ ದೂರದಲ್ಲಿರುತ್ತದೆ."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": {
+            "en": "What is the difference between 'inside' and 'outside'?",
+            "kn": "'ಒಳಗೆ' (Inside) ಮತ್ತು 'ಹೊರಗೆ' (Outside) ಇವುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?"
+          },
+          "a": {
+            "en": "An object within a closed boundary or container is inside, while an object outside that boundary is outside.",
+            "kn": "ಮುಚ್ಚಿದ ಗಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಗಿರುವ ವಸ್ತುವು 'ಒಳಗೆ' ಇರುತ್ತದೆ; ಗಡಿಯ ಹೊರಗಿರುವ ವಸ್ತುವು 'ಹೊರಗೆ' ಇರುತ್ತದೆ."
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c1-m1-1",
+          "question": {
+            "en": "Water poured into a glass is ___ the glass.",
+            "kn": "ಲೋಟಕ್ಕೆ ಸುರಿದ ನೀರು ಲೋಟದ ___ ಇದೆ."
+          },
+          "options": [
+            { "en": "Inside", "kn": "ಒಳಗೆ" },
+            { "en": "Outside", "kn": "ಹೊರಗೆ" },
+            { "en": "Far", "kn": "ದೂರ" }
+          ],
+          "correct_index": 0,
+          "explanation": {
+            "en": "Water held inside the glass walls is inside the glass.",
+            "kn": "ಲೋಟದ ಗೋಡೆಗಳ ಒಳಗೆ ಇರುವ ನೀರು ಲೋಟದ ಒಳಗೆ ಇರುತ್ತದೆ."
+          }
+        },
+        {
+          "id": "q-c1-m1-2",
+          "question": {
+            "en": "The ceiling fan in a room is near the ___ of the room.",
+            "kn": "ಕೊಠಡಿಯ ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ___ ಭಾಗದ ಹತ್ತಿರ ಇರುತ್ತದೆ."
+          },
+          "options": [
+            { "en": "Bottom", "kn": "ಕೆಳಗಿನ" },
+            { "en": "Top", "kn": "ಮೇಲಿನ" },
+            { "en": "Inside", "kn": "ಒಳಗಿನ" }
+          ],
+          "correct_index": 1,
+          "explanation": {
+            "en": "A ceiling fan hangs near the top (upper part) of a room.",
+            "kn": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ಮೇಲಿನ ಭಾಗದಲ್ಲಿರುತ್ತದೆ."
+          }
+        }
+      ],
+      "verification": {
+        "class": 1,
+        "subject": "Mathematics",
+        "chapter_name": "Spatial Understanding",
+        "academic_year": "2026-27",
+        "textbook_reference": "KTBS Class 1 Mathematics Textbook - Chapter 1: Spatial Understanding (confirm current edition PDF at textbooks.karnataka.gov.in)",
+        "sources_consulted": [
+          "https://textbooks.karnataka.gov.in/textbooks/en",
+          "https://dsert.karnataka.gov.in/"
+        ],
+        "topics_verified": "Inside/outside and top/bottom/near/far spatial positions",
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23",
+        "unresolved_issues": "Confirm latest 2026-27 KTBS Class 1 English & Kannada medium PDF edition; complete native Kannada teacher review."
+      }
+    },
+    {
+      "id": "ktbs-c1-math-02",
+      "class": 1,
+      "subject": "Mathematics",
+      "chapter_number": 2,
+      "chapter_title": {
+        "en": "Solids Around Us",
+        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಘನಾಕೃತಿಗಳು"
+      },
+      "summary": {
+        "en": "Everyday objects have solid shapes and behave differently when pushed—some roll, some slide, and some both roll and slide.",
+        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ವಸ್ತುಗಳು ವಿಭಿನ್ನ ಘನಾಕೃತಿಗಳನ್ನು ಹೊಂದಿವೆ; ತಳ್ಳಿದಾಗ ಕೆಲವು ಉರುಳುತ್ತವೆ, ಕೆಲವು ಜಾರುತ್ತವೆ ಮತ್ತು ಕೆಲವು ಉರುಳುವ ಹಾಗೂ ಜಾರುವ ಗುಣ ಹೊಂದಿರುತ್ತವೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c1-m2-01",
+          "topic_title": {
+            "en": "Rolling and Sliding Objects",
+            "kn": "ಉರುಳುವ ಮತ್ತು ಜಾರುವ ವಸ್ತುಗಳು"
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Round or curved surfaces allow objects like balls to roll smoothly. Flat surfaces allow objects like bricks or books to slide easily along a surface.",
+              "kn": "ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಮೇಲ್ಮೈ ಇರುವ ಚೆಂಡಿನಂತಹ ವಸ್ತುಗಳು ಸುಲಭವಾಗಿ ಉರುಳುತ್ತವೆ (Roll). ಚಪ್ಪಟೆಯಾದ ಮೇಲ್ಮೈ ಇರುವ ಇಟ್ಟಿಗೆ ಅಥವಾ ಪುಸ್ತಕದಂತಹ ವಸ್ತುಗಳು ಸುಲಭವಾಗಿ ಜಾರುತ್ತವೆ (Slide)."
+            },
+            "important_definitions": [
+              {
+                "term": { "en": "Roll", "kn": "ಉರುಳುವುದು" },
+                "definition": {
+                  "en": "To move forward by turning over and over on a curved or round surface.",
+                  "kn": "ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಮೇಲ್ಮೈಯಲ್ಲಿ ತಿರುಗುತ್ತಾ ಮುಂದಕ್ಕೆ ಸಾಗುವುದು."
+                }
+              },
+              {
+                "term": { "en": "Slide", "kn": "ಜಾರುವುದು" },
+                "definition": {
+                  "en": "To move smoothly along a surface without turning over.",
+                  "kn": "ತಿರುಗದೆ ಮೇಲ್ಮೈ ಮೇಲೆ ನೇರವಾಗಿ ಜಾರುತ್ತಾ ಸಾಗುವುದು."
+                }
+              }
+            ],
+            "chapter_notes": {
+              "en": [
+                "A ball rolls easily because it is round.",
+                "A flat eraser or book slides easily when pushed on a desk."
+              ],
+              "kn": [
+                "ಚೆಂಡು ದುಂಡಗಿರುವುದರಿಂದ ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ.",
+                "ಚಪ್ಪಟೆಯಾದ ಎರೇಸರ್ ಅಥವಾ ಪುಸ್ತಕವನ್ನು ಮೇಜಿನ ಮೇಲೆ ತಳ್ಳಿದಾಗ ಜಾರುತ್ತದೆ."
+              ]
+            },
+            "important_keywords": [
+              { "en": "Roll", "kn": "ಉರುಳು" },
+              { "en": "Slide", "kn": "ಜಾರು" },
+              { "en": "Flat", "kn": "ಚಪ್ಪಟೆ" },
+              { "en": "Round", "kn": "ದುಂಡಗೆ" }
+            ],
+            "real_life_examples": {
+              "en": [
+                "A marble or football rolling on the ground.",
+                "A wooden block or slate sliding down a gentle slope."
+              ],
+              "kn": [
+                "ನೆಲದ ಮೇಲೆ ಉರುಳುವ ಗೋಲಿ ಅಥವಾ ಫುಟ್‌ಬಾಲ್.",
+                "ಇಳಿಜಾರಿನಲ್ಲಿ ಜಾರುವ ಮರದ ತುಂಡು ಅಥವಾ ಸ್ಲೇಟ್."
+              ]
+            },
+            "revision_notes": {
+              "en": "Round surfaces roll; flat surfaces slide.",
+              "kn": "ದುಂಡಗಿನ ಮೇಲ್ಮೈಗಳು ಉರುಳುತ್ತವೆ; ಚಪ್ಪಟೆಯಾದ ಮೇಲ್ಮೈಗಳು ಜಾರುತ್ತವೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": {
+                  "en": "On a flat table, which moves by rolling and which moves by sliding: a round pencil or a flat duster?",
+                  "kn": "ಸಮತಟ್ಟಾದ ಮೇಜಿನ ಮೇಲೆ ದುಂಡಗಿನ ಪೆನ್ಸಿಲ್ ಮತ್ತು ಚಪ್ಪಟೆಯಾದ ಡಸ್ಟರ್ ಇಟ್ಟಾಗ ಯಾವುದು ಉರುಳುತ್ತದೆ ಮತ್ತು ಯಾವುದು ಜಾರುತ್ತದೆ?"
+                },
+                "solution_guide": {
+                  "en": "A round pencil rolls; a flat-faced duster slides.",
+                  "kn": "ದುಂಡಗಿನ ಪೆನ್ಸಿಲ್ ಉರುಳುತ್ತದೆ; ಚಪ್ಪಟೆಯಾದ ಡಸ್ಟರ್ ಜಾರುತ್ತದೆ."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": {
+            "en": "Why does a ball roll while a flat book slides?",
+            "kn": "ಚೆಂಡು ಏಕೆ ಉರುಳುತ್ತದೆ ಆದರೆ ಚಪ್ಪಟೆಯಾದ ಪುಸ್ತಕ ಏಕೆ ಜಾರುತ್ತದೆ?"
+          },
+          "a": {
+            "en": "A ball has a round or curved shape that rolls when pushed, whereas a flat book rests on a flat face and slides.",
+            "kn": "ಚೆಂಡಿಗೆ ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಆಕಾರವಿರುವುದರಿಂದ ತಳ್ಳಿದಾಗ ಉರುಳುತ್ತದೆ; ಚಪ್ಪಟೆಯಾದ ಪುಸ್ತಕದ ಮೇಲ್ಮೈ ಸಮತಟ್ಟಾಗಿರುವುದರಿಂದ ಜಾರುತ್ತದೆ."
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c1-m2-1",
+          "question": {
+            "en": "Which of these objects will ROLL easily?",
+            "kn": "ಈ ಕೆಳಗಿನ ಯಾವ ವಸ್ತುವು ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ (ROLL)?"
+          },
+          "options": [
+            { "en": "A ball", "kn": "ಚೆಂಡು" },
+            { "en": "A brick", "kn": "ಇಟ್ಟಿಗೆ" },
+            { "en": "A notebook", "kn": "ನೋಟ್‌ಬುಕ್" }
+          ],
+          "correct_index": 0,
+          "explanation": {
+            "en": "A ball is round, so it rolls easily.",
+            "kn": "ಚೆಂಡು ದುಂಡಗಿರುವುದರಿಂದ ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ."
+          }
+        }
+      ],
+      "verification": {
+        "class": 1,
+        "subject": "Mathematics",
+        "chapter_name": "Solids Around Us",
+        "academic_year": "2026-27",
+        "textbook_reference": "KTBS Class 1 Mathematics Textbook - Chapter 2: Solids Around Us (confirm current edition PDF at textbooks.karnataka.gov.in)",
+        "sources_consulted": [
+          "https://textbooks.karnataka.gov.in/textbooks/en",
+          "https://dsert.karnataka.gov.in/"
+        ],
+        "topics_verified": "Rolling vs. sliding motion of everyday shapes",
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23",
+        "unresolved_issues": "Confirm latest 2026-27 KTBS Class 1 English & Kannada medium PDF edition; complete native Kannada teacher review."
+      }
+    }
+  ]
+}
