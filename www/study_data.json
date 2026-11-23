@@ -1,11 +1,11 @@
 {
   "metadata": {
     "app": "Vidya Pathshala",
-    "board": "Karnataka State Board (KTBS / DSERT)",
+    "board": "Karnataka State Board (KTBS / DSERT / KSEAB)",
     "classes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "academic_year": "2026-27",
     "offline_first": true,
-    "copyright_note": "Original student study notes, summaries, examples, and practice questions aligned with official curriculum topics; not a reproduction of copyrighted textbook pages."
+    "copyright_note": "Original student study notes, definitions, examples, and practice questions; not a reproduction of copyrighted textbook pages."
   },
   "chapters": [
     {
@@ -13,152 +13,46 @@
       "class": 1,
       "subject": "Mathematics",
       "chapter_number": 1,
-      "chapter_title": {
-        "en": "Spatial Understanding",
-        "kn": "ಸ್ಥಾನಾವಕಾಶದ ಅರಿವು"
-      },
+      "chapter_title": { "en": "Spatial Understanding", "kn": "ಸ್ಥಾನಾವಕಾಶದ ಅರಿವು" },
       "summary": {
-        "en": "Spatial understanding helps learners describe where objects are placed around them—such as inside or outside, on top or at the bottom, and near or far—using everyday surroundings.",
-        "kn": "ಸ್ಥಾನಾವಕಾಶದ ಅರಿವು ನಮ್ಮ ಸುತ್ತಲಿನ ವಸ್ತುಗಳು ಎಲ್ಲಿವೆ ಎಂಬುದನ್ನು—ಒಳಗೆ ಅಥವಾ ಹೊರಗೆ, ಮೇಲೆ ಅಥವಾ ಕೆಳಗೆ, ಹತ್ತಿರ ಅಥವಾ ದೂರ—ದೈನಂದಿನ ಉದಾಹರಣೆಗಳ ಮೂಲಕ ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+        "en": "Describing positions of everyday objects such as inside/outside, top/bottom, and near/far.",
+        "kn": "ಒಳಗೆ/ಹೊರಗೆ, ಮೇಲೆ/ಕೆಳಗೆ ಮತ್ತು ಹತ್ತಿರ/ದೂರ ಮುಂತಾದ ಸ್ಥಾನಗಳನ್ನು ದೈನಂದಿನ ವಸ್ತುಗಳ ಮೂಲಕ ತಿಳಿಯುವುದು."
       },
       "topics": [
         {
           "topic_id": "t-c1-m1-01",
-          "topic_title": {
-            "en": "Inside and Outside",
-            "kn": "ಒಳಗೆ ಮತ್ತು ಹೊರಗೆ"
-          },
+          "topic_title": { "en": "Inside, Outside, Top, Bottom, Near & Far", "kn": "ಒಳಗೆ, ಹೊರಗೆ, ಮೇಲೆ, ಕೆಳಗೆ, ಹತ್ತಿರ ಮತ್ತು ದೂರ" },
           "learning_material": {
             "detailed_explanation": {
-              "en": "An object is 'inside' when it is enclosed within a boundary, box, room, or container. An object is 'outside' when it is beyond or on the outer side of that boundary.",
-              "kn": "ಒಂದು ವಸ್ತುವು ಗಡಿ, ಪೆಟ್ಟಿಗೆ, ಕೊಠಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಭಾಗದಲ್ಲಿದ್ದರೆ ಅದು 'ಒಳಗೆ' (Inside) ಇದೆ ಎನ್ನಲಾಗುತ್ತದೆ. ಆ ಗಡಿಯ ಹೊರಭಾಗದಲ್ಲಿದ್ದರೆ ಅದು 'ಹೊರಗೆ' (Outside) ಇದೆ ಎನ್ನಲಾಗುತ್ತದೆ."
+              "en": "Inside means within a boundary or container; outside means beyond it. Top and bottom show upper and lower positions; near and far show distance from a reference point.",
+              "kn": "ಗಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಗಿದ್ದರೆ 'ಒಳಗೆ'; ಹೊರಗಿದ್ದರೆ 'ಹೊರಗೆ'. ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ ಎತ್ತರ/ಸ್ಥಾನವನ್ನು ತೋರಿಸುತ್ತವೆ; ಹತ್ತಿರ ಮತ್ತು ದೂರ ಆಧಾರ ಬಿಂದುವಿನಿಂದ ಅಂತರವನ್ನು ತೋರಿಸುತ್ತವೆ."
             },
             "important_definitions": [
-              {
-                "term": { "en": "Inside", "kn": "ಒಳಗೆ" },
-                "definition": {
-                  "en": "Located within an enclosed space or boundary.",
-                  "kn": "ಒಂದು ಸುತ್ತುವರಿದ ಜಾಗ ಅಥವಾ ಗಡಿಯ ಒಳಗಿರುವ ಸ್ಥಾನ."
-                }
-              },
-              {
-                "term": { "en": "Outside", "kn": "ಹೊರಗೆ" },
-                "definition": {
-                  "en": "Located beyond or outside an enclosed space or boundary.",
-                  "kn": "ಒಂದು ಸುತ್ತುವರಿದ ಜಾಗ ಅಥವಾ ಗಡಿಯ ಹೊರಗಿರುವ ಸ್ಥಾನ."
-                }
-              }
+              { "term": { "en": "Inside", "kn": "ಒಳಗೆ" }, "definition": { "en": "Within a closed boundary or container.", "kn": "ಮುಚ್ಚಿದ ಗಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಗೆ." } },
+              { "term": { "en": "Outside", "kn": "ಹೊರಗೆ" }, "definition": { "en": "Beyond a closed boundary or container.", "kn": "ಮುಚ್ಚಿದ ಗಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಹೊರಗೆ." } }
             ],
             "chapter_notes": {
-              "en": [
-                "Look at the boundary of a room, basket, or school compound first.",
-                "Items kept inside a school bag are inside; a water bottle kept beside the bag on the floor is outside."
-              ],
-              "kn": [
-                "ಮೊದಲು ಕೊಠಡಿ, ಬುಟ್ಟಿ ಅಥವಾ ಶಾಲೆಯ ಆವರಣದ ಗಡಿಯನ್ನು ಗಮನಿಸಿ.",
-                "ಸ್ಕೂಲ್ ಬ್ಯಾಗ್ ಒಳಗೆ ಇಟ್ಟ ಪುಸ್ತಕಗಳು ಒಳಗೆ ಇರುತ್ತವೆ; ಬ್ಯಾಗ್ ಪಕ್ಕದಲ್ಲಿ ನೆಲದ ಮೇಲಿಟ್ಟ ಬಾಟಲಿ ಹೊರಗೆ ಇರುತ್ತದೆ."
-              ]
+              "en": ["Check the boundary or reference object first before deciding position."],
+              "kn": ["ಸ್ಥಾನವನ್ನು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಗಡಿ ಅಥವಾ ಆಧಾರ ವಸ್ತುವನ್ನು ಮೊದಲು ನೋಡಿ."]
             },
             "important_keywords": [
               { "en": "Inside", "kn": "ಒಳಗೆ" },
               { "en": "Outside", "kn": "ಹೊರಗೆ" },
-              { "en": "Boundary", "kn": "ಗಡಿ" }
-            ],
-            "real_life_examples": {
-              "en": [
-                "A calf tied inside a cowshed vs. a hen walking outside in the yard.",
-                "Chalk pieces inside a chalk box vs. a duster kept on the table outside the box."
-              ],
-              "kn": [
-                "ದನದ ಕೊಟ್ಟಿಗೆಯ ಒಳಗೆ ಇರುವ ಕರು ಮತ್ತು ಅಂಗಳದಲ್ಲಿ ಓಡಾಡುವ ಕೋಳಿ (ಹೊರಗೆ).",
-                "ಸೀಮೆಸುಣ್ಣದ ಪೆಟ್ಟಿಗೆಯ ಒಳಗಿರುವ ಸೀಮೆಸುಣ್ಣ ಮತ್ತು ಪೆಟ್ಟಿಗೆಯ ಹೊರಗೆ ಮೇಜಿನ ಮೇಲಿರುವ ಡಸ್ಟರ್."
-              ]
-            },
-            "revision_notes": {
-              "en": "Inside = enclosed within the boundary; Outside = not enclosed within the boundary.",
-              "kn": "ಒಳಗೆ = ಗಡಿಯ ಒಳಭಾಗದಲ್ಲಿರುವುದು; ಹೊರಗೆ = ಗಡಿಯ ಹೊರಭಾಗದಲ್ಲಿರುವುದು."
-            },
-            "practice_exercises": [
-              {
-                "prompt": {
-                  "en": "Name two things kept INSIDE your school bag and two things kept OUTSIDE your school bag.",
-                  "kn": "ನಿಮ್ಮ ಸ್ಕೂಲ್ ಬ್ಯಾಗ್‌ನ ಒಳಗೆ (INSIDE) ಇಡುವ ಎರಡು ವಸ್ತುಗಳು ಮತ್ತು ಹೊರಗೆ (OUTSIDE) ಇಡುವ ಎರಡು ವಸ್ತುಗಳನ್ನು ಹೆಸರಿಸಿ."
-                },
-                "solution_guide": {
-                  "en": "Inside: notebook, pencil box. Outside: umbrella, slippers/shoes.",
-                  "kn": "ಒಳಗೆ: ನೋಟ್‌ಬುಕ್, ಪೆನ್ಸಿಲ್ ಬಾಕ್ಸ್. ಹೊರಗೆ: ಕೊಡೆ, ಚಪ್ಪಲಿ/ಶೂ."
-                }
-              }
-            ]
-          }
-        },
-        {
-          "topic_id": "t-c1-m1-02",
-          "topic_title": {
-            "en": "Top and Bottom / Near and Far",
-            "kn": "ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ / ಹತ್ತಿರ ಮತ್ತು ದೂರ"
-          },
-          "learning_material": {
-            "detailed_explanation": {
-              "en": "'Top' refers to the highest position or upper surface, while 'bottom' refers to the lowest position or base. 'Near' means close to a chosen point, and 'far' means at a greater distance from that point.",
-              "kn": "'ಮೇಲೆ' (Top) ಎಂದರೆ ಅತ್ಯಂತ ಎತ್ತರದ ಸ್ಥಾನ ಅಥವಾ ಮೇಲ್ಭಾಗ; 'ಕೆಳಗೆ' (Bottom) ಎಂದರೆ ಅತ್ಯಂತ ಕೆಳಗಿನ ಸ್ಥಾನ ಅಥವಾ ತಳಭಾಗ. 'ಹತ್ತಿರ' (Near) ಎಂದರೆ ಆಯ್ದ ಬಿಂದುವಿಗೆ ಸಮೀಪದಲ್ಲಿರುವುದು; 'ದೂರ' (Far) ಎಂದರೆ ಹೆಚ್ಚು ಅಂತರದಲ್ಲಿರುವುದು."
-            },
-            "important_definitions": [
-              {
-                "term": { "en": "Near", "kn": "ಹತ್ತಿರ" },
-                "definition": {
-                  "en": "Close in distance to a given reference object or place.",
-                  "kn": "ಸೂಚಿಸಿದ ವಸ್ತು ಅಥವಾ ಸ್ಥಳಕ್ಕೆ ಕಡಿಮೆ ದೂರದಲ್ಲಿರುವುದು."
-                }
-              },
-              {
-                "term": { "en": "Far", "kn": "ದೂರ" },
-                "definition": {
-                  "en": "At a greater distance from a given reference object or place.",
-                  "kn": "ಸೂಚಿಸಿದ ವಸ್ತು ಅಥವಾ ಸ್ಥಳಕ್ಕೆ ಹೆಚ್ಚು ದೂರದಲ್ಲಿರುವುದು."
-                }
-              }
-            ],
-            "chapter_notes": {
-              "en": [
-                "Always check which object is the reference point before saying 'near' or 'far'.",
-                "On a shelf or staircase, the top step is higher than the bottom step."
-              ],
-              "kn": [
-                "'ಹತ್ತಿರ' ಅಥವಾ 'ದೂರ' ಎಂದು ಹೇಳುವ ಮೊದಲು ಯಾವ ವಸ್ತುವನ್ನು ಆಧಾರವಾಗಿ ಇಟ್ಟುಕೊಂಡಿದ್ದೇವೆ ಎಂಬುದನ್ನು ನೋಡಿ.",
-                "ಮೆಟ್ಟಿಲು ಅಥವಾ ಕಪಾಟಿನಲ್ಲಿ ಮೇಲಿನ ಹಂತವು ಕೆಳಗಿನ ಹಂತಕ್ಕಿಂತ ಎತ್ತರದಲ್ಲಿರುತ್ತದೆ."
-              ]
-            },
-            "important_keywords": [
-              { "en": "Top", "kn": "ಮೇಲೆ / ತುದಿ" },
-              { "en": "Bottom", "kn": "ಕೆಳಗೆ / ತಳ" },
               { "en": "Near", "kn": "ಹತ್ತಿರ" },
               { "en": "Far", "kn": "ದೂರ" }
             ],
             "real_life_examples": {
-              "en": [
-                "A bird sitting at the top of a tree vs. roots at the bottom under the soil.",
-                "A house near the bus stop vs. a farm far away from the bus stop."
-              ],
-              "kn": [
-                "ಮರದ ತುದಿಯಲ್ಲಿ (Top) ಕುಳಿತಿರುವ ಹಕ್ಕಿ ಮತ್ತು ಮಣ್ಣಿನ ಕೆಳಗಿರುವ (Bottom) ಬೇರುಗಳು.",
-                "ಬಸ್ ನಿಲ್ದಾಣದ ಹತ್ತಿರವಿರುವ (Near) ಮನೆ ಮತ್ತು ಬಸ್ ನಿಲ್ದಾಣದಿಂದ ದೂರವಿರುವ (Far) ಹೊಲ."
-              ]
+              "en": ["Books inside a school bag vs. a water bottle kept outside beside the bag."],
+              "kn": ["ಸ್ಕೂಲ್ ಬ್ಯಾಗ್ ಒಳಗಿರುವ ಪುಸ್ತಕಗಳು ಮತ್ತು ಬ್ಯಾಗ್ ಹೊರಗೆ ಇಟ್ಟ ನೀರಿನ ಬಾಟಲಿ."]
             },
             "revision_notes": {
-              "en": "Top vs. Bottom compares height/position; Near vs. Far compares distance from a reference point.",
-              "kn": "ಮೇಲೆ vs. ಕೆಳಗೆ ಎತ್ತರ/ಸ್ಥಾನವನ್ನು ಹೋಲಿಸುತ್ತದೆ; ಹತ್ತಿರ vs. ದೂರ ಆಧಾರ ಬಿಂದುವಿನಿಂದ ದೂರವನ್ನು ಹೋಲಿಸುತ್ತದೆ."
+              "en": "Inside = within boundary; Outside = outside boundary.",
+              "kn": "ಒಳಗೆ = ಗಡಿಯ ಒಳಗೆ; ಹೊರಗೆ = ಗಡಿಯ ಹೊರಗೆ."
             },
             "practice_exercises": [
               {
-                "prompt": {
-                  "en": "If you stand at the classroom door, is the blackboard near you or far from you?",
-                  "kn": "ನೀವು ತರಗತಿಯ ಬಾಗಿಲ ಬಳಿ ನಿಂತರೆ, ಕಪ್ಪು ಹಲಗೆ ನಿಮಗೆ ಹತ್ತಿರವಿದೆಯೇ ಅಥವಾ ದೂರವಿದೆಯೇ?"
-                },
-                "solution_guide": {
-                  "en": "Generally far from the door compared to a bench right next to the door.",
-                  "kn": "ಬಾಗಿಲ ಪಕ್ಕದ ಬೆಂಚ್‌ಗೆ ಹೋಲಿಸಿದರೆ ಕಪ್ಪು ಹಲಗೆ ಸಾಮಾನ್ಯವಾಗಿ ದೂರದಲ್ಲಿರುತ್ತದೆ."
-                }
+                "prompt": { "en": "Name one thing inside your school bag and one outside.", "kn": "ನಿಮ್ಮ ಸ್ಕೂಲ್ ಬ್ಯಾಗ್ ಒಳಗಿರುವ ಒಂದು ವಸ್ತು ಮತ್ತು ಹೊರಗಿರುವ ಒಂದು ವಸ್ತುವನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Inside: notebook; Outside: umbrella or shoes.", "kn": "ಒಳಗೆ: ನೋಟ್‌ಬುಕ್; ಹೊರಗೆ: ಕೊಡೆ ಅಥವಾ ಶೂ." }
               }
             ]
           }
@@ -166,50 +60,31 @@
       ],
       "important_qa": [
         {
-          "q": {
-            "en": "What is the difference between 'inside' and 'outside'?",
-            "kn": "'ಒಳಗೆ' (Inside) ಮತ್ತು 'ಹೊರಗೆ' (Outside) ಇವುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?"
-          },
-          "a": {
-            "en": "An object within a closed boundary or container is inside, while an object outside that boundary is outside.",
-            "kn": "ಮುಚ್ಚಿದ ಗಡಿ ಅಥವಾ ಪಾತ್ರೆಯ ಒಳಗಿರುವ ವಸ್ತುವು 'ಒಳಗೆ' ಇರುತ್ತದೆ; ಗಡಿಯ ಹೊರಗಿರುವ ವಸ್ತುವು 'ಹೊರಗೆ' ಇರುತ್ತದೆ."
-          }
+          "q": { "en": "What is the difference between inside and outside?", "kn": "'ಒಳಗೆ' ಮತ್ತು 'ಹೊರಗೆ' ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?" },
+          "a": { "en": "Inside is within an enclosed boundary; outside is beyond that boundary.", "kn": "ಒಳಗೆ ಎಂದರೆ ಮುಚ್ಚಿದ ಗಡಿಯ ಒಳಗೆ; ಹೊರಗೆ ಎಂದರೆ ಆ ಗಡಿಯ ಹೊರಗೆ." }
         }
       ],
       "quiz": [
         {
           "id": "q-c1-m1-1",
-          "question": {
-            "en": "Water poured into a glass is ___ the glass.",
-            "kn": "ಲೋಟಕ್ಕೆ ಸುರಿದ ನೀರು ಲೋಟದ ___ ಇದೆ."
-          },
-          "options": [
-            { "en": "Inside", "kn": "ಒಳಗೆ" },
-            { "en": "Outside", "kn": "ಹೊರಗೆ" },
-            { "en": "Far", "kn": "ದೂರ" }
-          ],
+          "question": { "en": "Water inside a glass is ___ the glass.", "kn": "ಲೋಟದಲ್ಲಿರುವ ನೀರು ಲೋಟದ ___ ಇದೆ." },
+          "options": [{ "en": "Inside", "kn": "ಒಳಗೆ" }, { "en": "Outside", "kn": "ಹೊರಗೆ" }, { "en": "Far", "kn": "ದೂರ" }],
           "correct_index": 0,
-          "explanation": {
-            "en": "Water held inside the glass walls is inside the glass.",
-            "kn": "ಲೋಟದ ಗೋಡೆಗಳ ಒಳಗೆ ಇರುವ ನೀರು ಲೋಟದ ಒಳಗೆ ಇರುತ್ತದೆ."
-          }
+          "explanation": { "en": "Water held inside the glass walls is inside.", "kn": "ಲೋಟದ ಗೋಡೆಗಳ ಒಳಗೆ ಇರುವ ನೀರು ಒಳಗೆ ಇರುತ್ತದೆ." }
         },
         {
           "id": "q-c1-m1-2",
-          "question": {
-            "en": "The ceiling fan in a room is near the ___ of the room.",
-            "kn": "ಕೊಠಡಿಯ ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ___ ಭಾಗದ ಹತ್ತಿರ ಇರುತ್ತದೆ."
-          },
-          "options": [
-            { "en": "Bottom", "kn": "ಕೆಳಗಿನ" },
-            { "en": "Top", "kn": "ಮೇಲಿನ" },
-            { "en": "Inside", "kn": "ಒಳಗಿನ" }
-          ],
+          "question": { "en": "A ceiling fan is near the ___ of a room.", "kn": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ___ ಭಾಗದ ಹತ್ತಿರ ಇರುತ್ತದೆ." },
+          "options": [{ "en": "Bottom", "kn": "ಕೆಳಗಿನ" }, { "en": "Top", "kn": "ಮೇಲಿನ" }, { "en": "Outside", "kn": "ಹೊರಗಿನ" }],
           "correct_index": 1,
-          "explanation": {
-            "en": "A ceiling fan hangs near the top (upper part) of a room.",
-            "kn": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ಮೇಲಿನ ಭಾಗದಲ್ಲಿರುತ್ತದೆ."
-          }
+          "explanation": { "en": "A ceiling fan is placed near the top of the room.", "kn": "ಸೀಲಿಂಗ್ ಫ್ಯಾನ್ ಕೊಠಡಿಯ ಮೇಲಿನ ಭಾಗದಲ್ಲಿರುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c1-m1-3",
+          "question": { "en": "Roots of a plant grow at the ___ under the soil.", "kn": "ಗಿಡದ ಬೇರುಗಳು ಮಣ್ಣಿನ ಕೆಳಗೆ ___ ಭಾಗದಲ್ಲಿ ಬೆಳೆಯುತ್ತವೆ." },
+          "options": [{ "en": "Bottom", "kn": "ಕೆಳಗಿನ" }, { "en": "Top", "kn": "ಮೇಲಿನ" }, { "en": "Inside a cloud", "kn": "ಮೋಡದ ಒಳಗೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Roots grow downward at the bottom under the soil.", "kn": "ಬೇರುಗಳು ಮಣ್ಣಿನ ಕೆಳಭಾಗದಲ್ಲಿ ಬೆಳೆಯುತ್ತವೆ." }
         }
       ],
       "verification": {
@@ -217,99 +92,55 @@
         "subject": "Mathematics",
         "chapter_name": "Spatial Understanding",
         "academic_year": "2026-27",
-        "textbook_reference": "KTBS Class 1 Mathematics Textbook - Chapter 1: Spatial Understanding (confirm current edition PDF at textbooks.karnataka.gov.in)",
-        "sources_consulted": [
-          "https://textbooks.karnataka.gov.in/textbooks/en",
-          "https://dsert.karnataka.gov.in/"
-        ],
-        "topics_verified": "Inside/outside and top/bottom/near/far spatial positions",
+        "textbook_reference": "KTBS Class 1 Mathematics (verify edition at textbooks.karnataka.gov.in)",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://dsert.karnataka.gov.in/"],
         "question_bank_status": "VERIFIED",
         "kannada_translation_status": "REVIEW REQUIRED",
-        "last_verification_date": "2026-11-23",
-        "unresolved_issues": "Confirm latest 2026-27 KTBS Class 1 English & Kannada medium PDF edition; complete native Kannada teacher review."
+        "last_verification_date": "2026-11-23"
       }
     },
     {
-      "id": "ktbs-c1-math-02",
+      "id": "ktbs-c1-evs-01",
       "class": 1,
-      "subject": "Mathematics",
-      "chapter_number": 2,
-      "chapter_title": {
-        "en": "Solids Around Us",
-        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಘನಾಕೃತಿಗಳು"
-      },
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Myself & Clean Surroundings", "kn": "ನಾನು ಮತ್ತು ಸ್ವಚ್ಛ ಪರಿಸರ" },
       "summary": {
-        "en": "Everyday objects have solid shapes and behave differently when pushed—some roll, some slide, and some both roll and slide.",
-        "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ವಸ್ತುಗಳು ವಿಭಿನ್ನ ಘನಾಕೃತಿಗಳನ್ನು ಹೊಂದಿವೆ; ತಳ್ಳಿದಾಗ ಕೆಲವು ಉರುಳುತ್ತವೆ, ಕೆಲವು ಜಾರುತ್ತವೆ ಮತ್ತು ಕೆಲವು ಉರುಳುವ ಹಾಗೂ ಜಾರುವ ಗುಣ ಹೊಂದಿರುತ್ತವೆ."
+        "en": "Basic personal habits, cleanliness at home and school, and keeping surroundings tidy.",
+        "kn": "ಮೂಲ ವೈಯಕ್ತಿಕ ಅಭ್ಯಾಸಗಳು, ಮನೆ ಮತ್ತು ಶಾಲೆಯಲ್ಲಿ ಸ್ವಚ್ಛತೆ ಹಾಗೂ ಪರಿಸರವನ್ನು ಸ್ವಚ್ಛವಾಗಿಡುವುದು."
       },
       "topics": [
         {
-          "topic_id": "t-c1-m2-01",
-          "topic_title": {
-            "en": "Rolling and Sliding Objects",
-            "kn": "ಉರುಳುವ ಮತ್ತು ಜಾರುವ ವಸ್ತುಗಳು"
-          },
+          "topic_id": "t-c1-e1-01",
+          "topic_title": { "en": "Using a Dustbin & Staying Healthy", "kn": "ಕಸದ ಬುಟ್ಟಿ ಬಳಕೆ ಮತ್ತು ಆರೋಗ್ಯ" },
           "learning_material": {
             "detailed_explanation": {
-              "en": "Round or curved surfaces allow objects like balls to roll smoothly. Flat surfaces allow objects like bricks or books to slide easily along a surface.",
-              "kn": "ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಮೇಲ್ಮೈ ಇರುವ ಚೆಂಡಿನಂತಹ ವಸ್ತುಗಳು ಸುಲಭವಾಗಿ ಉರುಳುತ್ತವೆ (Roll). ಚಪ್ಪಟೆಯಾದ ಮೇಲ್ಮೈ ಇರುವ ಇಟ್ಟಿಗೆ ಅಥವಾ ಪುಸ್ತಕದಂತಹ ವಸ್ತುಗಳು ಸುಲಭವಾಗಿ ಜಾರುತ್ತವೆ (Slide)."
+              "en": "Putting waste in a dustbin and keeping our classroom and home clean prevents germs and keeps everyone healthy.",
+              "kn": "ಕಸವನ್ನು ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ ಹಾಕುವುದು ಮತ್ತು ತರಗತಿ ಹಾಗೂ ಮನೆಯನ್ನು ಸ್ವಚ್ಛವಾಗಿಡುವುದು ಕ್ರಿಮಿಗಳನ್ನು ತಡೆದು ಎಲ್ಲರನ್ನೂ ಆರೋಗ್ಯವಾಗಿರಿಸುತ್ತದೆ."
             },
             "important_definitions": [
-              {
-                "term": { "en": "Roll", "kn": "ಉರುಳುವುದು" },
-                "definition": {
-                  "en": "To move forward by turning over and over on a curved or round surface.",
-                  "kn": "ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಮೇಲ್ಮೈಯಲ್ಲಿ ತಿರುಗುತ್ತಾ ಮುಂದಕ್ಕೆ ಸಾಗುವುದು."
-                }
-              },
-              {
-                "term": { "en": "Slide", "kn": "ಜಾರುವುದು" },
-                "definition": {
-                  "en": "To move smoothly along a surface without turning over.",
-                  "kn": "ತಿರುಗದೆ ಮೇಲ್ಮೈ ಮೇಲೆ ನೇರವಾಗಿ ಜಾರುತ್ತಾ ಸಾಗುವುದು."
-                }
-              }
+              { "term": { "en": "Cleanliness", "kn": "ಸ್ವಚ್ಛತೆ" }, "definition": { "en": "Keeping oneself and surroundings clean and free of waste.", "kn": "ತಮ್ಮನ್ನು ಮತ್ತು ಸುತ್ತಮುತ್ತಲಿನ ಜಾಗವನ್ನು ಸ್ವಚ್ಛವಾಗಿ ಇಟ್ಟುಕೊಳ್ಳುವುದು." } }
             ],
             "chapter_notes": {
-              "en": [
-                "A ball rolls easily because it is round.",
-                "A flat eraser or book slides easily when pushed on a desk."
-              ],
-              "kn": [
-                "ಚೆಂಡು ದುಂಡಗಿರುವುದರಿಂದ ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ.",
-                "ಚಪ್ಪಟೆಯಾದ ಎರೇಸರ್ ಅಥವಾ ಪುಸ್ತಕವನ್ನು ಮೇಜಿನ ಮೇಲೆ ತಳ್ಳಿದಾಗ ಜಾರುತ್ತದೆ."
-              ]
+              "en": ["Always throw wrappers and pencil shavings into a dustbin."],
+              "kn": ["ಕಾಗದದ ಚೂರು ಮತ್ತು ಪೆನ್ಸಿಲ್ ಸಿಪ್ಪೆಯನ್ನು ಯಾವಾಗಲೂ ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ ಹಾಕಿ."]
             },
             "important_keywords": [
-              { "en": "Roll", "kn": "ಉರುಳು" },
-              { "en": "Slide", "kn": "ಜಾರು" },
-              { "en": "Flat", "kn": "ಚಪ್ಪಟೆ" },
-              { "en": "Round", "kn": "ದುಂಡಗೆ" }
+              { "en": "Dustbin", "kn": "ಕಸದ ಬುಟ್ಟಿ" },
+              { "en": "Cleanliness", "kn": "ಸ್ವಚ್ಛತೆ" }
             ],
             "real_life_examples": {
-              "en": [
-                "A marble or football rolling on the ground.",
-                "A wooden block or slate sliding down a gentle slope."
-              ],
-              "kn": [
-                "ನೆಲದ ಮೇಲೆ ಉರುಳುವ ಗೋಲಿ ಅಥವಾ ಫುಟ್‌ಬಾಲ್.",
-                "ಇಳಿಜಾರಿನಲ್ಲಿ ಜಾರುವ ಮರದ ತುಂಡು ಅಥವಾ ಸ್ಲೇಟ್."
-              ]
+              "en": ["Disposing of snack wrappers in the school dustbin instead of on the ground."],
+              "kn": ["ತಿಂಡಿಯ ಕಾಗದವನ್ನು ನೆಲದ ಬದಲು ಶಾಲೆಯ ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ ಹಾಕುವುದು."]
             },
             "revision_notes": {
-              "en": "Round surfaces roll; flat surfaces slide.",
-              "kn": "ದುಂಡಗಿನ ಮೇಲ್ಮೈಗಳು ಉರುಳುತ್ತವೆ; ಚಪ್ಪಟೆಯಾದ ಮೇಲ್ಮೈಗಳು ಜಾರುತ್ತವೆ."
+              "en": "Waste goes in the dustbin; clean spaces stay healthy.",
+              "kn": "ಕಸವನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ಹಾಕಿ; ಸ್ವಚ್ಛ ಪರಿಸರ ಆರೋಗ್ಯ ನೀಡುತ್ತದೆ."
             },
             "practice_exercises": [
               {
-                "prompt": {
-                  "en": "On a flat table, which moves by rolling and which moves by sliding: a round pencil or a flat duster?",
-                  "kn": "ಸಮತಟ್ಟಾದ ಮೇಜಿನ ಮೇಲೆ ದುಂಡಗಿನ ಪೆನ್ಸಿಲ್ ಮತ್ತು ಚಪ್ಪಟೆಯಾದ ಡಸ್ಟರ್ ಇಟ್ಟಾಗ ಯಾವುದು ಉರುಳುತ್ತದೆ ಮತ್ತು ಯಾವುದು ಜಾರುತ್ತದೆ?"
-                },
-                "solution_guide": {
-                  "en": "A round pencil rolls; a flat-faced duster slides.",
-                  "kn": "ದುಂಡಗಿನ ಪೆನ್ಸಿಲ್ ಉರುಳುತ್ತದೆ; ಚಪ್ಪಟೆಯಾದ ಡಸ್ಟರ್ ಜಾರುತ್ತದೆ."
-                }
+                "prompt": { "en": "Where should waste paper be thrown?", "kn": "ವ್ಯರ್ಥ ಕಾಗದವನ್ನು ಎಲ್ಲಿ ಹಾಕಬೇಕು?" },
+                "solution_guide": { "en": "In a dustbin.", "kn": "ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ." }
               }
             ]
           }
@@ -317,50 +148,2157 @@
       ],
       "important_qa": [
         {
-          "q": {
-            "en": "Why does a ball roll while a flat book slides?",
-            "kn": "ಚೆಂಡು ಏಕೆ ಉರುಳುತ್ತದೆ ಆದರೆ ಚಪ್ಪಟೆಯಾದ ಪುಸ್ತಕ ಏಕೆ ಜಾರುತ್ತದೆ?"
-          },
-          "a": {
-            "en": "A ball has a round or curved shape that rolls when pushed, whereas a flat book rests on a flat face and slides.",
-            "kn": "ಚೆಂಡಿಗೆ ದುಂಡಗಿನ ಅಥವಾ ಬಾಗಿದ ಆಕಾರವಿರುವುದರಿಂದ ತಳ್ಳಿದಾಗ ಉರುಳುತ್ತದೆ; ಚಪ್ಪಟೆಯಾದ ಪುಸ್ತಕದ ಮೇಲ್ಮೈ ಸಮತಟ್ಟಾಗಿರುವುದರಿಂದ ಜಾರುತ್ತದೆ."
-          }
+          "q": { "en": "Why should we keep our surroundings clean?", "kn": "ನಮ್ಮ ಸುತ್ತಮುತ್ತಲನ್ನು ಏಕೆ ಸ್ವಚ್ಛವಾಗಿಡಬೇಕು?" },
+          "a": { "en": "To stay healthy and stop germs from spreading.", "kn": "ಆರೋಗ್ಯವಾಗಿರಲು ಮತ್ತು ಕ್ರಿಮಿಗಳು ಹರಡುವುದನ್ನು ತಡೆಯಲು." }
         }
       ],
       "quiz": [
         {
-          "id": "q-c1-m2-1",
-          "question": {
-            "en": "Which of these objects will ROLL easily?",
-            "kn": "ಈ ಕೆಳಗಿನ ಯಾವ ವಸ್ತುವು ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ (ROLL)?"
-          },
-          "options": [
-            { "en": "A ball", "kn": "ಚೆಂಡು" },
-            { "en": "A brick", "kn": "ಇಟ್ಟಿಗೆ" },
-            { "en": "A notebook", "kn": "ನೋಟ್‌ಬುಕ್" }
-          ],
+          "id": "q-c1-e1-1",
+          "question": { "en": "Where should litter be thrown?", "kn": "ಕಸವನ್ನು ಎಲ್ಲಿ ಹಾಕಬೇಕು?" },
+          "options": [{ "en": "Dustbin", "kn": "ಕಸದ ಬುಟ್ಟಿ" }, { "en": "Classroom floor", "kn": "ತರಗತಿಯ ನೆಲ" }, { "en": "Under the desk", "kn": "ಬೆಂಚ್ ಕೆಳಗೆ" }],
           "correct_index": 0,
-          "explanation": {
-            "en": "A ball is round, so it rolls easily.",
-            "kn": "ಚೆಂಡು ದುಂಡಗಿರುವುದರಿಂದ ಸುಲಭವಾಗಿ ಉರುಳುತ್ತದೆ."
-          }
+          "explanation": { "en": "Waste should always be put in a dustbin.", "kn": "ಕಸವನ್ನು ಯಾವಾಗಲೂ ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿ ಹಾಕಬೇಕು." }
+        },
+        {
+          "id": "q-c1-e1-2",
+          "question": { "en": "Keeping our surroundings clean helps us stay:", "kn": "ಸುತ್ತಮುತ್ತಲನ್ನು ಸ್ವಚ್ಛವಾಗಿಡುವುದರಿಂದ ನಾವು ಹೇಗಿರುತ್ತೇವೆ?" },
+          "options": [{ "en": "Healthy", "kn": "ಆರೋಗ್ಯವಾಗಿ" }, { "en": "Careless", "kn": "ಅಸಡ್ಡೆಯಿಂದ" }, { "en": "Noisy", "kn": "ಗದ್ದಲದಿಂದ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Clean surroundings help protect our health.", "kn": "ಸ್ವಚ್ಛ ಪರಿಸರವು ನಮ್ಮ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c1-e1-3",
+          "question": { "en": "What should you do with pencil shavings?", "kn": "ಪೆನ್ಸಿಲ್ ಸಿಪ್ಪೆಯನ್ನು ಏನು ಮಾಡಬೇಕು?" },
+          "options": [{ "en": "Put them in the dustbin", "kn": "ಕಸದ ಬುಟ್ಟಿಗೆ ಹಾಕಬೇಕು" }, { "en": "Scatter them on the floor", "kn": "ನೆಲದ ಮೇಲೆ ಚೆಲ್ಲಬೇಕು" }, { "en": "Hide them in books", "kn": "ಪುಸ್ತಕದಲ್ಲಿ ಇಡಬೇಕು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Shavings are waste and belong in the dustbin.", "kn": "ಪೆನ್ಸಿಲ್ ಸಿಪ್ಪೆಯನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ಹಾಕಬೇಕು." }
         }
       ],
       "verification": {
         "class": 1,
-        "subject": "Mathematics",
-        "chapter_name": "Solids Around Us",
+        "subject": "EVS",
+        "chapter_name": "Myself & Clean Surroundings",
         "academic_year": "2026-27",
-        "textbook_reference": "KTBS Class 1 Mathematics Textbook - Chapter 2: Solids Around Us (confirm current edition PDF at textbooks.karnataka.gov.in)",
-        "sources_consulted": [
-          "https://textbooks.karnataka.gov.in/textbooks/en",
-          "https://dsert.karnataka.gov.in/"
-        ],
-        "topics_verified": "Rolling vs. sliding motion of everyday shapes",
+        "textbook_reference": "Pending KTBS Class 1 EVS chapter confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://dsert.karnataka.gov.in/"],
         "question_bank_status": "VERIFIED",
         "kannada_translation_status": "REVIEW REQUIRED",
-        "last_verification_date": "2026-11-23",
-        "unresolved_issues": "Confirm latest 2026-27 KTBS Class 1 English & Kannada medium PDF edition; complete native Kannada teacher review."
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c1-eng-01",
+      "class": 1,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Everyday Greetings & Polite Words", "kn": "ದೈನಂದಿನ ಶುಭಾಶಯಗಳು ಮತ್ತು ಸಭ್ಯ ಪದಗಳು" },
+      "summary": {
+        "en": "Common greetings and polite words used at school and home with Kannada meanings.",
+        "kn": "ಶಾಲೆ ಮತ್ತು ಮನೆಯಲ್ಲಿ ಬಳಸುವ ಸಾಮಾನ್ಯ ಶುಭಾಶಯಗಳು ಹಾಗೂ ಸಭ್ಯ ಪದಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c1-eng1-01",
+          "topic_title": { "en": "Good Morning, Please & Thank You", "kn": "ಶುಭೋದಯ, ದಯವಿಟ್ಟು ಮತ್ತು ಧನ್ಯವಾದಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "We say 'Good morning' in the morning, 'Please' when making a polite request, and 'Thank you' when someone helps or gives something.",
+              "kn": "ಬೆಳಿಗ್ಗೆ 'Good morning' ಎನ್ನುತ್ತೇವೆ; ಸಭ್ಯವಾಗಿ ಕೇಳುವಾಗ 'Please' ಎನ್ನುತ್ತೇವೆ; ಯಾರಾದರೂ ಸಹಾಯ ಮಾಡಿದಾಗ ಅಥವಾ ಕೊಟ್ಟಾಗ 'Thank you' ಎನ್ನುತ್ತೇವೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Thank you", "kn": "ಧನ್ಯವಾದಗಳು" }, "definition": { "en": "Polite words used to show gratitude.", "kn": "ಕೃತಜ್ಞತೆ ಸಲ್ಲಿಸಲು ಬಳಸುವ ಸಭ್ಯ ಪದಗಳು." } }
+            ],
+            "chapter_notes": {
+              "en": ["Polite words show respect and kindness."],
+              "kn": ["ಸಭ್ಯ ಪದಗಳು ಗೌರವ ಮತ್ತು ಕರುಣೆಯನ್ನು ತೋರಿಸುತ್ತವೆ."]
+            },
+            "important_keywords": [
+              { "en": "Good morning", "kn": "ಶುಭೋದಯ" },
+              { "en": "Please", "kn": "ದಯವಿಟ್ಟು" },
+              { "en": "Thank you", "kn": "ಧನ್ಯವಾದಗಳು" }
+            ],
+            "real_life_examples": {
+              "en": ["Saying 'Good morning' to your teacher when entering class."],
+              "kn": ["ತರಗತಿಗೆ ಬಂದಾಗ ಶಿಕ್ಷಕರಿಗೆ 'Good morning' ಹೇಳುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Morning = Good morning; Request = Please; Thanks = Thank you.",
+              "kn": "ಬೆಳಿಗ್ಗೆ = Good morning; ವಿನಂತಿ = Please; ಧನ್ಯವಾದ = Thank you."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "What do you say when someone lends you a pencil?", "kn": "ಯಾರಾದರೂ ಪೆನ್ಸಿಲ್ ಕೊಟ್ಟಾಗ ಏನು ಹೇಳಬೇಕು?" },
+                "solution_guide": { "en": "Thank you.", "kn": "Thank you / ಧನ್ಯವಾದಗಳು." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "When do we say 'Good morning'?", "kn": "'Good morning' ಯಾವಾಗ ಹೇಳುತ್ತೇವೆ?" },
+          "a": { "en": "In the morning.", "kn": "ಬೆಳಗಿನ ಸಮಯದಲ್ಲಿ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c1-eng1-1",
+          "question": { "en": "Which word is used to say thanks?", "kn": "ಧನ್ಯವಾದ ಹೇಳಲು ಯಾವ ಪದ ಬಳಸುತ್ತೇವೆ?" },
+          "options": [{ "en": "Thank you", "kn": "Thank you" }, { "en": "Goodbye", "kn": "Goodbye" }, { "en": "No", "kn": "No" }],
+          "correct_index": 0,
+          "explanation": { "en": "'Thank you' expresses thanks.", "kn": "ಕೃತಜ್ಞತೆ ತಿಳಿಸಲು 'Thank you' ಬಳಸುತ್ತೇವೆ." }
+        },
+        {
+          "id": "q-c1-eng1-2",
+          "question": { "en": "Which greeting fits the morning?", "kn": "ಬೆಳಗಿನ ಸಮಯಕ್ಕೆ ಸರಿಯಾದ ಶುಭಾಶಯ ಯಾವುದು?" },
+          "options": [{ "en": "Good morning", "kn": "Good morning" }, { "en": "Good night", "kn": "Good night" }, { "en": "Sorry", "kn": "Sorry" }],
+          "correct_index": 0,
+          "explanation": { "en": "'Good morning' is used in the morning.", "kn": "ಬೆಳಿಗ್ಗೆ 'Good morning' ಹೇಳುತ್ತೇವೆ." }
+        },
+        {
+          "id": "q-c1-eng1-3",
+          "question": { "en": "Which polite word helps when asking for help?", "kn": "ಸಹಾಯ ಕೇಳುವಾಗ ಬಳಸುವ ಸಭ್ಯ ಪದ ಯಾವುದು?" },
+          "options": [{ "en": "Please", "kn": "Please" }, { "en": "Never", "kn": "Never" }, { "en": "Stop", "kn": "Stop" }],
+          "correct_index": 0,
+          "explanation": { "en": "'Please' is used to make a polite request.", "kn": "ಸಭ್ಯವಾಗಿ ವಿನಂತಿಸಲು 'Please' ಬಳಸುತ್ತೇವೆ." }
+        }
+      ],
+      "verification": {
+        "class": 1,
+        "subject": "English",
+        "chapter_name": "Everyday Greetings & Polite Words",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 1 English confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c2-math-01",
+      "class": 2,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Length & Size Comparison", "kn": "ಉದ್ದ ಮತ್ತು ಗಾತ್ರದ ಹೋಲಿಕೆ" },
+      "summary": {
+        "en": "Comparing longer and shorter objects from a common starting line.",
+        "kn": "ಒಂದೇ ಆರಂಭಿಕ ರೇಖೆಯಿಂದ ಉದ್ದ ಮತ್ತು ಚಿಕ್ಕ ವಸ್ತುಗಳನ್ನು ಹೋಲಿಸುವುದು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c2-m1-01",
+          "topic_title": { "en": "Longer and Shorter", "kn": "ಉದ್ದವಾದ ಮತ್ತು ಚಿಕ್ಕದಾದ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Place two objects side-by-side starting from the same baseline to see which is longer or shorter.",
+              "kn": "ಒಂದೇ ಆರಂಭದ ರೇಖೆಯಿಂದ ಎರಡು ವಸ್ತುಗಳನ್ನು ಪಕ್ಕಪಕ್ಕದಲ್ಲಿ ಇಟ್ಟು ಯಾವುದು ಉದ್ದ ಮತ್ತು ಯಾವುದು ಚಿಕ್ಕದು ಎಂದು ತಿಳಿಯುತ್ತೇವೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Length", "kn": "ಉದ್ದ" }, "definition": { "en": "Distance from one end of an object to the other end.", "kn": "ವಸ್ತುವಿನ ಒಂದು ತುದಿಯಿಂದ ಇನ್ನೊಂದು ತುದಿಗಿರುವ ಅಳತೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Always align one end before comparing lengths."],
+              "kn": ["ಉದ್ದ ಹೋಲಿಸುವ ಮೊದಲು ಒಂದು ತುದಿಯನ್ನು ಸಮನಾಗಿ ಇಡಿ."]
+            },
+            "important_keywords": [
+              { "en": "Longer", "kn": "ಉದ್ದವಾದ" },
+              { "en": "Shorter", "kn": "ಚಿಕ್ಕದಾದ" }
+            ],
+            "real_life_examples": {
+              "en": ["Comparing a 15 cm ruler with a 10 cm strip."],
+              "kn": ["15 ಸೆಂ.ಮೀ ಸ್ಕೇಲ್ ಮತ್ತು 10 ಸೆಂ.ಮೀ ಪಟ್ಟಿಯ ಹೋಲಿಕೆ."]
+            },
+            "revision_notes": {
+              "en": "15 cm is longer than 10 cm.",
+              "kn": "15 ಸೆಂ.ಮೀ 10 ಸೆಂ.ಮೀ ಗಿಂತ ಉದ್ದವಾಗಿದೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Which is longer: 15 cm or 9 cm?", "kn": "ಯಾವುದು ಉದ್ದ: 15 ಸೆಂ.ಮೀ ಅಥವಾ 9 ಸೆಂ.ಮೀ?" },
+                "solution_guide": { "en": "15 cm.", "kn": "15 ಸೆಂ.ಮೀ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Why align ends when comparing lengths?", "kn": "ಉದ್ದ ಹೋಲಿಸುವಾಗ ತುದಿಗಳನ್ನು ಏಕೆ ಸಮನಾಗಿ ಇಡಬೇಕು?" },
+          "a": { "en": "So both start from the exact same reference line.", "kn": "ಎರಡೂ ಒಂದೇ ಆರಂಭಿಕ ರೇಖೆಯಿಂದ ಪ್ರಾರಂಭವಾಗಲು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c2-m1-1",
+          "question": { "en": "14 cm is ___ than 10 cm.", "kn": "14 ಸೆಂ.ಮೀ ಎಂಬುದು 10 ಸೆಂ.ಮೀ ಗಿಂತ ___." },
+          "options": [{ "en": "Longer", "kn": "ಉದ್ದವಾಗಿದೆ" }, { "en": "Shorter", "kn": "ಚಿಕ್ಕದಾಗಿದೆ" }, { "en": "Equal", "kn": "ಸಮಾನವಾಗಿದೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "14 is greater than 10.", "kn": "14 ಎಂಬುದು 10 ಕ್ಕಿಂತ ಹೆಚ್ಚು." }
+        },
+        {
+          "id": "q-c2-m1-2",
+          "question": { "en": "6 cm is ___ than 12 cm.", "kn": "6 ಸೆಂ.ಮೀ ಎಂಬುದು 12 ಸೆಂ.ಮೀ ಗಿಂತ ___." },
+          "options": [{ "en": "Shorter", "kn": "ಚಿಕ್ಕದಾಗಿದೆ" }, { "en": "Longer", "kn": "ಉದ್ದವಾಗಿದೆ" }, { "en": "Wider", "kn": "ಅಗಲವಾಗಿದೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "6 is less than 12.", "kn": "6 ಎಂಬುದು 12 ಕ್ಕಿಂತ ಕಡಿಮೆ." }
+        },
+        {
+          "id": "q-c2-m1-3",
+          "question": { "en": "Before comparing two pencils side by side, you should:", "kn": "ಎರಡು ಪೆನ್ಸಿಲ್‌ಗಳನ್ನು ಹೋಲಿಸುವ ಮೊದಲು ನೀವು:" },
+          "options": [{ "en": "Line up one end evenly", "kn": "ಒಂದು ತುದಿಯನ್ನು ಸಮನಾಗಿ ಇಡಬೇಕು" }, { "en": "Break one in half", "kn": "ಒಂದನ್ನು ಮುರಿಯಬೇಕು" }, { "en": "Close your eyes", "kn": "ಕಣ್ಣು ಮುಚ್ಚಬೇಕು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Aligning starting ends makes comparison accurate.", "kn": "ಆರಂಭದ ತುದಿ ಸಮನಾಗಿದ್ದರೆ ಸರಿಯಾದ ಹೋಲಿಕೆ ಸಿಗುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 2,
+        "subject": "Mathematics",
+        "chapter_name": "Length & Size Comparison",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 2 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c2-evs-01",
+      "class": 2,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Healthy Food & Clean Water", "kn": "ಆರೋಗ್ಯಕರ ಆಹಾರ ಮತ್ತು ಶುದ್ಧ ನೀರು" },
+      "summary": {
+        "en": "Why clean drinking water, fruits, vegetables, and handwashing matter for good health.",
+        "kn": "ಉತ್ತಮ ಆರೋಗ್ಯಕ್ಕೆ ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು, ಹಣ್ಣು, ತರಕಾರಿ ಮತ್ತು ಕೈ ತೊಳೆಯುವಿಕೆಯ ಮಹತ್ವ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c2-e1-01",
+          "topic_title": { "en": "Safe Water & Healthy Habits", "kn": "ಸುರಕ್ಷಿತ ನೀರು ಮತ್ತು ಆರೋಗ್ಯಕರ ಅಭ್ಯಾಸಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Drinking safe water and eating fresh fruits and vegetables after washing hands keeps our body strong and healthy.",
+              "kn": "ಕೈ ತೊಳೆದ ನಂತರ ಶುದ್ಧ ನೀರು ಕುಡಿಯುವುದು ಮತ್ತು ತಾಜಾ ಹಣ್ಣು-ತರಕಾರಿ ತಿನ್ನುವುದು ದೇಹವನ್ನು ಬಲವಾಗಿ ಮತ್ತು ಆರೋಗ್ಯವಾಗಿಡುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Safe Drinking Water", "kn": "ಸುರಕ್ಷಿತ ಕುಡಿಯುವ ನೀರು" }, "definition": { "en": "Clean water free from dirt and harmful germs.", "kn": "ಕಸ ಮತ್ತು ಹಾನಿಕಾರಕ ಕ್ರಿಮಿಗಳಿಂದ ಮುಕ್ತವಾದ ಶುದ್ಧ ನೀರು." } }
+            ],
+            "chapter_notes": {
+              "en": ["Wash hands before and after meals."],
+              "kn": ["ಊಟಕ್ಕೆ ಮೊದಲು ಮತ್ತು ನಂತರ ಕೈ ತೊಳೆಯಿರಿ."]
+            },
+            "important_keywords": [
+              { "en": "Clean Water", "kn": "ಶುದ್ಧ ನೀರು" },
+              { "en": "Handwashing", "kn": "ಕೈ ತೊಳೆಯುವುದು" }
+            ],
+            "real_life_examples": {
+              "en": ["Washing fruits and hands before eating snacks."],
+              "kn": ["ತಿಂಡಿ ತಿನ್ನುವ ಮೊದಲು ಹಣ್ಣು ಮತ್ತು ಕೈ ತೊಳೆಯುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Clean water + fresh food + handwashing = good health.",
+              "kn": "ಶುದ್ಧ ನೀರು + ತಾಜಾ ಆಹಾರ + ಕೈ ತೊಳೆಯುವುದು = ಆರೋಗ್ಯ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name one healthy food group.", "kn": "ಒಂದು ಆರೋಗ್ಯಕರ ಆಹಾರ ಗುಂಪನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Fruits and vegetables.", "kn": "ಹಣ್ಣು ಮತ್ತು ತರಕಾರಿ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Why should we drink clean water?", "kn": "ನಾವು ಶುದ್ಧ ನೀರನ್ನು ಏಕೆ ಕುಡಿಯಬೇಕು?" },
+          "a": { "en": "To stay healthy and prevent illness.", "kn": "ಆರೋಗ್ಯವಾಗಿರಲು ಮತ್ತು ಕಾಯಿಲೆ ತಡೆಯಲು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c2-e1-1",
+          "question": { "en": "What should we do before eating?", "kn": "ಊಟ ಮಾಡುವ ಮೊದಲು ಏನು ಮಾಡಬೇಕು?" },
+          "options": [{ "en": "Wash hands", "kn": "ಕೈ ತೊಳೆಯಬೇಕು" }, { "en": "Skip water", "kn": "ನೀರು ಬಿಡಬೇಕು" }, { "en": "Play with mud and not wash", "kn": "ಕೈ ತೊಳೆಯದೆ ಇರುವುದು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Washing hands removes germs before eating.", "kn": "ಊಟಕ್ಕೆ ಮೊದಲು ಕೈ ತೊಳೆಯುವುದರಿಂದ ಕ್ರಿಮಿಗಳು ನಿವಾರಣೆಯಾಗುತ್ತವೆ." }
+        },
+        {
+          "id": "q-c2-e1-2",
+          "question": { "en": "Which is a healthy daily habit?", "kn": "ದೈನಂದಿನ ಆರೋಗ್ಯಕರ ಅಭ್ಯಾಸ ಯಾವುದು?" },
+          "options": [{ "en": "Drinking clean water", "kn": "ಶುದ್ಧ ನೀರು ಕುಡಿಯುವುದು" }, { "en": "Eating stale uncovered food", "kn": "ಮುಚ್ಚದ ಹಳಸಿದ ಆಹಾರ ತಿನ್ನುವುದು" }, { "en": "Never washing fruit", "kn": "ಹಣ್ಣು ತೊಳೆಯದೆ ತಿನ್ನುವುದು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Clean drinking water supports good health.", "kn": "ಶುದ್ಧ ಕುಡಿಯುವ ನೀರು ಆರೋಗ್ಯಕ್ಕೆ ಒಳ್ಳೆಯದು." }
+        },
+        {
+          "id": "q-c2-e1-3",
+          "question": { "en": "Fresh fruits and vegetables help the body stay:", "kn": "ತಾಜಾ ಹಣ್ಣು ಮತ್ತು ತರಕಾರಿಗಳು ದೇಹವನ್ನು ಹೇಗಿಡುತ್ತವೆ?" },
+          "options": [{ "en": "Healthy and active", "kn": "ಆರೋಗ್ಯವಾಗಿ ಮತ್ತು ಚಟುವಟಿಕೆಯಿಂದ" }, { "en": "Weak", "kn": "ದುರ್ಬಲವಾಗಿ" }, { "en": "Tired always", "kn": "ಯಾವಾಗಲೂ ಬಳಲಿದಂತೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Fresh fruits and vegetables provide helpful nutrients.", "kn": "ತಾಜಾ ಹಣ್ಣು-ತರಕಾರಿಗಳು ಪೋಷಕಾಂಶ ನೀಡುತ್ತವೆ." }
+        }
+      ],
+      "verification": {
+        "class": 2,
+        "subject": "EVS",
+        "chapter_name": "Healthy Food & Clean Water",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 2 EVS confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c3-math-01",
+      "class": 3,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Place Value & Addition", "kn": "ಸ್ಥಾನಬೆಲೆ ಮತ್ತು ಸಂಕಲನ" },
+      "summary": {
+        "en": "Tens and ones place value in two-digit numbers and addition.",
+        "kn": "ಎರಡಂಕಿಯ ಸಂಖ್ಯೆಗಳಲ್ಲಿ ಹತ್ತು ಮತ್ತು ಬಿಡಿ ಸ್ಥಾನಬೆಲೆ ಹಾಗೂ ಸಂಕಲನ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c3-m1-01",
+          "topic_title": { "en": "Tens and Ones", "kn": "ಹತ್ತುಗಳು ಮತ್ತು ಬಿಡಿಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "In 34, 3 is in the tens place (30) and 4 is in the ones place (4), so 30 + 4 = 34.",
+              "kn": "34 ರಲ್ಲಿ 3 ಹತ್ತರ ಸ್ಥಾನದಲ್ಲಿದೆ (30) ಮತ್ತು 4 ಬಿಡಿಯ ಸ್ಥಾನದಲ್ಲಿದೆ (4); 30 + 4 = 34."
+            },
+            "important_definitions": [
+              { "term": { "en": "Place Value", "kn": "ಸ್ಥಾನಬೆಲೆ" }, "definition": { "en": "Value of a digit based on its position in a number.", "kn": "ಸಂಖ್ಯೆಯಲ್ಲಿ ಅಂಕಿಯ ಸ್ಥಾನಕ್ಕೆ ತಕ್ಕ ಬೆಲೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["1 ten = 10 ones."],
+              "kn": ["1 ಹತ್ತು = 10 ಬಿಡಿಗಳು."]
+            },
+            "important_keywords": [
+              { "en": "Tens", "kn": "ಹತ್ತುಗಳು" },
+              { "en": "Ones", "kn": "ಬಿಡಿಗಳು" }
+            ],
+            "real_life_examples": {
+              "en": ["2 bundles of 10 sticks plus 5 single sticks = 25."],
+              "kn": ["10ರ 2 ಕಟ್ಟು ಮತ್ತು 5 ಬಿಡಿ ಕಡ್ಡಿಗಳು = 25."]
+            },
+            "revision_notes": {
+              "en": "25 = 20 + 5.",
+              "kn": "25 = 20 + 5."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "What is the place value of 5 in 52?", "kn": "52 ರಲ್ಲಿ 5ರ ಸ್ಥಾನಬೆಲೆ ಎಷ್ಟು?" },
+                "solution_guide": { "en": "50.", "kn": "50." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is 20 + 7?", "kn": "20 + 7 ಎಷ್ಟು?" },
+          "a": { "en": "27.", "kn": "27." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c3-m1-1",
+          "question": { "en": "What is 30 + 4?", "kn": "30 + 4 ಎಷ್ಟು?" },
+          "options": [{ "en": "34", "kn": "34" }, { "en": "43", "kn": "43" }, { "en": "7", "kn": "7" }],
+          "correct_index": 0,
+          "explanation": { "en": "3 tens and 4 ones form 34.", "kn": "3 ಹತ್ತು ಮತ್ತು 4 ಬಿಡಿ ಸೇರಿ 34." }
+        },
+        {
+          "id": "q-c3-m1-2",
+          "question": { "en": "How many ones make 1 ten?", "kn": "1 ಹತ್ತಾಗಲು ಎಷ್ಟು ಬಿಡಿಗಳು ಬೇಕು?" },
+          "options": [{ "en": "10", "kn": "10" }, { "en": "5", "kn": "5" }, { "en": "2", "kn": "2" }],
+          "correct_index": 0,
+          "explanation": { "en": "1 ten equals 10 ones.", "kn": "1 ಹತ್ತು ಎಂದರೆ 10 ಬಿಡಿಗಳು." }
+        },
+        {
+          "id": "q-c3-m1-3",
+          "question": { "en": "In 52, the value of 5 is:", "kn": "52 ಸಂಖ್ಯೆಯಲ್ಲಿ 5ರ ಬೆಲೆ:" },
+          "options": [{ "en": "50", "kn": "50" }, { "en": "5", "kn": "5" }, { "en": "2", "kn": "2" }],
+          "correct_index": 0,
+          "explanation": { "en": "5 is in the tens place, so its value is 50.", "kn": "5 ಹತ್ತರ ಸ್ಥಾನದಲ್ಲಿದೆ, ಆದ್ದರಿಂದ ಬೆಲೆ 50." }
+        }
+      ],
+      "verification": {
+        "class": 3,
+        "subject": "Mathematics",
+        "chapter_name": "Place Value & Addition",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 3 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c3-evs-01",
+      "class": 3,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Plants Around Us", "kn": "ನಮ್ಮ ಸುತ್ತಲಿನ ಸಸ್ಯಗಳು" },
+      "summary": {
+        "en": "Main parts of a plant and what plants need to grow.",
+        "kn": "ಸಸ್ಯದ ಮುಖ್ಯ ಭಾಗಗಳು ಮತ್ತು ಸಸ್ಯ ಬೆಳೆಯಲು ಬೇಕಾಗುವ ಅಂಶಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c3-e1-01",
+          "topic_title": { "en": "Roots, Stem, Leaves & Growth", "kn": "ಬೇರು, ಕಾಂಡ, ಎಲೆ ಮತ್ತು ಬೆಳವಣಿಗೆ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Plants have roots, stem, leaves, flowers, and fruits, and need water, air, and sunlight to grow.",
+              "kn": "ಸಸ್ಯಗಳಿಗೆ ಬೇರು, ಕಾಂಡ, ಎಲೆ, ಹೂವು ಮತ್ತು ಹಣ್ಣುಗಳಿವೆ; ಬೆಳೆಯಲು ನೀರು, ಗಾಳಿ ಮತ್ತು ಸೂರ್ಯನ ಬೆಳಕು ಬೇಕು."
+            },
+            "important_definitions": [
+              { "term": { "en": "Root", "kn": "ಬೇರು" }, "definition": { "en": "Part usually growing under the soil that anchors the plant.", "kn": "ಸಾಮಾನ್ಯವಾಗಿ ಮಣ್ಣಿನ ಕೆಳಗೆ ಬೆಳೆದು ಗಿಡವನ್ನು ಹಿಡಿದಿಡುವ ಭಾಗ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Do not pluck leaves and flowers unnecessarily."],
+              "kn": ["ಅನಗತ್ಯವಾಗಿ ಎಲೆ ಮತ್ತು ಹೂವುಗಳನ್ನು ಕೀಳಬೇಡಿ."]
+            },
+            "important_keywords": [
+              { "en": "Root", "kn": "ಬೇರು" },
+              { "en": "Stem", "kn": "ಕಾಂಡ" },
+              { "en": "Leaf", "kn": "ಎಲೆ" }
+            ],
+            "real_life_examples": {
+              "en": ["Watering potted or garden plants regularly."],
+              "kn": ["ಕುಂಡ ಅಥವಾ ತೋಟದ ಗಿಡಗಳಿಗೆ ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Plants need water, air, and sunlight.",
+              "kn": "ಸಸ್ಯಗಳಿಗೆ ನೀರು, ಗಾಳಿ ಮತ್ತು ಸೂರ್ಯನ ಬೆಳಕು ಬೇಕು."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name two parts of a plant.", "kn": "ಸಸ್ಯದ ಎರಡು ಭಾಗಗಳನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Root and leaf.", "kn": "ಬೇರು ಮತ್ತು ಎಲೆ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What do plants need to grow?", "kn": "ಸಸ್ಯಗಳು ಬೆಳೆಯಲು ಏನು ಬೇಕು?" },
+          "a": { "en": "Water, air, and sunlight.", "kn": "ನೀರು, ಗಾಳಿ ಮತ್ತು ಸೂರ್ಯನ ಬೆಳಕು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c3-e1-1",
+          "question": { "en": "Which part usually grows below the soil?", "kn": "ಸಾಮಾನ್ಯವಾಗಿ ಮಣ್ಣಿನ ಕೆಳಗೆ ಬೆಳೆಯುವ ಭಾಗ ಯಾವುದು?" },
+          "options": [{ "en": "Root", "kn": "ಬೇರು" }, { "en": "Flower", "kn": "ಹೂವು" }, { "en": "Fruit", "kn": "ಹಣ್ಣು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Roots grow under the soil.", "kn": "ಬೇರುಗಳು ಮಣ್ಣಿನ ಕೆಳಗೆ ಬೆಳೆಯುತ್ತವೆ." }
+        },
+        {
+          "id": "q-c3-e1-2",
+          "question": { "en": "What do plants need along with water and air to grow?", "kn": "ಬೆಳೆಯಲು ನೀರು ಮತ್ತು ಗಾಳಿಯ ಜೊತೆಗೆ ಸಸ್ಯಗಳಿಗೆ ಏನು ಬೇಕು?" },
+          "options": [{ "en": "Sunlight", "kn": "ಸೂರ್ಯನ ಬೆಳಕು" }, { "en": "Plastic", "kn": "ಪ್ಲಾಸ್ಟಿಕ್" }, { "en": "Salt water", "kn": "ಉಪ್ಪು ನೀರು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Plants need sunlight, water, and air.", "kn": "ಸಸ್ಯಗಳಿಗೆ ಸೂರ್ಯನ ಬೆಳಕು, ನೀರು ಮತ್ತು ಗಾಳಿ ಅಗತ್ಯ." }
+        },
+        {
+          "id": "q-c3-e1-3",
+          "question": { "en": "Which is a part of a plant?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಸಸ್ಯದ ಭಾಗ?" },
+          "options": [{ "en": "Stem", "kn": "ಕಾಂಡ" }, { "en": "Eraser", "kn": "ಎರೇಸರ್" }, { "en": "Brick", "kn": "ಇಟ್ಟಿಗೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Stem is a plant part.", "kn": "ಕಾಂಡವು ಸಸ್ಯದ ಒಂದು ಭಾಗವಾಗಿದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 3,
+        "subject": "EVS",
+        "chapter_name": "Plants Around Us",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 3 EVS confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c4-math-01",
+      "class": 4,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Multiplication & Equal Groups", "kn": "ಗುಣಾಕಾರ ಮತ್ತು ಸಮಾನ ಗುಂಪುಗಳು" },
+      "summary": {
+        "en": "Multiplication as repeated addition and finding products.",
+        "kn": "ಪುನರಾವರ್ತಿತ ಸಂಕಲನವಾಗಿ ಗುಣಾಕಾರ ಮತ್ತು ಗುಣಲಬ್ಧ ಕಂಡುಹಿಡಿಯುವುದು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c4-m1-01",
+          "topic_title": { "en": "Repeated Addition", "kn": "ಪುನರಾವರ್ತಿತ ಸಂಕಲನ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "4 × 3 means adding 4 three times: 4 + 4 + 4 = 12.",
+              "kn": "4 × 3 ಎಂದರೆ 4 ಅನ್ನು ಮೂರು ಬಾರಿ ಕೂಡುವುದು: 4 + 4 + 4 = 12."
+            },
+            "important_definitions": [
+              { "term": { "en": "Product", "kn": "ಗುಣಲಬ್ಧ" }, "definition": { "en": "The result obtained by multiplying numbers.", "kn": "ಸಂಖ್ಯೆಗಳನ್ನು ಗುಣಿಸಿದಾಗ ಬರುವ ಉತ್ತರ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Any number multiplied by 0 equals 0."],
+              "kn": ["ಯಾವುದೇ ಸಂಖ್ಯೆಯನ್ನು 0 ರಿಂದ ಗುಣಿಸಿದರೆ 0 ಬರುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Multiplication", "kn": "ಗುಣಾಕಾರ" },
+              { "en": "Product", "kn": "ಗುಣಲಬ್ಧ" }
+            ],
+            "real_life_examples": {
+              "en": ["3 boxes of 6 pencils = 18 pencils."],
+              "kn": ["ತಲಾ 6 ಪೆನ್ಸಿಲ್ ಇರುವ 3 ಪೆಟ್ಟಿಗೆಗಳು = 18 ಪೆನ್ಸಿಲ್‌ಗಳು."]
+            },
+            "revision_notes": {
+              "en": "5 × 4 = 20.",
+              "kn": "5 × 4 = 20."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Find 6 × 3.", "kn": "6 × 3 ಕಂಡುಹಿಡಿಯಿರಿ." },
+                "solution_guide": { "en": "18.", "kn": "18." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is 7 × 2?", "kn": "7 × 2 ಎಷ್ಟು?" },
+          "a": { "en": "14.", "kn": "14." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c4-m1-1",
+          "question": { "en": "What is 5 × 4?", "kn": "5 × 4 ಎಷ್ಟು?" },
+          "options": [{ "en": "20", "kn": "20" }, { "en": "9", "kn": "9" }, { "en": "15", "kn": "15" }],
+          "correct_index": 0,
+          "explanation": { "en": "5 + 5 + 5 + 5 = 20.", "kn": "5 + 5 + 5 + 5 = 20." }
+        },
+        {
+          "id": "q-c4-m1-2",
+          "question": { "en": "What is 6 × 3?", "kn": "6 × 3 ಎಷ್ಟು?" },
+          "options": [{ "en": "18", "kn": "18" }, { "en": "9", "kn": "9" }, { "en": "12", "kn": "12" }],
+          "correct_index": 0,
+          "explanation": { "en": "6 + 6 + 6 = 18.", "kn": "6 + 6 + 6 = 18." }
+        },
+        {
+          "id": "q-c4-m1-3",
+          "question": { "en": "Any number multiplied by 0 gives:", "kn": "ಯಾವುದೇ ಸಂಖ್ಯೆಯನ್ನು 0 ರಿಂದ ಗುಣಿಸಿದರೆ ಬರುವುದು:" },
+          "options": [{ "en": "0", "kn": "0" }, { "en": "1", "kn": "1" }, { "en": "10", "kn": "10" }],
+          "correct_index": 0,
+          "explanation": { "en": "Multiplication by zero always equals 0.", "kn": "ಯಾವುದೇ ಸಂಖ್ಯೆಯನ್ನು 0 ರಿಂದ ಗುಣಿಸಿದರೆ ಉತ್ತರ 0." }
+        }
+      ],
+      "verification": {
+        "class": 4,
+        "subject": "Mathematics",
+        "chapter_name": "Multiplication & Equal Groups",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 4 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c4-evs-01",
+      "class": 4,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Water Sources & Conservation", "kn": "ನೀರಿನ ಮೂಲಗಳು ಮತ್ತು ಸಂರಕ್ಷಣೆ" },
+      "summary": {
+        "en": "Sources of water and simple daily ways to conserve water.",
+        "kn": "ನೀರಿನ ಮೂಲಗಳು ಮತ್ತು ನೀರು ಉಳಿಸುವ ದೈನಂದಿನ ವಿಧಾನಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c4-e1-01",
+          "topic_title": { "en": "Saving Water Every Day", "kn": "ಪ್ರತಿದಿನ ನೀರನ್ನು ಉಳಿಸುವುದು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Fresh water is limited, so turning off taps after use and fixing leaks helps conserve water.",
+              "kn": "ಸಿಹಿ ನೀರು ಸೀಮಿತವಾಗಿರುವುದರಿಂದ ಬಳಕೆಯ ನಂತರ ನಲ್ಲಿಗಳನ್ನು ಮುಚ್ಚುವುದು ಮತ್ತು ಸೋರಿಕೆ ಸರಿಪಡಿಸುವುದು ನೀರನ್ನು ಉಳಿಸುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Water Conservation", "kn": "ಜಲ ಸಂರಕ್ಷಣೆ" }, "definition": { "en": "Careful use and protection of water resources.", "kn": "ನೀರಿನ ಸಂಪನ್ಮೂಲಗಳ ಜಾಗರೂಕ ಬಳಕೆ ಮತ್ತು ರಕ್ಷಣೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Close taps tightly after use."],
+              "kn": ["ಬಳಕೆಯ ನಂತರ ನಲ್ಲಿಗಳನ್ನು ಗಟ್ಟಿಯಾಗಿ ಮುಚ್ಚಿ."]
+            },
+            "important_keywords": [
+              { "en": "Conservation", "kn": "ಸಂರಕ್ಷಣೆ" },
+              { "en": "Rainfall", "kn": "ಮಳೆ" }
+            ],
+            "real_life_examples": {
+              "en": ["Using a bucket instead of a running hose."],
+              "kn": ["ನಿರಂತರ ಪೈಪ್ ಬದಲು ಬಕೆಟ್ ಬಳಸುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Save every drop of water.",
+              "kn": "ಪ್ರತಿ ನೀರಿನ ಹನಿಯನ್ನೂ ಉಳಿಸಿ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name one source of water.", "kn": "ನೀರಿನ ಒಂದು ಮೂಲವನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Rain, river, lake, or well.", "kn": "ಮಳೆ, ನದಿ, ಕೆರೆ ಅಥವಾ ಬಾವಿ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Why should we conserve water?", "kn": "ನಾವು ನೀರನ್ನು ಏಕೆ ಸಂರಕ್ಷಿಸಬೇಕು?" },
+          "a": { "en": "Because usable fresh water is limited.", "kn": "ಬಳಸಬಹುದಾದ ಶುದ್ಧ ನೀರು ಸೀಮಿತವಾಗಿರುವುದರಿಂದ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c4-e1-1",
+          "question": { "en": "Which habit helps save water?", "kn": "ನೀರು ಉಳಿಸಲು ಸಹಾಯ ಮಾಡುವ ಅಭ್ಯಾಸ ಯಾವುದು?" },
+          "options": [{ "en": "Closing taps properly", "kn": "ನಲ್ಲಿಗಳನ್ನು ಸರಿಯಾಗಿ ಮುಚ್ಚುವುದು" }, { "en": "Leaving taps dripping", "kn": "ನಲ್ಲಿಯನ್ನು ಹಾಗೆಯೇ ಬಿಡುವುದು" }, { "en": "Wasting water on purpose", "kn": "ನೀರನ್ನು ಪೋಲು ಮಾಡುವುದು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Closing taps prevents unnecessary water loss.", "kn": "ನಲ್ಲಿ ಮುಚ್ಚುವುದರಿಂದ ನೀರು ಪೋಲಾಗುವುದು ತಪ್ಪುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c4-e1-2",
+          "question": { "en": "Which is a natural source of water?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ನೈಸರ್ಗಿಕ ನೀರಿನ ಮೂಲ?" },
+          "options": [{ "en": "Rain", "kn": "ಮಳೆ" }, { "en": "Plastic bottle", "kn": "ಪ್ಲಾಸ್ಟಿಕ್ ಬಾಟಲಿ" }, { "en": "Glass tumbler", "kn": "ಗಾಜಿನ ಲೋಟ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Rain is a natural source of water.", "kn": "ಮಳೆಯು ನೈಸರ್ಗಿಕ ನೀರಿನ ಮೂಲವಾಗಿದೆ." }
+        },
+        {
+          "id": "q-c4-e1-3",
+          "question": { "en": "Why should we fix leaking taps?", "kn": "ಸೋರುವ ನಲ್ಲಿಗಳನ್ನು ಏಕೆ ಸರಿಪಡಿಸಬೇಕು?" },
+          "options": [{ "en": "To stop wasting clean water", "kn": "ಶುದ್ಧ ನೀರು ಪೋಲಾಗುವುದನ್ನು ತಡೆಯಲು" }, { "en": "To make noise", "kn": "ಶಬ್ದ ಮಾಡಲು" }, { "en": "To flood the floor", "kn": "ನೆಲ ಒದ್ದೆ ಮಾಡಲು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Fixing leaks saves water over time.", "kn": "ಸೋರಿಕೆ ಸರಿಪಡಿಸುವುದರಿಂದ ನೀರು ಉಳಿಯುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 4,
+        "subject": "EVS",
+        "chapter_name": "Water Sources & Conservation",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 4 EVS confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c5-math-01",
+      "class": 5,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Fractions: Halves & Quarters", "kn": "ಭಿನ್ನರಾಶಿಗಳು: ಅರ್ಧ ಮತ್ತು ಕಾಲು ಭಾಗ" },
+      "summary": {
+        "en": "Finding halves and quarters of equal wholes.",
+        "kn": "ಸಮಾನ ಭಾಗಗಳ ಅರ್ಧ ಮತ್ತು ಕಾಲು ಭಾಗಗಳನ್ನು ಕಂಡುಹಿಡಿಯುವುದು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c5-m1-01",
+          "topic_title": { "en": "Half and Quarter of a Whole", "kn": "ಸಂಪೂರ್ಣದ ಅರ್ಧ ಮತ್ತು ಕಾಲು ಭಾಗ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "2 equal halves make 1 whole; 4 equal quarters make 1 whole.",
+              "kn": "2 ಸಮ ಅರ್ಧ ಭಾಗಗಳು 1 ಪೂರ್ಣ; 4 ಸಮ ಕಾಲು ಭಾಗಗಳು 1 ಪೂರ್ಣ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Fraction", "kn": "ಭಿನ್ನರಾಶಿ" }, "definition": { "en": "Represents part of an equally divided whole.", "kn": "ಸಮವಾಗಿ ವಿಭಜಿಸಿದ ಪೂರ್ಣದ ಒಂದು ಭಾಗ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Half of 20 is 10; half of 16 is 8."],
+              "kn": ["20 ರ ಅರ್ಧ 10; 16 ರ ಅರ್ಧ 8."]
+            },
+            "important_keywords": [
+              { "en": "Fraction", "kn": "ಭಿನ್ನರಾಶಿ" },
+              { "en": "Quarter", "kn": "ಕಾಲು ಭಾಗ" }
+            ],
+            "real_life_examples": {
+              "en": ["Sharing a roti equally into 2 halves."],
+              "kn": ["ರೊಟ್ಟಿಯನ್ನು 2 ಸಮ ಅರ್ಧ ಭಾಗ ಮಾಡುವುದು."]
+            },
+            "revision_notes": {
+              "en": "4 quarters = 1 whole.",
+              "kn": "4 ಕಾಲು ಭಾಗ = 1 ಪೂರ್ಣ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "What is half of 20?", "kn": "20 ರ ಅರ್ಧ ಎಷ್ಟು?" },
+                "solution_guide": { "en": "10.", "kn": "10." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "How many quarters make one whole?", "kn": "ಒಂದು ಪೂರ್ಣವಾಗಲು ಎಷ್ಟು ಕಾಲು ಭಾಗಗಳು ಬೇಕು?" },
+          "a": { "en": "4 quarters.", "kn": "4 ಕಾಲು ಭಾಗಗಳು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c5-m1-1",
+          "question": { "en": "What is half of 16?", "kn": "16 ರ ಅರ್ಧ ಎಷ್ಟು?" },
+          "options": [{ "en": "8", "kn": "8" }, { "en": "4", "kn": "4" }, { "en": "32", "kn": "32" }],
+          "correct_index": 0,
+          "explanation": { "en": "16 divided by 2 equals 8.", "kn": "16 ಅನ್ನು 2 ರಿಂದ ಭಾಗಿಸಿದರೆ 8." }
+        },
+        {
+          "id": "q-c5-m1-2",
+          "question": { "en": "How many quarters make 1 whole?", "kn": "1 ಪೂರ್ಣವಾಗಲು ಎಷ್ಟು ಕಾಲು ಭಾಗಗಳು ಬೇಕು?" },
+          "options": [{ "en": "4", "kn": "4" }, { "en": "2", "kn": "2" }, { "en": "6", "kn": "6" }],
+          "correct_index": 0,
+          "explanation": { "en": "Four 1/4 parts make 1 whole.", "kn": "ನಾಲ್ಕು 1/4 ಭಾಗಗಳು ಸೇರಿ 1 ಪೂರ್ಣ." }
+        },
+        {
+          "id": "q-c5-m1-3",
+          "question": { "en": "What is half of 20?", "kn": "20 ರ ಅರ್ಧ ಎಷ್ಟು?" },
+          "options": [{ "en": "10", "kn": "10" }, { "en": "5", "kn": "5" }, { "en": "40", "kn": "40" }],
+          "correct_index": 0,
+          "explanation": { "en": "20 ÷ 2 = 10.", "kn": "20 ÷ 2 = 10." }
+        }
+      ],
+      "verification": {
+        "class": 5,
+        "subject": "Mathematics",
+        "chapter_name": "Fractions: Halves & Quarters",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 5 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c5-evs-01",
+      "class": 5,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Air & Moving Air (Wind)", "kn": "ಗಾಳಿ ಮತ್ತು ಬೀಸುವ ಗಾಳಿ" },
+      "summary": {
+        "en": "Properties of air, occupying space, and moving air called wind.",
+        "kn": "ಗಾಳಿಯ ಗುಣಗಳು, ಸ್ಥಳ ಆಕ್ರಮಿಸುವಿಕೆ ಮತ್ತು ಚಲಿಸುವ ಗಾಳಿ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c5-e1-01",
+          "topic_title": { "en": "Air Occupies Space & Wind", "kn": "ಗಾಳಿಯ ಸ್ಥಳ ಆಕ್ರಮಿಸುವಿಕೆ ಮತ್ತು ಗಾಳಿ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Air surrounds us, occupies space, and moving air is called wind.",
+              "kn": "ಗಾಳಿಯು ನಮ್ಮ ಸುತ್ತಲೂ ಇದೆ, ಸ್ಥಳ ಆಕ್ರಮಿಸುತ್ತದೆ ಮತ್ತು ಚಲಿಸುವ ಗಾಳಿಯನ್ನು ಬೀಸುವ ಗಾಳಿ ಎನ್ನುತ್ತಾರೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Wind", "kn": "ಬೀಸುವ ಗಾಳಿ" }, "definition": { "en": "Air in motion.", "kn": "ಚಲಿಸುವ ಗಾಳಿ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Clean air is needed for breathing."],
+              "kn": ["ಉಸಿರಾಟಕ್ಕೆ ಶುದ್ಧ ಗಾಳಿ ಅಗತ್ಯ."]
+            },
+            "important_keywords": [
+              { "en": "Air", "kn": "ಗಾಳಿ" },
+              { "en": "Wind", "kn": "ಬೀಸುವ ಗಾಳಿ" }
+            ],
+            "real_life_examples": {
+              "en": ["Air inflating a balloon or cycle tyre."],
+              "kn": ["ಬಲೂನ್ ಅಥವಾ ಸೈಕಲ್ ಟೈರ್‌ಗೆ ಗಾಳಿ ತುಂಬುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Moving air = wind.",
+              "kn": "ಚಲಿಸುವ ಗಾಳಿ = ಬೀಸುವ ಗಾಳಿ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "What is moving air called?", "kn": "ಚಲಿಸುವ ಗಾಳಿಯನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?" },
+                "solution_guide": { "en": "Wind.", "kn": "ಬೀಸುವ ಗಾಳಿ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Does air occupy space?", "kn": "ಗಾಳಿಯು ಸ್ಥಳ ಆಕ್ರಮಿಸುತ್ತದೆಯೇ?" },
+          "a": { "en": "Yes.", "kn": "ಹೌದು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c5-e1-1",
+          "question": { "en": "Moving air is called:", "kn": "ಚಲಿಸುವ ಗಾಳಿಯನ್ನು ಹೀಗೆ ಕರೆಯುತ್ತಾರೆ:" },
+          "options": [{ "en": "Wind", "kn": "ಬೀಸುವ ಗಾಳಿ" }, { "en": "Soil", "kn": "ಮಣ್ಣು" }, { "en": "Rock", "kn": "ಕಲ್ಲು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Air in motion is wind.", "kn": "ಚಲಿಸುವ ಗಾಳಿಯೇ ಬೀಸುವ ಗಾಳಿ." }
+        },
+        {
+          "id": "q-c5-e1-2",
+          "question": { "en": "When you inflate a balloon, air:", "kn": "ಬಲೂನ್ ಊದಿದಾಗ ಗಾಳಿಯು:" },
+          "options": [{ "en": "Occupies space", "kn": "ಸ್ಥಳ ಆಕ್ರಮಿಸುತ್ತದೆ" }, { "en": "Disappears into stone", "kn": "ಕಲ್ಲಿನಲ್ಲಿ ಮರೆಯಾಗುತ್ತದೆ" }, { "en": "Becomes heavy iron", "kn": "ಕಬ್ಬಿಣವಾಗುತ್ತದೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Air takes up space inside the balloon.", "kn": "ಗಾಳಿಯು ಬಲೂನ್ ಒಳಗೆ ಸ್ಥಳ ಆಕ್ರಮಿಸುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c5-e1-3",
+          "question": { "en": "Living things need clean air mainly for:", "kn": "ಜೀವಿಗಳಿಗೆ ಶುದ್ಧ ಗಾಳಿ ಮುಖ್ಯವಾಗಿ ಇದಕ್ಕೆ ಬೇಕು:" },
+          "options": [{ "en": "Breathing", "kn": "ಉಸಿರಾಟಕ್ಕೆ" }, { "en": "Melting glass", "kn": "ಗಾಜು ಕರಗಿಸಲು" }, { "en": "Painting walls", "kn": "ಗೋಡೆಗೆ ಬಣ್ಣ ಬಳಿಯಲು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Clean air is essential for breathing.", "kn": "ಉಸಿರಾಟಕ್ಕೆ ಶುದ್ಧ ಗಾಳಿ ಅಗತ್ಯ." }
+        }
+      ],
+      "verification": {
+        "class": 5,
+        "subject": "EVS",
+        "chapter_name": "Air & Moving Air (Wind)",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 5 EVS confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c6-math-01",
+      "class": 6,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Comparing Whole Numbers", "kn": "ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳ ಹೋಲಿಕೆ" },
+      "summary": {
+        "en": "Comparing large numbers by digit count and place value.",
+        "kn": "ಅಂಕಿಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಸ್ಥಾನಬೆಲೆಯ ಮೂಲಕ ದೊಡ್ಡ ಸಂಖ್ಯೆಗಳ ಹೋಲಿಕೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c6-m1-01",
+          "topic_title": { "en": "Greater, Smaller & Ordering", "kn": "ದೊಡ್ಡ, ಚಿಕ್ಕ ಮತ್ತು ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "More digits generally means a larger number; if digit counts match, compare from the leftmost digit.",
+              "kn": "ಹೆಚ್ಚು ಅಂಕಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ದೊಡ್ಡ ಸಂಖ್ಯೆ; ಅಂಕಿಗಳ ಸಂಖ್ಯೆ ಸಮನಾಗಿದ್ದರೆ ಎಡಭಾಗದ ಅಂಕಿಯಿಂದ ಹೋಲಿಸಿ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Ascending Order", "kn": "ಏರಿಕೆ ಕ್ರಮ" }, "definition": { "en": "Arranging numbers from smallest to largest.", "kn": "ಸಂಖ್ಯೆಗಳನ್ನು ಚಿಕ್ಕದರಿಂದ ದೊಡ್ಡದಕ್ಕೆ ಜೋಡಿಸುವುದು." } }
+            ],
+            "chapter_notes": {
+              "en": ["Smallest 4-digit whole number is 1,000."],
+              "kn": ["ಅತ್ಯಂತ ಚಿಕ್ಕ 4-ಅಂಕಿಯ ಪೂರ್ಣ ಸಂಖ್ಯೆ 1,000."]
+            },
+            "important_keywords": [
+              { "en": "Ascending", "kn": "ಏರಿಕೆ ಕ್ರಮ" },
+              { "en": "Descending", "kn": "ಇಳಿಕೆ ಕ್ರಮ" }
+            ],
+            "real_life_examples": {
+              "en": ["Comparing distances or populations."],
+              "kn": ["ದೂರ ಅಥವಾ ಜನಸಂಖ್ಯೆಯ ಹೋಲಿಕೆ."]
+            },
+            "revision_notes": {
+              "en": "4,520 > 4,250.",
+              "kn": "4,520 > 4,250."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Which is greater: 4,520 or 4,250?", "kn": "ಯಾವುದು ದೊಡ್ಡದು: 4,520 ಅಥವಾ 4,250?" },
+                "solution_guide": { "en": "4,520.", "kn": "4,520." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is the smallest 4-digit number?", "kn": "ಚಿಕ್ಕ 4-ಅಂಕಿಯ ಸಂಖ್ಯೆ ಯಾವುದು?" },
+          "a": { "en": "1,000.", "kn": "1,000." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c6-m1-1",
+          "question": { "en": "Which number is largest?", "kn": "ಯಾವುದು ದೊಡ್ಡದು?" },
+          "options": [{ "en": "9,876", "kn": "9,876" }, { "en": "9,786", "kn": "9,786" }, { "en": "8,976", "kn": "8,976" }],
+          "correct_index": 0,
+          "explanation": { "en": "9,876 has 9 in thousands and 8 in hundreds place.", "kn": "9,876 ರ ಸಾವಿರದ ಸ್ಥಾನದಲ್ಲಿ 9 ಮತ್ತು ನೂರರ ಸ್ಥಾನದಲ್ಲಿ 8 ಇದೆ." }
+        },
+        {
+          "id": "q-c6-m1-2",
+          "question": { "en": "What is the smallest 4-digit whole number?", "kn": "ಅತ್ಯಂತ ಚಿಕ್ಕ 4-ಅಂಕಿಯ ಪೂರ್ಣ ಸಂಖ್ಯೆ ಯಾವುದು?" },
+          "options": [{ "en": "1,000", "kn": "1,000" }, { "en": "999", "kn": "999" }, { "en": "100", "kn": "100" }],
+          "correct_index": 0,
+          "explanation": { "en": "1,000 is the first 4-digit whole number.", "kn": "1,000 ಮೊದಲ 4-ಅಂಕಿಯ ಪೂರ್ಣ ಸಂಖ್ಯೆ." }
+        },
+        {
+          "id": "q-c6-m1-3",
+          "question": { "en": "Ascending order arranges numbers from:", "kn": "ಏರಿಕೆ ಕ್ರಮವು ಸಂಖ್ಯೆಗಳನ್ನು ಹೀಗೆ ಜೋಡಿಸುತ್ತದೆ:" },
+          "options": [{ "en": "Smallest to largest", "kn": "ಚಿಕ್ಕದರಿಂದ ದೊಡ್ಡದಕ್ಕೆ" }, { "en": "Largest to smallest", "kn": "ದೊಡ್ಡದರಿಂದ ಚಿಕ್ಕದಕ್ಕೆ" }, { "en": "Only even numbers", "kn": "ಸಮ ಸಂಖ್ಯೆ ಮಾತ್ರ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Ascending means going up from smallest to largest.", "kn": "ಏರಿಕೆ ಕ್ರಮ ಎಂದರೆ ಚಿಕ್ಕದರಿಂದ ದೊಡ್ಡದಕ್ಕೆ." }
+        }
+      ],
+      "verification": {
+        "class": 6,
+        "subject": "Mathematics",
+        "chapter_name": "Comparing Whole Numbers",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 6 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c6-sci-01",
+      "class": 6,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Components of Food", "kn": "ಆಹಾರದ ಘಟಕಗಳು" },
+      "summary": {
+        "en": "Nutrients and why a varied balanced diet is important.",
+        "kn": "ಪೋಷಕಾಂಶಗಳು ಮತ್ತು ಸಮತೋಲಿತ ಆಹಾರದ ಮಹತ್ವ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c6-s1-01",
+          "topic_title": { "en": "Balanced Diet Basics", "kn": "ಸಮತೋಲಿತ ಆಹಾರದ ಮೂಲಾಂಶಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "A balanced diet provides carbohydrates, proteins, fats, vitamins, and minerals along with water and roughage.",
+              "kn": "ಸಮತೋಲಿತ ಆಹಾರವು ಕಾರ್ಬೋಹೈಡ್ರೇಟ್, ಪ್ರೋಟೀನ್, ಕೊಬ್ಬು, ವಿಟಮಿನ್ ಮತ್ತು ಖನಿಜಗಳನ್ನು ನೀರು ಹಾಗೂ ನಾರಿನಂಶದೊಂದಿಗೆ ಒದಗಿಸುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Balanced Diet", "kn": "ಸಮತೋಲಿತ ಆಹಾರ" }, "definition": { "en": "A diet containing needed nutrients in proper amounts.", "kn": "ಸರಿಯಾದ ಪ್ರಮಾಣದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೊಂದಿರುವ ಆಹಾರ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Eating a variety of foods helps cover nutritional needs."],
+              "kn": ["ವಿವಿಧ ಆಹಾರ ಸೇವನೆಯು ಪೋಷಕಾಂಶ ಅಗತ್ಯ ಪೂರೈಸುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Nutrients", "kn": "ಪೋಷಕಾಂಶಗಳು" },
+              { "en": "Balanced Diet", "kn": "ಸಮತೋಲಿತ ಆಹಾರ" }
+            ],
+            "real_life_examples": {
+              "en": ["Meals combining grains, pulses/dal, vegetables, and milk."],
+              "kn": ["ಧಾನ್ಯ, ಬೇಳೆ, ತರಕಾರಿ ಮತ್ತು ಹಾಲು ಒಳಗೊಂಡ ಆಹಾರ."]
+            },
+            "revision_notes": {
+              "en": "Variety of foods supports balanced nutrition.",
+              "kn": "ವಿವಿಧ ಆಹಾರಗಳು ಸಮತೋಲಿತ ಪೋಷಣೆ ನೀಡುತ್ತವೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name two major food nutrients.", "kn": "ಎರಡು ಪ್ರಮುಖ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Carbohydrates and proteins.", "kn": "ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ ಮತ್ತು ಪ್ರೋಟೀನ್." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is a balanced diet?", "kn": "ಸಮತೋಲಿತ ಆಹಾರ ಎಂದರೇನು?" },
+          "a": { "en": "A diet with all needed nutrients in right proportions.", "kn": "ಸರಿಯಾದ ಪ್ರಮಾಣದಲ್ಲಿ ಅಗತ್ಯ ಪೋಷಕಾಂಶಗಳಿರುವ ಆಹಾರ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c6-s1-1",
+          "question": { "en": "Which meal habit supports a balanced diet?", "kn": "ಸಮತೋಲಿತ ಆಹಾರಕ್ಕೆ ಯಾವ ಅಭ್ಯಾಸ ಸಹಾಯ ಮಾಡುತ್ತದೆ?" },
+          "options": [{ "en": "Varied meals with grains, pulses & veggies", "kn": "ಧಾನ್ಯ, ಬೇಳೆ ಮತ್ತು ತರಕಾರಿ ಇರುವ ಆಹಾರ" }, { "en": "Only sugary snacks", "kn": "ಕೇವಲ ಸಿಹಿ ತಿಂಡಿಗಳು" }, { "en": "Skipping meals regularly", "kn": "ನಿಯಮಿತವಾಗಿ ಊಟ ಬಿಡುವುದು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Different foods provide different nutrients.", "kn": "ವಿಭಿನ್ನ ಆಹಾರಗಳು ವಿಭಿನ್ನ ಪೋಷಕಾಂಶ ನೀಡುತ್ತವೆ." }
+        },
+        {
+          "id": "q-c6-s1-2",
+          "question": { "en": "Which of these is a nutrient group?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಪೋಷಕಾಂಶ ಗುಂಪು?" },
+          "options": [{ "en": "Proteins", "kn": "ಪ್ರೋಟೀನ್‌ಗಳು" }, { "en": "Sand", "kn": "ಮರಳು" }, { "en": "Plastic", "kn": "ಪ್ಲಾಸ್ಟಿಕ್" }],
+          "correct_index": 0,
+          "explanation": { "en": "Proteins are essential food nutrients.", "kn": "ಪ್ರೋಟೀನ್‌ಗಳು ಪ್ರಮುಖ ಪೋಷಕಾಂಶಗಳು." }
+        },
+        {
+          "id": "q-c6-s1-3",
+          "question": { "en": "Along with nutrients, the body also needs:", "kn": "ಪೋಷಕಾಂಶಗಳ ಜೊತೆಗೆ ದೇಹಕ್ಕೆ ಇದು ಕೂಡ ಬೇಕು:" },
+          "options": [{ "en": "Water and roughage", "kn": "ನೀರು ಮತ್ತು ನಾರಿನಂಶ" }, { "en": "Only salt", "kn": "ಕೇವಲ ಉಪ್ಪು" }, { "en": "Chalk powder", "kn": "ಸೀಮೆಸುಣ್ಣದ ಪುಡಿ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Water and roughage support healthy digestion and body functions.", "kn": "ನೀರು ಮತ್ತು ನಾರಿನಂಶ ದೇಹದ ಕಾರ್ಯಗಳಿಗೆ ಅಗತ್ಯ." }
+        }
+      ],
+      "verification": {
+        "class": 6,
+        "subject": "Science",
+        "chapter_name": "Components of Food",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS/NCERT Class 6 Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://ncert.nic.in/"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c6-sst-01",
+      "class": 6,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Globe, Maps & Directions", "kn": "ಗ್ಲೋಬ್, ನಕ್ಷೆಗಳು ಮತ್ತು ದಿಕ್ಕುಗಳು" },
+      "summary": {
+        "en": "Cardinal directions and how maps represent places.",
+        "kn": "ಪ್ರಮುಖ ದಿಕ್ಕುಗಳು ಮತ್ತು ನಕ್ಷೆಗಳ ಬಳಕೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c6-sst1-01",
+          "topic_title": { "en": "Cardinal Directions", "kn": "ಪ್ರಮುಖ ದಿಕ್ಕುಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "The four cardinal directions are North, South, East, and West.",
+              "kn": "ನಾಲ್ಕು ಪ್ರಮುಖ ದಿಕ್ಕುಗಳೆಂದರೆ ಉತ್ತರ, ದಕ್ಷಿಣ, ಪೂರ್ವ ಮತ್ತು ಪಶ್ಚಿಮ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Map", "kn": "ನಕ್ಷೆ" }, "definition": { "en": "A representation of Earth's surface or part of it on a flat surface.", "kn": "ಭೂಮಿಯ ಮೇಲ್ಮೈ ಅಥವಾ ಅದರ ಭಾಗದ ಸಮತಟ್ಟಾದ ಚಿತ್ರಣ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Maps generally place North toward the top."],
+              "kn": ["ನಕ್ಷೆಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಉತ್ತರವನ್ನು ಮೇಲ್ಭಾಗದಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "North & South", "kn": "ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ" },
+              { "en": "East & West", "kn": "ಪೂರ್ವ ಮತ್ತು ಪಶ್ಚಿಮ" }
+            ],
+            "real_life_examples": {
+              "en": ["Finding locations on a school or village map."],
+              "kn": ["ಶಾಲೆ ಅಥವಾ ಗ್ರಾಮದ ನಕ್ಷೆಯಲ್ಲಿ ಸ್ಥಳ ಗುರುತಿಸುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Four cardinal directions: North, South, East, West.",
+              "kn": "ನಾಲ್ಕು ಪ್ರಮುಖ ದಿಕ್ಕುಗಳು: ಉತ್ತರ, ದಕ್ಷಿಣ, ಪೂರ್ವ, ಪಶ್ಚಿಮ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name the four cardinal directions.", "kn": "ನಾಲ್ಕು ಪ್ರಮುಖ ದಿಕ್ಕುಗಳನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "North, South, East, West.", "kn": "ಉತ್ತರ, ದಕ್ಷಿಣ, ಪೂರ್ವ, ಪಶ್ಚಿಮ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What are the four cardinal directions?", "kn": "ನಾಲ್ಕು ಪ್ರಮುಖ ದಿಕ್ಕುಗಳು ಯಾವುವು?" },
+          "a": { "en": "North, South, East, and West.", "kn": "ಉತ್ತರ, ದಕ್ಷಿಣ, ಪೂರ್ವ ಮತ್ತು ಪಶ್ಚಿಮ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c6-sst1-1",
+          "question": { "en": "Which is one of the four cardinal directions?", "kn": "ನಾಲ್ಕು ಪ್ರಮುಖ ದಿಕ್ಕುಗಳಲ್ಲಿ ಒಂದು ಯಾವುದು?" },
+          "options": [{ "en": "East", "kn": "ಪೂರ್ವ" }, { "en": "Upward", "kn": "ಮೇಲ್ಮುಖ" }, { "en": "Downward", "kn": "ಕೆಳಮುಖ" }],
+          "correct_index": 0,
+          "explanation": { "en": "East is a cardinal direction.", "kn": "ಪೂರ್ವವು ಪ್ರಮುಖ ದಿಕ್ಕಾಗಿದೆ." }
+        },
+        {
+          "id": "q-c6-sst1-2",
+          "question": { "en": "A flat drawing representing Earth or part of it is a:", "kn": "ಭೂಮಿಯ ಭಾಗವನ್ನು ಸಮತಟ್ಟಾಗಿ ತೋರಿಸುವ ಚಿತ್ರಣ:" },
+          "options": [{ "en": "Map", "kn": "ನಕ್ಷೆ" }, { "en": "Calendar", "kn": "ಕ್ಯಾಲೆಂಡರ್" }, { "en": "Clock", "kn": "ಗಡಿಯಾರ" }],
+          "correct_index": 0,
+          "explanation": { "en": "A map represents places on a flat surface.", "kn": "ನಕ್ಷೆಯು ಸಮತಟ್ಟಾದ ಮೇಲ್ಮೈಯಲ್ಲಿ ಸ್ಥಳಗಳನ್ನು ತೋರಿಸುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c6-sst1-3",
+          "question": { "en": "Opposite of North is:", "kn": "ಉತ್ತರದ ವಿರುದ್ಧ ದಿಕ್ಕು:" },
+          "options": [{ "en": "South", "kn": "ದಕ್ಷಿಣ" }, { "en": "East", "kn": "ಪೂರ್ವ" }, { "en": "West", "kn": "ಪಶ್ಚಿಮ" }],
+          "correct_index": 0,
+          "explanation": { "en": "South is opposite to North.", "kn": "ಉತ್ತರಕ್ಕೆ ವಿರುದ್ಧ ದಿಕ್ಕು ದಕ್ಷಿಣ." }
+        }
+      ],
+      "verification": {
+        "class": 6,
+        "subject": "Social Science",
+        "chapter_name": "Globe, Maps & Directions",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 6 Social Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c7-math-01",
+      "class": 7,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Integers on a Number Line", "kn": "ಸಂಖ್ಯಾ ರೇಖೆಯಲ್ಲಿ ಪೂರ್ಣಾಂಕಗಳು" },
+      "summary": {
+        "en": "Positive and negative integers and comparison on a number line.",
+        "kn": "ಧನ ಮತ್ತು ಋಣ ಪೂರ್ಣಾಂಕಗಳು ಹಾಗೂ ಸಂಖ್ಯಾ ರೇಖೆಯ ಹೋಲಿಕೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c7-m1-01",
+          "topic_title": { "en": "Comparing Integers", "kn": "ಪೂರ್ಣಾಂಕಗಳ ಹೋಲಿಕೆ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Numbers increase toward the right on a number line, so -2 is greater than -5.",
+              "kn": "ಸಂಖ್ಯಾ ರೇಖೆಯಲ್ಲಿ ಬಲಕ್ಕೆ ಹೋದಂತೆ ಸಂಖ್ಯೆಗಳು ಹೆಚ್ಚಾಗುತ್ತವೆ, ಆದ್ದರಿಂದ -2 ಎಂಬುದು -5 ಕ್ಕಿಂತ ದೊಡ್ಡದು."
+            },
+            "important_definitions": [
+              { "term": { "en": "Integers", "kn": "ಪೂರ್ಣಾಂಕಗಳು" }, "definition": { "en": "Whole numbers and their negatives (..., -2, -1, 0, 1, 2, ...).", "kn": "ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಅವುಗಳ ಋಣ ಸಂಖ್ಯೆಗಳು." } }
+            ],
+            "chapter_notes": {
+              "en": ["0 is neither positive nor negative."],
+              "kn": ["0 ಧನವೂ ಅಲ್ಲ, ಋಣವೂ ಅಲ್ಲ."]
+            },
+            "important_keywords": [
+              { "en": "Integer", "kn": "ಪೂರ್ಣಾಂಕ" },
+              { "en": "Number Line", "kn": "ಸಂಖ್ಯಾ ರೇಖೆ" }
+            ],
+            "real_life_examples": {
+              "en": ["Temperatures above and below 0°C."],
+              "kn": ["0°C ಗಿಂತ ಹೆಚ್ಚಿನ ಮತ್ತು ಕಡಿಮೆ ತಾಪಮಾನ."]
+            },
+            "revision_notes": {
+              "en": "(-4) + 6 = 2.",
+              "kn": "(-4) + 6 = 2."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Which is greater: -3 or -7?", "kn": "ಯಾವುದು ದೊಡ್ಡದು: -3 ಅಥವಾ -7?" },
+                "solution_guide": { "en": "-3.", "kn": "-3." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Is 0 positive or negative?", "kn": "0 ಧನವೋ ಅಥವಾ ಋಣವೋ?" },
+          "a": { "en": "Neither positive nor negative.", "kn": "ಧನವೂ ಅಲ್ಲ, ಋಣವೂ ಅಲ್ಲ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c7-m1-1",
+          "question": { "en": "What is (-4) + 6?", "kn": "(-4) + 6 ಎಷ್ಟು?" },
+          "options": [{ "en": "2", "kn": "2" }, { "en": "-10", "kn": "-10" }, { "en": "10", "kn": "10" }],
+          "correct_index": 0,
+          "explanation": { "en": "Moving 6 units right from -4 gives 2.", "kn": "-4 ರಿಂದ 6 ಹೆಜ್ಜೆ ಬಲಕ್ಕೆ ಹೋದರೆ 2." }
+        },
+        {
+          "id": "q-c7-m1-2",
+          "question": { "en": "Which integer is greater: -3 or -7?", "kn": "ಯಾವ ಪೂರ್ಣಾಂಕ ದೊಡ್ಡದು: -3 ಅಥವಾ -7?" },
+          "options": [{ "en": "-3", "kn": "-3" }, { "en": "-7", "kn": "-7" }, { "en": "-10", "kn": "-10" }],
+          "correct_index": 0,
+          "explanation": { "en": "-3 lies to the right of -7 on a number line.", "kn": "ಸಂಖ್ಯಾ ರೇಖೆಯಲ್ಲಿ -3 ಎಂಬುದು -7 ಕ್ಕಿಂತ ಬಲಕ್ಕಿದೆ." }
+        },
+        {
+          "id": "q-c7-m1-3",
+          "question": { "en": "0 is:", "kn": "0 ಎಂಬುದು:" },
+          "options": [{ "en": "Neither positive nor negative", "kn": "ಧನವೂ ಅಲ್ಲ, ಋಣವೂ ಅಲ್ಲ" }, { "en": "Always positive", "kn": "ಯಾವಾಗಲೂ ಧನ" }, { "en": "Always negative", "kn": "ಯಾವಾಗಲೂ ಋಣ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Zero has no positive or negative sign.", "kn": "ಸೊನ್ನೆಗೆ ಧನ ಅಥವಾ ಋಣ ಚಿಹ್ನೆ ಇಲ್ಲ." }
+        }
+      ],
+      "verification": {
+        "class": 7,
+        "subject": "Mathematics",
+        "chapter_name": "Integers on a Number Line",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 7 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c7-sci-01",
+      "class": 7,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Heat & Temperature", "kn": "ಶಾಖ ಮತ್ತು ತಾಪಮಾನ" },
+      "summary": {
+        "en": "Temperature measurement and direction of heat flow.",
+        "kn": "ತಾಪಮಾನದ ಅಳತೆ ಮತ್ತು ಶಾಖ ಹರಿಯುವ ದಿಕ್ಕು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c7-s1-01",
+          "topic_title": { "en": "Measuring Temperature & Heat Flow", "kn": "ತಾಪಮಾನ ಅಳತೆ ಮತ್ತು ಶಾಖ ಹರಿವು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Temperature measures hotness, measured with a thermometer; heat flows from a hotter object to a cooler one.",
+              "kn": "ತಾಪಮಾನವು ಬಿಸಿಯ ಪ್ರಮಾಣವನ್ನು ಅಳೆಯುತ್ತದೆ (ಥರ್ಮಾಮೀಟರ್ ಮೂಲಕ); ಶಾಖವು ಬಿಸಿ ವಸ್ತುವಿನಿಂದ ತಣ್ಣನೆಯ ವಸ್ತುವಿಗೆ ಹರಿಯುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Temperature", "kn": "ತಾಪಮಾನ" }, "definition": { "en": "A reliable measure of the degree of hotness of an object.", "kn": "ವಸ್ತುವಿನ ಬಿಸಿಯ ಪ್ರಮಾಣದ ಅಳತೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Use a thermometer rather than guessing by touch."],
+              "kn": ["ಸ್ಪರ್ಶಕ್ಕಿಂತ ಥರ್ಮಾಮೀಟರ್ ಮೂಲಕ ನಿಖರವಾಗಿ ಅಳೆಯಿರಿ."]
+            },
+            "important_keywords": [
+              { "en": "Temperature", "kn": "ತಾಪಮಾನ" },
+              { "en": "Thermometer", "kn": "ಥರ್ಮಾಮೀಟರ್" }
+            ],
+            "real_life_examples": {
+              "en": ["Hot tea cooling down as heat transfers to cooler surroundings."],
+              "kn": ["ಬಿಸಿ ಚಹಾ ತಣ್ಣಗಾಗುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Heat flows from hot to cooler.",
+              "kn": "ಶಾಖವು ಬಿಸಿಯಿಂದ ತಣ್ಣನೆಯ ಕಡೆ ಹರಿಯುತ್ತದೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Which instrument measures temperature?", "kn": "ತಾಪಮಾನ ಅಳೆಯುವ ಸಾಧನ ಯಾವುದು?" },
+                "solution_guide": { "en": "Thermometer.", "kn": "ಥರ್ಮಾಮೀಟರ್." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "In which direction does heat transfer?", "kn": "ಶಾಖವು ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿ ಹರಿಯುತ್ತದೆ?" },
+          "a": { "en": "From a hotter object to a cooler object.", "kn": "ಬಿಸಿ ವಸ್ತುವಿನಿಂದ ತಣ್ಣನೆಯ ವಸ್ತುವಿಗೆ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c7-s1-1",
+          "question": { "en": "Temperature is measured using a:", "kn": "ತಾಪಮಾನವನ್ನು ಇದರಿಂದ ಅಳೆಯುತ್ತಾರೆ:" },
+          "options": [{ "en": "Thermometer", "kn": "ಥರ್ಮಾಮೀಟರ್" }, { "en": "Ruler", "kn": "ರೂಲರ್" }, { "en": "Compass", "kn": "ದಿಕ್ಸೂಚಿ" }],
+          "correct_index": 0,
+          "explanation": { "en": "A thermometer measures temperature.", "kn": "ಥರ್ಮಾಮೀಟರ್ ತಾಪಮಾನ ಅಳೆಯುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c7-s1-2",
+          "question": { "en": "Heat naturally flows from a:", "kn": "ಶಾಖವು ಸ್ವಾಭಾವಿಕವಾಗಿ ಹರಿಯುವುದು:" },
+          "options": [{ "en": "Hotter object to a cooler one", "kn": "ಬಿಸಿ ವಸ್ತುವಿನಿಂದ ತಣ್ಣನೆಯ ವಸ್ತುವಿಗೆ" }, { "en": "Cooler object to a hotter one", "kn": "ತಣ್ಣನೆಯ ವಸ್ತುವಿನಿಂದ ಬಿಸಿ ವಸ್ತುವಿಗೆ" }, { "en": "Glass to plastic only", "kn": "ಕೇವಲ ಗಾಜಿನಿಂದ ಪ್ಲಾಸ್ಟಿಕ್‌ಗೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Heat moves from higher temperature to lower temperature.", "kn": "ಶಾಖವು ಹೆಚ್ಚಿನ ಉಷ್ಣತೆಯಿಂದ ಕಡಿಮೆ ಉಷ್ಣತೆಗೆ ಸಾಗುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c7-s1-3",
+          "question": { "en": "Temperature indicates the degree of:", "kn": "ತಾಪಮಾನವು ಇದರ ಪ್ರಮಾಣವನ್ನು ಸೂಚಿಸುತ್ತದೆ:" },
+          "options": [{ "en": "Hotness", "kn": "ಬಿಸಿ" }, { "en": "Weight", "kn": "ತೂಕ" }, { "en": "Color", "kn": "ಬಣ್ಣ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Temperature measures how hot or cold something is.", "kn": "ವಸ್ತುವಿನ ಬಿಸಿಯ ಪ್ರಮಾಣವನ್ನು ತಾಪಮಾನ ಸೂಚಿಸುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 7,
+        "subject": "Science",
+        "chapter_name": "Heat & Temperature",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 7 Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c7-sst-01",
+      "class": 7,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Environment & Resources", "kn": "ಪರಿಸರ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು" },
+      "summary": {
+        "en": "Natural and human-made elements of our environment.",
+        "kn": "ನಮ್ಮ ಪರಿಸರದ ನೈಸರ್ಗಿಕ ಮತ್ತು ಮಾನವ ನಿರ್ಮಿತ ಅಂಶಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c7-sst1-01",
+          "topic_title": { "en": "Natural vs. Human-Made", "kn": "ನೈಸರ್ಗಿಕ ಮತ್ತು ಮಾನವ ನಿರ್ಮಿತ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Land, water, air, plants, and animals are natural; roads, buildings, and bridges are human-made.",
+              "kn": "ಭೂಮಿ, ನೀರು, ಗಾಳಿ, ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿಗಳು ನೈಸರ್ಗಿಕ; ರಸ್ತೆ, ಕಟ್ಟಡ ಮತ್ತು ಸೇತುವೆಗಳು ಮಾನವ ನಿರ್ಮಿತ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Environment", "kn": "ಪರಿಸರ" }, "definition": { "en": "Surroundings in which living organisms exist and interact.", "kn": "ಜೀವಿಗಳು ವಾಸಿಸುವ ಮತ್ತು ಸಂವಹಿಸುವ ಸುತ್ತಮುತ್ತಲು." } }
+            ],
+            "chapter_notes": {
+              "en": ["Caring for natural resources protects life."],
+              "kn": ["ನೈಸರ್ಗಿಕ ಸಂಪನ್ಮೂಲಗಳ ರಕ್ಷಣೆ ಜೀವಜಗತ್ತಿಗೆ ಅಗತ್ಯ."]
+            },
+            "important_keywords": [
+              { "en": "Natural", "kn": "ನೈಸರ್ಗಿಕ" },
+              { "en": "Human-Made", "kn": "ಮಾನವ ನಿರ್ಮಿತ" }
+            ],
+            "real_life_examples": {
+              "en": ["Rivers are natural; bridges built across them are human-made."],
+              "kn": ["ನದಿ ನೈಸರ್ಗಿಕ; ಸೇತುವೆ ಮಾನವ ನಿರ್ಮಿತ."]
+            },
+            "revision_notes": {
+              "en": "Forests/rivers = natural; bridges/roads = human-made.",
+              "kn": "ಕಾಡು/ನದಿ = ನೈಸರ್ಗಿಕ; ಸೇತುವೆ/ರಸ್ತೆ = ಮಾನವ ನಿರ್ಮಿತ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Classify a bridge as natural or human-made.", "kn": "ಸೇತುವೆಯನ್ನು ನೈಸರ್ಗಿಕ ಅಥವಾ ಮಾನವ ನಿರ್ಮಿತ ಎಂದು ಗುರುತಿಸಿ." },
+                "solution_guide": { "en": "Human-made.", "kn": "ಮಾನವ ನಿರ್ಮಿತ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Give one natural feature of the environment.", "kn": "ಪರಿಸರದ ಒಂದು ನೈಸರ್ಗಿಕ ಅಂಶ ತಿಳಿಸಿ." },
+          "a": { "en": "Forests, rivers, or mountains.", "kn": "ಕಾಡು, ನದಿ ಅಥವಾ ಬೆಟ್ಟ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c7-sst1-1",
+          "question": { "en": "Which is human-made?", "kn": "ಯಾವುದು ಮಾನವ ನಿರ್ಮಿತ?" },
+          "options": [{ "en": "Bridge", "kn": "ಸೇತುವೆ" }, { "en": "Rainfall", "kn": "ಮಳೆ" }, { "en": "River", "kn": "ನದಿ" }],
+          "correct_index": 0,
+          "explanation": { "en": "A bridge is built by humans.", "kn": "ಸೇತುವೆಯನ್ನು ಮಾನವರು ನಿರ್ಮಿಸುತ್ತಾರೆ." }
+        },
+        {
+          "id": "q-c7-sst1-2",
+          "question": { "en": "Which is part of the natural environment?", "kn": "ಯಾವುದು ನೈಸರ್ಗಿಕ ಪರಿಸರದ ಭಾಗ?" },
+          "options": [{ "en": "Forest", "kn": "ಕಾಡು" }, { "en": "Highway", "kn": "ಹೆದ್ದಾರಿ" }, { "en": "Dam wall", "kn": "ಅಣೆಕಟ್ಟಿನ ಗೋಡೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Forests occur naturally.", "kn": "ಕಾಡು ನೈಸರ್ಗಿಕ ಅಂಶವಾಗಿದೆ." }
+        },
+        {
+          "id": "q-c7-sst1-3",
+          "question": { "en": "Protecting natural resources helps:", "kn": "ನೈಸರ್ಗಿಕ ಸಂಪನ್ಮೂಲಗಳನ್ನು ರಕ್ಷಿಸುವುದರಿಂದ:" },
+          "options": [{ "en": "Present and future generations", "kn": "ಈಗಿನ ಮತ್ತು ಮುಂದಿನ ಪೀಳಿಗೆಗೆ ಉಪಯೋಗ" }, { "en": "Nothing at all", "kn": "ಯಾವುದೇ ಪ್ರಯೋಜನವಿಲ್ಲ" }, { "en": "Only stones", "kn": "ಕೇವಲ ಕಲ್ಲುಗಳಿಗೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Conservation sustains life over time.", "kn": "ಸಂರಕ್ಷಣೆಯು ದೀರ್ಘಕಾಲದವರೆಗೆ ಜೀವಜಗತ್ತಿಗೆ ನೆರವಾಗುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 7,
+        "subject": "Social Science",
+        "chapter_name": "Environment & Resources",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 7 Social Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c8-math-01",
+      "class": 8,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Rational Numbers", "kn": "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು" },
+      "summary": {
+        "en": "Numbers in p/q form where p and q are integers and q ≠ 0.",
+        "kn": "p ಮತ್ತು q ಪೂರ್ಣಾಂಕಗಳಾಗಿ q ≠ 0 ಇರುವ p/q ರೂಪದ ಸಂಖ್ಯೆಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c8-m1-01",
+          "topic_title": { "en": "Form p/q Where q ≠ 0", "kn": "q ≠ 0 ಇರುವ p/q ರೂಪ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "A number expressible as p/q with integers p, q and q ≠ 0 is a rational number; every integer n = n/1 is rational.",
+              "kn": "p, q ಪೂರ್ಣಾಂಕಗಳಾಗಿ q ≠ 0 ಇರುವ p/q ರೂಪದ ಸಂಖ್ಯೆ ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ; n = n/1."
+            },
+            "important_definitions": [
+              { "term": { "en": "Rational Number", "kn": "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ" }, "definition": { "en": "Number of the form p/q with integers p, q and q ≠ 0.", "kn": "q ≠ 0 ಇರುವ p/q ರೂಪದ ಸಂಖ್ಯೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Denominator q cannot be 0."],
+              "kn": ["ಛೇದ q 0 ಆಗಿರಬಾರದು."]
+            },
+            "important_keywords": [
+              { "en": "Rational Number", "kn": "ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ" },
+              { "en": "Denominator", "kn": "ಛೇದ" }
+            ],
+            "real_life_examples": {
+              "en": ["Sharing 3 rotis equally among 4 students = 3/4 each."],
+              "kn": ["3 ರೊಟ್ಟಿಯನ್ನು 4 ಜನರಿಗೆ ಸಮ ಹಂಚಿದರೆ ತಲಾ 3/4."]
+            },
+            "revision_notes": {
+              "en": "5 = 5/1 is rational.",
+              "kn": "5 = 5/1 ಭಾಗಲಬ್ಧವಾಗಿದೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Write 5 in p/q form.", "kn": "5 ಅನ್ನು p/q ರೂಪದಲ್ಲಿ ಬರೆಯಿರಿ." },
+                "solution_guide": { "en": "5/1.", "kn": "5/1." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Can q be 0 in p/q?", "kn": "p/q ನಲ್ಲಿ q ಸೊನ್ನೆ ಆಗಬಹುದೇ?" },
+          "a": { "en": "No, division by zero is undefined.", "kn": "ಇಲ್ಲ, ಸೊನ್ನೆಯಿಂದ ಭಾಗಿಸುವುದು ವ್ಯಾಖ್ಯಾನಿಸಲಾಗಿಲ್ಲ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c8-m1-1",
+          "question": { "en": "Which condition is required for rational p/q?", "kn": "ಭಾಗಲಬ್ಧ p/q ಗೆ ಅಗತ್ಯ ಷರತ್ತು ಯಾವುದು?" },
+          "options": [{ "en": "q ≠ 0", "kn": "q ≠ 0" }, { "en": "q = 0", "kn": "q = 0" }, { "en": "p = 0 always", "kn": "ಯಾವಾಗಲೂ p = 0" }],
+          "correct_index": 0,
+          "explanation": { "en": "The denominator q must not be zero.", "kn": "ಛೇದ q ಸೊನ್ನೆಯಾಗಿರಬಾರದು." }
+        },
+        {
+          "id": "q-c8-m1-2",
+          "question": { "en": "How can integer 5 be written as a rational number?", "kn": "5 ಪೂರ್ಣಾಂಕವನ್ನು ಭಾಗಲಬ್ಧ ರೂಪದಲ್ಲಿ ಹೇಗೆ ಬರೆಯಬಹುದು?" },
+          "options": [{ "en": "5/1", "kn": "5/1" }, { "en": "5/0", "kn": "5/0" }, { "en": "0/5", "kn": "0/5" }],
+          "correct_index": 0,
+          "explanation": { "en": "5 = 5/1 has denominator 1 ≠ 0.", "kn": "5/1 ನಲ್ಲಿ ಛೇದ 1 ≠ 0 ಆಗಿದೆ." }
+        },
+        {
+          "id": "q-c8-m1-3",
+          "question": { "en": "Are integers rational numbers?", "kn": "ಪೂರ್ಣಾಂಕಗಳು ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳೇ?" },
+          "options": [{ "en": "Yes", "kn": "ಹೌದು" }, { "en": "No", "kn": "ಇಲ್ಲ" }, { "en": "Only even ones", "kn": "ಸಮ ಸಂಖ್ಯೆ ಮಾತ್ರ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Any integer n can be written as n/1.", "kn": "ಪ್ರತಿಯೊಂದು ಪೂರ್ಣಾಂಕ n ಅನ್ನು n/1 ಎಂದು ಬರೆಯಬಹುದು." }
+        }
+      ],
+      "verification": {
+        "class": 8,
+        "subject": "Mathematics",
+        "chapter_name": "Rational Numbers",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 8 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c8-sci-01",
+      "class": 8,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Force & Pressure", "kn": "ಬಲ ಮತ್ತು ಒತ್ತಡ" },
+      "summary": {
+        "en": "Push or pull acting as a force and effects of force on motion and shape.",
+        "kn": "ತಳ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯಾದ ಬಲ ಮತ್ತು ಅದರ ಪರಿಣಾಮಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c8-s1-01",
+          "topic_title": { "en": "Push, Pull & Effects of Force", "kn": "ತಳ್ಳುವಿಕೆ, ಎಳೆಯುವಿಕೆ ಮತ್ತು ಬಲದ ಪರಿಣಾಮಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "A push or pull on an object is a force; force can change speed, direction, or shape.",
+              "kn": "ವಸ್ತುವಿನ ಮೇಲಿನ ತಳ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆ ಬಲ; ಬಲವು ವೇಗ, ದಿಕ್ಕು ಅಥವಾ ಆಕಾರ ಬದಲಾಯಿಸಬಲ್ಲದು."
+            },
+            "important_definitions": [
+              { "term": { "en": "Force", "kn": "ಬಲ" }, "definition": { "en": "A push or pull acting on an object.", "kn": "ವಸ್ತುವಿನ ಮೇಲಿನ ತಳ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Force arises from interaction between two objects."],
+              "kn": ["ಎರಡು ವಸ್ತುಗಳ ಪರಸ್ಪರ ಕ್ರಿಯೆಯಿಂದ ಬಲ ಉಂಟಾಗುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Force", "kn": "ಬಲ" },
+              { "en": "Pressure", "kn": "ಒತ್ತಡ" }
+            ],
+            "real_life_examples": {
+              "en": ["Opening a door or kicking a ball."],
+              "kn": ["ಬಾಗಿಲು ತಳ್ಳುವುದು ಅಥವಾ ಚೆಂಡು ಒದೆಯುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Force = push or pull.",
+              "kn": "ಬಲ = ತಳ್ಳುವುದು ಅಥವಾ ಎಳೆಯುವುದು."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "What is a push or pull called?", "kn": "ತಳ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆಯನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?" },
+                "solution_guide": { "en": "Force.", "kn": "ಬಲ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What can a force change?", "kn": "ಬಲವು ಏನನ್ನು ಬದಲಾಯಿಸಬಲ್ಲದು?" },
+          "a": { "en": "Speed, direction of motion, or shape of an object.", "kn": "ವೇಗ, ಚಲನೆಯ ದಿಕ್ಕು ಅಥವಾ ವಸ್ತುವಿನ ಆಕಾರ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c8-s1-1",
+          "question": { "en": "A push or pull on an object is called:", "kn": "ವಸ್ತುವಿನ ಮೇಲಿನ ತಳ್ಳುವಿಕೆ ಅಥವಾ ಎಳೆಯುವಿಕೆ:" },
+          "options": [{ "en": "Force", "kn": "ಬಲ" }, { "en": "Mass", "kn": "ದ್ರವ್ಯರಾಶಿ" }, { "en": "Time", "kn": "ಸಮಯ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Force is a push or pull.", "kn": "ತಳ್ಳುವುದು ಅಥವಾ ಎಳೆಯುವುದೇ ಬಲ." }
+        },
+        {
+          "id": "q-c8-s1-2",
+          "question": { "en": "Force can change an object's:", "kn": "ಬಲವು ವಸ್ತುವಿನ ಇದನ್ನು ಬದಲಾಯಿಸಬಹುದು:" },
+          "options": [{ "en": "Speed, direction, or shape", "kn": "ವೇಗ, ದಿಕ್ಕು ಅಥವಾ ಆಕಾರ" }, { "en": "Chemical element", "kn": "ರಾಸಾಯನಿಕ ಧಾತು" }, { "en": "Birth date", "kn": "ಜನ್ಮ ದಿನಾಂಕ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Forces affect motion and shape.", "kn": "ಬಲವು ಚಲನೆ ಮತ್ತು ಆಕಾರದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c8-s1-3",
+          "question": { "en": "Opening a hinged door by pushing is an example of:", "kn": "ಬಾಗಿಲನ್ನು ತಳ್ಳಿ ತೆರೆಯುವುದು ಇದಕ್ಕೆ ಉದಾಹರಣೆ:" },
+          "options": [{ "en": "Force", "kn": "ಬಲ" }, { "en": "Evaporation", "kn": "ಬಾಷ್ಪೀಭವನ" }, { "en": "Reflection", "kn": "ಪ್ರತಿಫಲನ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Pushing applies a force.", "kn": "ತಳ್ಳುವುದು ಬಲದ ಪ್ರಯೋಗವಾಗಿದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 8,
+        "subject": "Science",
+        "chapter_name": "Force & Pressure",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 8 Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c8-sst-01",
+      "class": 8,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Sources of History", "kn": "ಇತಿಹಾಸದ ಆಕರಗಳು" },
+      "summary": {
+        "en": "Written records, monuments, coins, and inscriptions used as historical sources.",
+        "kn": "ಐತಿಹಾಸಿಕ ಆಕರಗಳಾಗಿ ಲಿಖಿತ ದಾಖಲೆ, ಸ್ಮಾರಕ, ನಾಣ್ಯ ಮತ್ತು ಶಾಸನಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c8-sst1-01",
+          "topic_title": { "en": "Primary Historical Evidence", "kn": "ಪ್ರಮುಖ ಐತಿಹಾಸಿಕ ಪುರಾವೆಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Historians study inscriptions, coins, monuments, and written documents to understand past events.",
+              "kn": "ಹಿಂದಿನ ಘಟನೆಗಳನ್ನು ತಿಳಿಯಲು ಇತಿಹಾಸಕಾರರು ಶಾಸನ, ನಾಣ್ಯ, ಸ್ಮಾರಕ ಮತ್ತು ದಾಖಲೆಗಳನ್ನು ಅಧ್ಯಯನ ಮಾಡುತ್ತಾರೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Historical Source", "kn": "ಐತಿಹಾಸಿಕ ಆಕರ" }, "definition": { "en": "Evidence providing information about the past.", "kn": "ಹಿಂದಿನ ಕಾಲದ ಮಾಹಿತಿ ನೀಡುವ ಪುರಾವೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Comparing sources strengthens accuracy."],
+              "kn": ["ಆಕರಗಳನ್ನು ಹೋಲಿಸುವುದರಿಂದ ನಿಖರತೆ ಹೆಚ್ಚುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Inscriptions", "kn": "ಶಾಸನಗಳು" },
+              { "en": "Coins", "kn": "ನಾಣ್ಯಗಳು" }
+            ],
+            "real_life_examples": {
+              "en": ["Examining coins or stone inscriptions in a museum."],
+              "kn": ["ವಸ್ತುಸಂಗ್ರಹಾಲಯದಲ್ಲಿ ನಾಣ್ಯ ಅಥವಾ ಶಾಸನಗಳನ್ನು ನೋಡುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Inscriptions, coins, and monuments are sources of history.",
+              "kn": "ಶಾಸನ, ನಾಣ್ಯ ಮತ್ತು ಸ್ಮಾರಕಗಳು ಇತಿಹಾಸದ ಆಕರಗಳು."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Name two sources of history.", "kn": "ಎರಡು ಇತಿಹಾಸದ ಆಕರಗಳನ್ನು ಹೆಸರಿಸಿ." },
+                "solution_guide": { "en": "Coins and inscriptions.", "kn": "ನಾಣ್ಯಗಳು ಮತ್ತು ಶಾಸನಗಳು." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Why do historians examine multiple sources?", "kn": "ಇತಿಹಾಸಕಾರರು ಹಲವು ಆಕರಗಳನ್ನು ಏಕೆ ಪರಿಶೀಲಿಸುತ್ತಾರೆ?" },
+          "a": { "en": "To cross-check facts and build reliable accounts.", "kn": "ಸತ್ಯಾಂಶಗಳನ್ನು ಖಚಿತಪಡಿಸಲು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c8-sst1-1",
+          "question": { "en": "Which is a historical source?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಐತಿಹಾಸಿಕ ಆಕರ?" },
+          "options": [{ "en": "Ancient inscription", "kn": "ಪ್ರಾಚೀನ ಶಾಸನ" }, { "en": "Future calendar", "kn": "ಮುಂದಿನ ಕ್ಯಾಲೆಂಡರ್" }, { "en": "Blank paper", "kn": "ಖಾಲಿ ಕಾಗದ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Inscriptions preserve records from the past.", "kn": "ಶಾಸನಗಳು ಹಿಂದಿನ ಕಾಲದ ಮಾಹಿತಿ ನೀಡುತ್ತವೆ." }
+        },
+        {
+          "id": "q-c8-sst1-2",
+          "question": { "en": "Old coins help historians learn about:", "kn": "ಹಳೆಯ ನಾಣ್ಯಗಳು ಇತಿಹಾಸಕಾರರಿಗೆ ಇದರ ಮಾಹಿತಿ ನೀಡುತ್ತವೆ:" },
+          "options": [{ "en": "Rulers, trade, and era", "kn": "ಆಡಳಿತಗಾರರು, ವ್ಯಾಪಾರ ಮತ್ತು ಕಾಲ" }, { "en": "Next week's rain", "kn": "ಮುಂದಿನ ವಾರದ ಮಳೆ" }, { "en": "Rocket fuel", "kn": "ರಾಕೆಟ್ ಇಂಧನ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Coins often carry inscriptions, symbols, and dates.", "kn": "ನಾಣ್ಯಗಳಲ್ಲಿ ಚಿಹ್ನೆ, ಬರಹ ಮತ್ತು ಕಾಲದ ಸುಳಿವು ಇರುತ್ತವೆ." }
+        },
+        {
+          "id": "q-c8-sst1-3",
+          "question": { "en": "Historical buildings and temples are examples of:", "kn": "ಐತಿಹಾಸಿಕ ಕಟ್ಟಡಗಳು ಮತ್ತು ದೇವಾಲಯಗಳು ಇದಕ್ಕೆ ಉದಾಹರಣೆ:" },
+          "options": [{ "en": "Monuments", "kn": "ಸ್ಮಾರಕಗಳು" }, { "en": "Clouds", "kn": "ಮೋಡಗಳು" }, { "en": "Tides", "kn": "ಉಬ್ಬರವಿಳಿತಗಳು" }],
+          "correct_index": 0,
+          "explanation": { "en": "Historic structures are monuments.", "kn": "ಐತಿಹಾಸಿಕ ರಚನೆಗಳು ಸ್ಮಾರಕಗಳಾಗಿವೆ." }
+        }
+      ],
+      "verification": {
+        "class": 8,
+        "subject": "Social Science",
+        "chapter_name": "Sources of History",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 8 Social Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c9-math-01",
+      "class": 9,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Number Systems", "kn": "ಸಂಖ್ಯಾ ಪದ್ಧತಿಗಳು" },
+      "summary": {
+        "en": "Rational numbers in p/q form and irrational numbers.",
+        "kn": "p/q ರೂಪದ ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c9-m1-01",
+          "topic_title": { "en": "Rational vs. Irrational Numbers", "kn": "ಭಾಗಲಬ್ಧ ಮತ್ತು ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "0.5 = 1/2 is rational; √2 is irrational because it cannot be written in p/q form with integers p, q (q ≠ 0).",
+              "kn": "0.5 = 1/2 ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ; √2 ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Irrational Number", "kn": "ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ" }, "definition": { "en": "Cannot be expressed in p/q form with integers p, q and q ≠ 0.", "kn": "q ≠ 0 ಇರುವ p/q ರೂಪದಲ್ಲಿ ಬರೆಯಲಾಗದ ಸಂಖ್ಯೆ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Every whole number w = w/1 is rational."],
+              "kn": ["ಪ್ರತಿಯೊಂದು ಪೂರ್ಣ ಸಂಖ್ಯೆ w = w/1 ಭಾಗಲಬ್ಧವಾಗಿದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Rational", "kn": "ಭಾಗಲಬ್ಧ" },
+              { "en": "Irrational", "kn": "ಅಭಾಗಲಬ್ಧ" }
+            ],
+            "real_life_examples": {
+              "en": ["Converting terminating decimal 0.25 to 1/4."],
+              "kn": ["0.25 ಅನ್ನು 1/4 ಎಂದು ಬರೆಯುವುದು."]
+            },
+            "revision_notes": {
+              "en": "0.5 = 1/2 is rational; √2 is irrational.",
+              "kn": "0.5 = 1/2 ಭಾಗಲಬ್ಧ; √2 ಅಭಾಗಲಬ್ಧ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Express 0.5 in p/q form.", "kn": "0.5 ಅನ್ನು p/q ರೂಪದಲ್ಲಿ ಬರೆಯಿರಿ." },
+                "solution_guide": { "en": "1/2.", "kn": "1/2." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "Is every whole number a rational number?", "kn": "ಪ್ರತಿಯೊಂದು ಪೂರ್ಣ ಸಂಖ್ಯೆಯೂ ಭಾಗಲಬ್ಧವೇ?" },
+          "a": { "en": "Yes, because any whole number w can be written as w/1.", "kn": "ಹೌದು, ಯಾವುದೇ ಪೂರ್ಣ ಸಂಖ್ಯೆ w ಅನ್ನು w/1 ಎಂದು ಬರೆಯಬಹುದು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c9-m1-1",
+          "question": { "en": "Which of these is a rational number?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆ?" },
+          "options": [{ "en": "3/4", "kn": "3/4" }, { "en": "√2", "kn": "√2" }, { "en": "π (irrational)", "kn": "π (ಅಭಾಗಲಬ್ಧ)" }],
+          "correct_index": 0,
+          "explanation": { "en": "3/4 is written as p/q with integers 3 and 4.", "kn": "3/4 ಎಂಬುದು 3 ಮತ್ತು 4 ಪೂರ್ಣಾಂಕಗಳ p/q ರೂಪದಲ್ಲಿದೆ." }
+        },
+        {
+          "id": "q-c9-m1-2",
+          "question": { "en": "Decimal 0.5 in p/q form equals:", "kn": "0.5 ದಶಮಾಂಶದ p/q ರೂಪ:" },
+          "options": [{ "en": "1/2", "kn": "1/2" }, { "en": "5/1", "kn": "5/1" }, { "en": "1/5", "kn": "1/5" }],
+          "correct_index": 0,
+          "explanation": { "en": "0.5 = 5/10 = 1/2.", "kn": "0.5 = 5/10 = 1/2." }
+        },
+        {
+          "id": "q-c9-m1-3",
+          "question": { "en": "Is 0 a rational number?", "kn": "0 ಎಂಬುದು ಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಯೇ?" },
+          "options": [{ "en": "Yes (0 = 0/1)", "kn": "ಹೌದು (0 = 0/1)" }, { "en": "No", "kn": "ಇಲ್ಲ" }, { "en": "Only when negative", "kn": "ಋಣವಾಗಿದ್ದಾಗ ಮಾತ್ರ" }],
+          "correct_index": 0,
+          "explanation": { "en": "0 can be written as 0/1 with denominator 1 ≠ 0.", "kn": "0 ಅನ್ನು 0/1 ಎಂದು ಬರೆಯಬಹುದು." }
+        }
+      ],
+      "verification": {
+        "class": 9,
+        "subject": "Mathematics",
+        "chapter_name": "Number Systems",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 9 Mathematics confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c9-sci-01",
+      "class": 9,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Motion & Speed", "kn": "ಚಲನೆ ಮತ್ತು ವೇಗ" },
+      "summary": {
+        "en": "Describing motion and calculating speed from distance and time.",
+        "kn": "ಚಲನೆಯ ವಿವರಣೆ ಮತ್ತು ದೂರ ಹಾಗೂ ಸಮಯದಿಂದ ವೇಗ ಕಂಡುಹಿಡಿಯುವುದು."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c9-s1-01",
+          "topic_title": { "en": "Speed = Distance / Time", "kn": "ವೇಗ = ದೂರ / ಸಮಯ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Speed is distance travelled divided by time taken; standard units are metre (m) for distance and second (s) for time.",
+              "kn": "ವೇಗ ಎಂದರೆ ಕ್ರಮಿಸಿದ ದೂರವನ್ನು ತೆಗೆದುಕೊಂಡ ಸಮಯದಿಂದ ಭಾಗಿಸುವುದು; ದೂರಕ್ಕೆ ಮೀಟರ್ (m) ಮತ್ತು ಸಮಯಕ್ಕೆ ಸೆಕೆಂಡ್ (s)."
+            },
+            "important_definitions": [
+              { "term": { "en": "Speed", "kn": "ವೇಗ" }, "definition": { "en": "Distance travelled per unit time.", "kn": "ಏಕಮಾನ ಸಮಯದಲ್ಲಿ ಕ್ರಮಿಸಿದ ದೂರ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Speed = Distance / Time."],
+              "kn": ["ವೇಗ = ದೂರ / ಸಮಯ."]
+            },
+            "important_keywords": [
+              { "en": "Distance", "kn": "ದೂರ" },
+              { "en": "Speed", "kn": "ವೇಗ" }
+            ],
+            "real_life_examples": {
+              "en": ["100 m covered in 20 s gives speed = 5 m/s."],
+              "kn": ["20 ಸೆಕೆಂಡಿನಲ್ಲಿ 100 ಮೀ ದೂರ ಕ್ರಮಿಸಿದರೆ ವೇಗ = 5 ಮೀ/ಸೆ."]
+            },
+            "revision_notes": {
+              "en": "Speed = Distance / Time.",
+              "kn": "ವೇಗ = ದೂರ / ಸಮಯ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Find speed if distance = 100 m and time = 20 s.", "kn": "ದೂರ = 100 ಮೀ ಮತ್ತು ಸಮಯ = 20 ಸೆಕೆಂಡ್ ಆದರೆ ವೇಗ ಎಷ್ಟು?" },
+                "solution_guide": { "en": "5 m/s.", "kn": "5 ಮೀ/ಸೆ." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is the formula for speed?", "kn": "ವೇಗದ ಸೂತ್ರವೇನು?" },
+          "a": { "en": "Speed = Distance / Time.", "kn": "ವೇಗ = ದೂರ / ಸಮಯ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c9-s1-1",
+          "question": { "en": "If distance is 50 m in 10 s, speed is:", "kn": "10 ಸೆಕೆಂಡಿನಲ್ಲಿ 50 ಮೀ ದೂರ ಕ್ರಮಿಸಿದರೆ ವೇಗ:" },
+          "options": [{ "en": "5 m/s", "kn": "5 ಮೀ/ಸೆ" }, { "en": "500 m/s", "kn": "500 ಮೀ/ಸೆ" }, { "en": "0.2 m/s", "kn": "0.2 ಮೀ/ಸೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "50 ÷ 10 = 5 m/s.", "kn": "50 ÷ 10 = 5 ಮೀ/ಸೆ." }
+        },
+        {
+          "id": "q-c9-s1-2",
+          "question": { "en": "Formula for speed is:", "kn": "ವೇಗದ ಸೂತ್ರ:" },
+          "options": [{ "en": "Distance / Time", "kn": "ದೂರ / ಸಮಯ" }, { "en": "Time / Distance", "kn": "ಸಮಯ / ದೂರ" }, { "en": "Mass × Time", "kn": "ದ್ರವ್ಯರಾಶಿ × ಸಮಯ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Speed equals distance divided by time.", "kn": "ವೇಗ = ದೂರ / ಸಮಯ." }
+        },
+        {
+          "id": "q-c9-s1-3",
+          "question": { "en": "SI unit of time is:", "kn": "ಸಮಯದ SI ಏಕಮಾನ:" },
+          "options": [{ "en": "Second (s)", "kn": "ಸೆಕೆಂಡ್ (s)" }, { "en": "Kilogram (kg)", "kn": "ಕಿಲೋಗ್ರಾಂ (kg)" }, { "en": "Litre (L)", "kn": "ಲೀಟರ್ (L)" }],
+          "correct_index": 0,
+          "explanation": { "en": "Second (s) is the SI unit of time.", "kn": "ಸೆಕೆಂಡ್ (s) ಸಮಯದ SI ಏಕಮಾನವಾಗಿದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 9,
+        "subject": "Science",
+        "chapter_name": "Motion & Speed",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 9 Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c9-sst-01",
+      "class": 9,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Constitution & Civic Rights", "kn": "ಸಂವಿಧಾನ ಮತ್ತು ನಾಗರಿಕ ಹಕ್ಕುಗಳು" },
+      "summary": {
+        "en": "Role of a constitution in setting rules, governance, and rights/duties.",
+        "kn": "ನಿಯಮಗಳು, ಆಡಳಿತ ಮತ್ತು ಹಕ್ಕು-ಕರ್ತವ್ಯಗಳನ್ನು ನಿಗದಿಪಡಿಸುವ ಸಂವಿಧಾನದ ಪಾತ್ರ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c9-sst1-01",
+          "topic_title": { "en": "Purpose of a Constitution", "kn": "ಸಂವಿಧಾನದ ಉದ್ದೇಶ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "A constitution sets out fundamental rules, government structure, and rights and duties of citizens.",
+              "kn": "ಸಂವಿಧಾನವು ಮೂಲ ನಿಯಮಗಳು, ಸರ್ಕಾರದ ರಚನೆ ಮತ್ತು ನಾಗರಿಕರ ಹಕ್ಕು ಹಾಗೂ ಕರ್ತವ್ಯಗಳನ್ನು ನಿಗದಿಪಡಿಸುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Constitution", "kn": "ಸಂವಿಧಾನ" }, "definition": { "en": "Fundamental legal framework of a country.", "kn": "ದೇಶದ ಮೂಲಭೂತ ಕಾನೂನು ಚೌಕಟ್ಟು." } }
+            ],
+            "chapter_notes": {
+              "en": ["Rights and duties go together."],
+              "kn": ["ಹಕ್ಕುಗಳು ಮತ್ತು ಕರ್ತವ್ಯಗಳು ಒಟ್ಟಾಗಿರುತ್ತವೆ."]
+            },
+            "important_keywords": [
+              { "en": "Constitution", "kn": "ಸಂವಿಧಾನ" },
+              { "en": "Citizenship", "kn": "ಪೌರತ್ವ" }
+            ],
+            "real_life_examples": {
+              "en": ["Respecting laws and public property."],
+              "kn": ["ಕಾನೂನು ಮತ್ತು ಸಾರ್ವಜನಿಕ ಆಸ್ತಿಯನ್ನು ಗೌರವಿಸುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Constitution defines rules and citizen rights/duties.",
+              "kn": "ಸಂವಿಧಾನವು ಮೂಲ ನಿಯಮ ಮತ್ತು ಹಕ್ಕು-ಕರ್ತವ್ಯಗಳನ್ನು ತಿಳಿಸುತ್ತದೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Why does a country need a constitution?", "kn": "ದೇಶಕ್ಕೆ ಸಂವಿಧಾನ ಏಕೆ ಬೇಕು?" },
+                "solution_guide": { "en": "To establish basic rules and protect rights.", "kn": "ಮೂಲ ನಿಯಮಗಳನ್ನು ರೂಪಿಸಲು ಮತ್ತು ಹಕ್ಕುಗಳನ್ನು ರಕ್ಷಿಸಲು." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is a constitution?", "kn": "ಸಂವಿಧಾನ ಎಂದರೇನು?" },
+          "a": { "en": "Supreme set of fundamental laws and principles of a state.", "kn": "ದೇಶದ ಮೂಲಭೂತ ಕಾನೂನು ಮತ್ತು ತತ್ವಗಳ ಸಂಗ್ರಹ." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c9-sst1-1",
+          "question": { "en": "A constitution defines:", "kn": "ಸಂವಿಧಾನವು ಇದನ್ನು ನಿಗದಿಪಡಿಸುತ್ತದೆ:" },
+          "options": [{ "en": "Fundamental rules & citizen rights", "kn": "ಮೂಲ ನಿಯಮಗಳು ಮತ್ತು ಹಕ್ಕುಗಳು" }, { "en": "Daily TV schedules", "kn": "ದೈನಂದಿನ ಟಿವಿ ವೇಳಾಪಟ್ಟಿ" }, { "en": "Shoe sizes", "kn": "ಶೂ ಅಳತೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "It sets core rules and citizen rights.", "kn": "ಇದು ಮೂಲ ನಿಯಮ ಮತ್ತು ನಾಗರಿಕ ಹಕ್ಕುಗಳನ್ನು ತಿಳಿಸುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c9-sst1-2",
+          "question": { "en": "In civic life, rights and duties are:", "kn": "ನಾಗರಿಕ ಜೀವನದಲ್ಲಿ ಹಕ್ಕುಗಳು ಮತ್ತು ಕರ್ತವ್ಯಗಳು:" },
+          "options": [{ "en": "Closely linked", "kn": "ಪರಸ್ಪರ ಸಂಬಂಧಿತ" }, { "en": "Completely unrelated", "kn": "ಸಂಪೂರ್ಣ ಅಸಂಬದ್ಧ" }, { "en": "Only for rulers", "kn": "ಕೇವಲ ಆಡಳಿತಗಾರರಿಗೆ ಮಾತ್ರ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Citizens enjoy rights and fulfill duties.", "kn": "ನಾಗರಿಕರು ಹಕ್ಕುಗಳ ಜೊತೆಗೆ ಕರ್ತವ್ಯಗಳನ್ನು ಪಾಲಿಸುತ್ತಾರೆ." }
+        },
+        {
+          "id": "q-c9-sst1-3",
+          "question": { "en": "Following civic rules helps maintain:", "kn": "ನಾಗರಿಕ ನಿಯಮಗಳನ್ನು ಪಾಲಿಸುವುದರಿಂದ:" },
+          "options": [{ "en": "Order and fairness in society", "kn": "ಸಮಾಜದಲ್ಲಿ ಶಿಸ್ತು ಮತ್ತು ಸಮಾನತೆ" }, { "en": "Confusion", "kn": "ಗೊಂದಲ" }, { "en": "Property damage", "kn": "ಆಸ್ತಿ ಹಾನಿ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Rules help keep public life orderly and fair.", "kn": "ನಿಯಮಗಳು ಸಾರ್ವಜನಿಕ ಜೀವನವನ್ನು ಶಿಸ್ತುಬದ್ಧವಾಗಿಡುತ್ತವೆ." }
+        }
+      ],
+      "verification": {
+        "class": 9,
+        "subject": "Social Science",
+        "chapter_name": "Constitution & Civic Rights",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending KTBS Class 9 Social Science confirmation at textbooks.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c10-math-01",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Real Numbers", "kn": "ವಾಸ್ತವ ಸಂಖ್ಯೆಗಳು" },
+      "summary": {
+        "en": "Prime factorization and the HCF × LCM product property for two positive integers.",
+        "kn": "ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನ ಮತ್ತು ಎರಡು ಧನ ಪೂರ್ಣಾಂಕಗಳ ಮ.ಸಾ.ಅ × ಲ.ಸಾ.ಅ ಗುಣ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c10-m1-01",
+          "topic_title": { "en": "Prime Factorization & HCF × LCM", "kn": "ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನ ಮತ್ತು ಮ.ಸಾ.ಅ × ಲ.ಸಾ.ಅ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "For any two positive integers a and b, HCF(a, b) × LCM(a, b) = a × b.",
+              "kn": "ಯಾವುದೇ ಎರಡು ಧನ ಪೂರ್ಣಾಂಕಗಳಾದ a ಮತ್ತು b ಗಳಿಗೆ ಮ.ಸಾ.ಅ(a, b) × ಲ.ಸಾ.ಅ(a, b) = a × b."
+            },
+            "important_definitions": [
+              { "term": { "en": "HCF", "kn": "ಮ.ಸಾ.ಅ" }, "definition": { "en": "Largest positive integer dividing given numbers with zero remainder.", "kn": "ಶೇಷವಿಲ್ಲದೆ ಭಾಗಿಸುವ ಅತಿ ದೊಡ್ಡ ಧನ ಪೂರ್ಣಾಂಕ." } }
+            ],
+            "chapter_notes": {
+              "en": ["12 = 2 × 2 × 3 = 2² × 3."],
+              "kn": ["12 = 2 × 2 × 3 = 2² × 3."]
+            },
+            "important_keywords": [
+              { "en": "Prime Factorization", "kn": "ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನ" },
+              { "en": "HCF & LCM", "kn": "ಮ.ಸಾ.ಅ ಮತ್ತು ಲ.ಸಾ.ಅ" }
+            ],
+            "real_life_examples": {
+              "en": ["Finding common cycle intervals or equal group sizes."],
+              "kn": ["ಸಮಾನ ಗುಂಪು ಗಾತ್ರ ಅಥವಾ ಸಮಯದ ಅವಧಿ ಕಂಡುಹಿಡಿಯುವುದು."]
+            },
+            "revision_notes": {
+              "en": "HCF(a,b) × LCM(a,b) = a × b.",
+              "kn": "ಮ.ಸಾ.ಅ(a,b) × ಲ.ಸಾ.ಅ(a,b) = a × b."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Prime factorization of 12?", "kn": "12 ರ ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನವೇನು?" },
+                "solution_guide": { "en": "2² × 3.", "kn": "2² × 3." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "State HCF and LCM relation for a and b.", "kn": "a ಮತ್ತು b ಗಳ ಮ.ಸಾ.ಅ ಮತ್ತು ಲ.ಸಾ.ಅ ಸಂಬಂಧ ಬರೆಯಿರಿ." },
+          "a": { "en": "HCF(a, b) × LCM(a, b) = a × b.", "kn": "ಮ.ಸಾ.ಅ(a, b) × ಲ.ಸಾ.ಅ(a, b) = a × b." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c10-m1-1",
+          "question": { "en": "Prime factorization of 12:", "kn": "12 ರ ಅವಿಭಾಜ್ಯ ಅಪವರ್ತನ:" },
+          "options": [{ "en": "2 × 2 × 3", "kn": "2 × 2 × 3" }, { "en": "4 × 3", "kn": "4 × 3" }, { "en": "6 × 2", "kn": "6 × 2" }],
+          "correct_index": 0,
+          "explanation": { "en": "2 and 3 are prime numbers and 2 × 2 × 3 = 12.", "kn": "2 ಮತ್ತು 3 ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು; 2 × 2 × 3 = 12." }
+        },
+        {
+          "id": "q-c10-m1-2",
+          "question": { "en": "For positive integers a and b, HCF(a,b) × LCM(a,b) equals:", "kn": "a ಮತ್ತು b ಧನ ಪೂರ್ಣಾಂಕಗಳಿಗೆ ಮ.ಸಾ.ಅ(a,b) × ಲ.ಸಾ.ಅ(a,b) ಇದಕ್ಕೆ ಸಮ:" },
+          "options": [{ "en": "a × b", "kn": "a × b" }, { "en": "a + b", "kn": "a + b" }, { "en": "a - b", "kn": "a - b" }],
+          "correct_index": 0,
+          "explanation": { "en": "The product of HCF and LCM of two positive integers equals their product.", "kn": "ಎರಡು ಧನ ಪೂರ್ಣಾಂಕಗಳ ಮ.ಸಾ.ಅ ಮತ್ತು ಲ.ಸಾ.ಅ ಗುಣಲಬ್ಧವು ಆ ಸಂಖ್ಯೆಗಳ ಗುಣಲಬ್ಧಕ್ಕೆ ಸಮ." }
+        },
+        {
+          "id": "q-c10-m1-3",
+          "question": { "en": "Which number is prime?", "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆ?" },
+          "options": [{ "en": "3", "kn": "3" }, { "en": "4", "kn": "4" }, { "en": "9", "kn": "9" }],
+          "correct_index": 0,
+          "explanation": { "en": "3 has only two factors: 1 and 3.", "kn": "3 ಕ್ಕೆ 1 ಮತ್ತು 3 ಮಾತ್ರ ಅಪವರ್ತನಗಳಿವೆ." }
+        }
+      ],
+      "verification": {
+        "class": 10,
+        "subject": "Mathematics",
+        "chapter_name": "Real Numbers",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending SSLC KTBS 2026-27 confirmation at textbooks.karnataka.gov.in / kseab.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://kseab.karnataka.gov.in/"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c10-sci-01",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Chemical Reactions & Equations", "kn": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಸಮೀಕರಣಗಳು" },
+      "summary": {
+        "en": "Balancing chemical equations in accordance with conservation of mass.",
+        "kn": "ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣಾ ನಿಯಮದಂತೆ ರಾಸಾಯನಿಕ ಸಮೀಕರಣ ಸಮತೋಲನ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c10-s1-01",
+          "topic_title": { "en": "Balanced Chemical Equations", "kn": "ಸಮತೋಲಿತ ರಾಸಾಯನಿಕ ಸಮೀಕರಣಗಳು" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "A balanced chemical equation has equal numbers of atoms of each element on reactant and product sides due to conservation of mass.",
+              "kn": "ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣಾ ನಿಯಮದಂತೆ ಸಮತೋಲಿತ ಸಮೀಕರಣದಲ್ಲಿ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಪ್ರತಿ ಧಾತುವಿನ ಪರಮಾಣುಗಳ ಸಂಖ್ಯೆ ಸಮವಾಗಿರುತ್ತದೆ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Chemical Equation", "kn": "ರಾಸಾಯನಿಕ ಸಮೀಕರಣ" }, "definition": { "en": "Symbolic representation of a chemical reaction using formulas.", "kn": "ಸೂತ್ರಗಳ ಮೂಲಕ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುವ ವಿಧಾನ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Adjust coefficients rather than changing chemical formulas."],
+              "kn": ["ಸೂತ್ರ ಬದಲಾಯಿಸದೆ ಗುಣಾಂಕಗಳನ್ನು ಸರಿಪಡಿಸಿ."]
+            },
+            "important_keywords": [
+              { "en": "Reactants", "kn": "ಪ್ರತಿಕ್ರಿಯಕಗಳು" },
+              { "en": "Products", "kn": "ಉತ್ಪನ್ನಗಳು" }
+            ],
+            "real_life_examples": {
+              "en": ["Rusting of iron."],
+              "kn": ["ಕಬ್ಬಿಣ ತುಕ್ಕು ಹಿಡಿಯುವುದು."]
+            },
+            "revision_notes": {
+              "en": "Atoms of each element balance on both sides.",
+              "kn": "ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಪರಮಾಣುಗಳು ಸಮವಾಗಿರುತ್ತವೆ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Why must a chemical equation be balanced?", "kn": "ರಾಸಾಯನಿಕ ಸಮೀಕರಣವನ್ನು ಏಕೆ ಸಮತೋಲನಗೊಳಿಸಬೇಕು?" },
+                "solution_guide": { "en": "To follow conservation of mass.", "kn": "ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣಾ ನಿಯಮ ಪಾಲಿಸಲು." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What are reactants?", "kn": "ಪ್ರತಿಕ್ರಿಯಕಗಳು ಎಂದರೇನು?" },
+          "a": { "en": "Substances taking part in a chemical reaction.", "kn": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯಲ್ಲಿ ಭಾಗವಹಿಸುವ ಪದಾರ್ಥಗಳು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c10-s1-1",
+          "question": { "en": "Balancing chemical equations follows:", "kn": "ರಾಸಾಯನಿಕ ಸಮೀಕರಣ ಸಮತೋಲನವು ಇದನ್ನು ಅನುಸರಿಸುತ್ತದೆ:" },
+          "options": [{ "en": "Conservation of mass", "kn": "ದ್ರವ್ಯರಾಶಿಯ ಸಂರಕ್ಷಣೆ" }, { "en": "Random guessing", "kn": "ಅಂದಾಜು" }, { "en": "Changing formulas", "kn": "ಸೂತ್ರ ಬದಲಾವಣೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Mass is conserved during a chemical reaction.", "kn": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯಲ್ಲಿ ದ್ರವ್ಯರಾಶಿ ಸಂರಕ್ಷಿಸಲ್ಪಡುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c10-s1-2",
+          "question": { "en": "In a balanced equation, each element has equal:", "kn": "ಸಮತೋಲಿತ ಸಮೀಕರಣದಲ್ಲಿ ಪ್ರತಿ ಧಾತುವಿನ ಸಮನಾಗಿರುವುದು:" },
+          "options": [{ "en": "Number of atoms on both sides", "kn": "ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಪರಮಾಣುಗಳ ಸಂಖ್ಯೆ" }, { "en": "Color", "kn": "ಬಣ್ಣ" }, { "en": "Smell", "kn": "ವಾಸನೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Atom counts of every element match on reactants and products.", "kn": "ಪ್ರತಿಕ್ರಿಯಕ ಮತ್ತು ಉತ್ಪನ್ನಗಳಲ್ಲಿ ಪರಮಾಣು ಸಂಖ್ಯೆ ಸಮವಾಗಿರುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c10-s1-3",
+          "question": { "en": "When balancing an equation, you should NOT change:", "kn": "ಸಮತೋಲನ ಮಾಡುವಾಗ ಇದನ್ನು ಬದಲಾಯಿಸಬಾರದು:" },
+          "options": [{ "en": "Chemical formulas", "kn": "ರಾಸಾಯನಿಕ ಸೂತ್ರಗಳು" }, { "en": "Coefficients", "kn": "ಗುಣಾಂಕಗಳು" }, { "en": "Notebook page", "kn": "ಪುಸ್ತಕದ ಪುಟ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Changing formulas changes the substance itself.", "kn": "ಸೂತ್ರ ಬದಲಾಯಿಸಿದರೆ ಪದಾರ್ಥವೇ ಬದಲಾಗುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 10,
+        "subject": "Science",
+        "chapter_name": "Chemical Reactions & Equations",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending SSLC KTBS 2026-27 confirmation at textbooks.karnataka.gov.in / kseab.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://kseab.karnataka.gov.in/"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "ktbs-c10-sst-01",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": { "en": "Resources & Sustainable Use", "kn": "ಸಂಪನ್ಮೂಲಗಳು ಮತ್ತು ಸುಸ್ಥಿರ ಬಳಕೆ" },
+      "summary": {
+        "en": "Natural resources and sustainable use for present and future needs.",
+        "kn": "ಈಗಿನ ಮತ್ತು ಮುಂದಿನ ಅಗತ್ಯಗಳಿಗೆ ಸಂಪನ್ಮೂಲಗಳ ಸುಸ್ಥಿರ ಬಳಕೆ."
+      },
+      "topics": [
+        {
+          "topic_id": "t-c10-sst1-01",
+          "topic_title": { "en": "Sustainable Development", "kn": "ಸುಸ್ಥಿರ ಅಭಿವೃದ್ಧಿ" },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "Sustainable development meets present needs without compromising future generations' ability to meet theirs.",
+              "kn": "ಮುಂದಿನ ಪೀಳಿಗೆಯ ಅಗತ್ಯಗಳಿಗೆ ಧಕ್ಕೆಯಾಗದಂತೆ ಇಂದಿನ ಅಗತ್ಯಗಳನ್ನು ಪೂರೈಸುವುದೇ ಸುಸ್ಥಿರ ಅಭಿವೃದ್ಧಿ."
+            },
+            "important_definitions": [
+              { "term": { "en": "Resource", "kn": "ಸಂಪನ್ಮೂಲ" }, "definition": { "en": "Anything satisfying human needs and accessible for use.", "kn": "ಮಾನವನ ಅಗತ್ಯಗಳನ್ನು ಪೂರೈಸುವ ಉಪಯುಕ್ತ ಅಂಶ." } }
+            ],
+            "chapter_notes": {
+              "en": ["Conservation prevents resource depletion."],
+              "kn": ["ಸಂರಕ್ಷಣೆಯು ಸಂಪನ್ಮೂಲ ಬರಿದಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ."]
+            },
+            "important_keywords": [
+              { "en": "Sustainability", "kn": "ಸುಸ್ಥಿರತೆ" },
+              { "en": "Resource", "kn": "ಸಂಪನ್ಮೂಲ" }
+            ],
+            "real_life_examples": {
+              "en": ["Rainwater harvesting and watershed care."],
+              "kn": ["ಮಳೆ ನೀರು ಕೊಯ್ಲು ಮತ್ತು ಜಲಾನಯನ ರಕ್ಷಣೆ."]
+            },
+            "revision_notes": {
+              "en": "Use resources wisely for future generations too.",
+              "kn": "ಮುಂದಿನ ಪೀಳಿಗೆಗೂ ಸಿಗುವಂತೆ ಸಂಪನ್ಮೂಲ ಬಳಸಿ."
+            },
+            "practice_exercises": [
+              {
+                "prompt": { "en": "Give one example of resource conservation.", "kn": "ಸಂಪನ್ಮೂಲ ಸಂರಕ್ಷಣೆಯ ಒಂದು ಉದಾಹರಣೆ ನೀಡಿ." },
+                "solution_guide": { "en": "Rainwater harvesting.", "kn": "ಮಳೆ ನೀರು ಕೊಯ್ಲು." }
+              }
+            ]
+          }
+        }
+      ],
+      "important_qa": [
+        {
+          "q": { "en": "What is sustainable use of resources?", "kn": "ಸಂಪನ್ಮೂಲಗಳ ಸುಸ್ಥಿರ ಬಳಕೆ ಎಂದರೇನು?" },
+          "a": { "en": "Using resources carefully so future generations can also meet their needs.", "kn": "ಭವಿಷ್ಯದ ಪೀಳಿಗೆಗೂ ಅಗತ್ಯ ಪೂರೈಸುವಂತೆ ಸಂಪನ್ಮೂಲ ಬಳಸುವುದು." }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-c10-sst1-1",
+          "question": { "en": "Rainwater harvesting supports:", "kn": "ಮಳೆ ನೀರು ಕೊಯ್ಲು ಇದಕ್ಕೆ ಬೆಂಬಲ ನೀಡುತ್ತದೆ:" },
+          "options": [{ "en": "Water conservation", "kn": "ಜಲ ಸಂರಕ್ಷಣೆ" }, { "en": "Resource waste", "kn": "ಸಂಪನ್ಮೂಲ ಪೋಲು" }, { "en": "Air pollution", "kn": "ವಾಯು ಮಾಲಿನ್ಯ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Rainwater harvesting helps store and conserve water.", "kn": "ಮಳೆ ನೀರು ಕೊಯ್ಲು ನೀರನ್ನು ಸಂಗ್ರಹಿಸಲು ಮತ್ತು ಉಳಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c10-sst1-2",
+          "question": { "en": "Sustainable development balances present needs with:", "kn": "ಸುಸ್ಥಿರ ಅಭಿವೃದ್ಧಿಯು ಇಂದಿನ ಅಗತ್ಯಗಳನ್ನು ಇದರೊಂದಿಗೆ ಸಮತೋಲನಗೊಳಿಸುತ್ತದೆ:" },
+          "options": [{ "en": "Future generations' needs", "kn": "ಮುಂದಿನ ಪೀಳಿಗೆಯ ಅಗತ್ಯಗಳು" }, { "en": "Total exhaustion of soil", "kn": "ಮಣ್ಣಿನ ಸಂಪೂರ್ಣ ನಾಶ" }, { "en": "Ignoring water supply", "kn": "ನೀರಿನ ನಿರ್ಲಕ್ಷ್ಯ" }],
+          "correct_index": 0,
+          "explanation": { "en": "It protects future needs while meeting current ones.", "kn": "ಇಂದಿನ ಅಗತ್ಯದ ಜೊತೆಗೆ ಮುಂದಿನ ಪೀಳಿಗೆಯ ಅಗತ್ಯವನ್ನೂ ರಕ್ಷಿಸುತ್ತದೆ." }
+        },
+        {
+          "id": "q-c10-sst1-3",
+          "question": { "en": "Using resources carefully helps prevent:", "kn": "ಸಂಪನ್ಮೂಲಗಳನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸುವುದರಿಂದ ಇದು ತಪ್ಪುತ್ತದೆ:" },
+          "options": [{ "en": "Rapid depletion", "kn": "ವೇಗದ ಬರಿದಾಗುವಿಕೆ" }, { "en": "Clean air", "kn": "ಶುದ್ಧ ಗಾಳಿ" }, { "en": "Tree growth", "kn": "ಮರಗಳ ಬೆಳವಣಿಗೆ" }],
+          "correct_index": 0,
+          "explanation": { "en": "Careful use slows depletion of vital resources.", "kn": "ಜಾಗರೂಕ ಬಳಕೆಯು ಸಂಪನ್ಮೂಲಗಳ ಬರಿದಾಗುವಿಕೆಯನ್ನು ತಡೆಯುತ್ತದೆ." }
+        }
+      ],
+      "verification": {
+        "class": 10,
+        "subject": "Social Science",
+        "chapter_name": "Resources & Sustainable Use",
+        "academic_year": "2026-27",
+        "textbook_reference": "Pending SSLC KTBS 2026-27 confirmation at textbooks.karnataka.gov.in / kseab.karnataka.gov.in",
+        "sources_consulted": ["https://textbooks.karnataka.gov.in/textbooks/en", "https://kseab.karnataka.gov.in/"],
+        "question_bank_status": "VERIFIED",
+        "kannada_translation_status": "REVIEW REQUIRED",
+        "last_verification_date": "2026-11-23"
       }
     }
   ]
