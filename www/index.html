@@ -7,42 +7,78 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Opening Splash Screen Animation -->
+  <div id="splashScreen" class="splash-screen" aria-hidden="true">
+    <div class="splash-content">
+      <div class="splash-badge">📘</div>
+      <h1 class="splash-title">Vidya Pathshala</h1>
+      <p class="splash-sub">Classes 1–10 • Offline Study Companion</p>
+    </div>
+  </div>
+
   <header class="app-header">
     <div>
       <h1>Vidya Pathshala</h1>
       <span class="badge">Offline Study Companion • Classes 1–10</span>
     </div>
-    <div class="progress-pill" id="progressText">0/0 Revised</div>
+    <div class="header-controls">
+      <div class="lang-toggle" role="group" aria-label="Language Switcher">
+        <button type="button" id="langEnBtn" class="lang-btn active" onclick="setLanguage('en')">EN</button>
+        <button type="button" id="langKnBtn" class="lang-btn" onclick="setLanguage('kn')">ಕನ್ನಡ</button>
+      </div>
+      <div class="progress-pill" id="progressText">0/0 Completed</div>
+    </div>
   </header>
 
   <nav class="mode-nav">
-    <button class="mode-btn active" id="tabNotes" onclick="switchMode('notes')">📘 Chapter Notes</button>
+    <button class="mode-btn active" id="tabNotes" onclick="switchMode('notes')">📘 Study Materials</button>
     <button class="mode-btn" id="tabDeck" onclick="switchMode('deck')">🃏 3D Formula Deck</button>
   </nav>
 
+  <!-- Step 1: Class -> Step 2: Subject -> Step 3: Specific Chapter -->
   <section class="controls-bar">
-    <label for="classSelect"><strong>Class:</strong></label>
-    <select id="classSelect" onchange="onFilterChange()">
-      <option value="all">All Classes (1–10)</option>
-      <option value="1">Class 1</option>
-      <option value="2">Class 2</option>
-      <option value="3">Class 3</option>
-      <option value="4">Class 4</option>
-      <option value="5">Class 5</option>
-      <option value="6">Class 6</option>
-      <option value="7">Class 7</option>
-      <option value="8">Class 8</option>
-      <option value="9">Class 9</option>
-      <option value="10">Class 10</option>
-    </select>
-    <input type="text" id="searchInput" placeholder="Search topic or term..." oninput="renderNotes()" />
+    <div class="filter-group">
+      <label for="classSelect"><strong>1. Class (1–10):</strong></label>
+      <select id="classSelect" onchange="onClassChange()">
+        <option value="">Select Class</option>
+        <option value="1">Class 1</option>
+        <option value="2">Class 2</option>
+        <option value="3">Class 3</option>
+        <option value="4">Class 4</option>
+        <option value="5">Class 5</option>
+        <option value="6">Class 6</option>
+        <option value="7">Class 7</option>
+        <option value="8">Class 8</option>
+        <option value="9">Class 9</option>
+        <option value="10">Class 10</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="subjectSelect"><strong>2. Subject:</strong></label>
+      <select id="subjectSelect" onchange="onSubjectChange()" disabled>
+        <option value="">Select Subject</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="chapterSelect"><strong>3. Chapter:</strong></label>
+      <select id="chapterSelect" onchange="onChapterChange()" disabled>
+        <option value="">All Chapters in Subject</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="searchInput"><strong>Search:</strong></label>
+      <input type="text" id="searchInput" placeholder="Search topic or keyword..." oninput="renderNotes()" />
+    </div>
   </section>
 
-  <!-- NOTES VIEW -->
+  <!-- STUDY MATERIALS VIEW -->
   <main id="notesView">
     <div class="sub-tabs">
       <button class="sub-tab active" data-filter="all" onclick="setSubFilter('all', this)">All Chapters</button>
-      <button class="sub-tab" data-filter="saved" onclick="setSubFilter('saved', this)">Saved (<span id="savedCount">0</span>)</button>
+      <button class="sub-tab" data-filter="saved" onclick="setSubFilter('saved', this)">Bookmarked (<span id="savedCount">0</span>)</button>
     </div>
     <div id="notesContainer"></div>
   </main>
