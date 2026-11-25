@@ -1,0 +1,4632 @@
+{
+  "metadata": {
+    "app": "Vidya Pathshala",
+    "board": "Karnataka State Board (KTBS / DSERT / KSEAB)",
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "academic_year": "2026-27",
+    "offline_first": true,
+    "copyright_note": "Original student study notes, definitions, examples, and practice questions; not a reproduction of copyrighted textbook pages.",
+    "content_update": "Integrated user-provided revision notes",
+    "content_update_date": "2026-11-25",
+    "content_note": "Class 10 notes imported chapter-wise. Classes 1–9 entries are quick-revision units and are not claimed to be exact textbook chapter matches. Kannada translations and exact KTBS alignment remain pending review. Subject aliases such as Maths/Mathematics were normalised when matching existing records."
+  },
+  "chapters": [
+    {
+      "id": "vp-c10-mathematics-01",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Real Numbers",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Euclid's lemma: a = bq + r, where 0 <= r < b Every composite number has a unique prime factorisation",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-01-topic-1",
+          "topic_title": {
+            "en": "Real Numbers — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Euclid's lemma: a = bq + r, where 0 <= r < b",
+                "Every composite number has a unique prime factorisation",
+                "sqrt2, sqrt3, sqrt5 are irrational",
+                "p/q terminates if q = 2^m x 5^n",
+                "Key formulas and relations:",
+                "HCF-LCM relation: HCF x LCM = a x b",
+                "Euclid's division: a = bq + r"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "HCF uses smallest powers, LCM uses highest powers of primes",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-02",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 2,
+      "chapter_title": {
+        "en": "Polynomials",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Degree 2 polynomial has at most 2 zeros Zeros are where the graph cuts the x-axis",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-02-topic-1",
+          "topic_title": {
+            "en": "Polynomials — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Degree 2 polynomial has at most 2 zeros",
+                "Zeros are where the graph cuts the x-axis",
+                "Key formulas and relations:",
+                "Sum of zeros: alpha + beta = -b/a",
+                "Product of zeros: alpha x beta = c/a",
+                "Form from zeros: x^2 - (sum)x + (product)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Check signs carefully: sum is -b/a",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-03",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 3,
+      "chapter_title": {
+        "en": "Pair of Linear Equations in Two Variables",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Methods: substitution, elimination, graph, cross-multiplication",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-03-topic-1",
+          "topic_title": {
+            "en": "Pair of Linear Equations in Two Variables — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Methods: substitution, elimination, graph, cross-multiplication",
+                "Key formulas and relations:",
+                "Unique solution: a1/a2 != b1/b2",
+                "No solution: a1/a2 = b1/b2 != c1/c2",
+                "Infinite solutions: a1/a2 = b1/b2 = c1/c2",
+                "Cross-multiplication: x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Word problems: define x and y clearly first",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-04",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 4,
+      "chapter_title": {
+        "en": "Quadratic Equations",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Standard form: ax^2 + bx + c = 0, a != 0 D > 0: two distinct real roots",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-04-topic-1",
+          "topic_title": {
+            "en": "Quadratic Equations — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Standard form: ax^2 + bx + c = 0, a != 0",
+                "D > 0: two distinct real roots",
+                "D = 0: two equal real roots",
+                "D < 0: no real roots",
+                "Key formulas and relations:",
+                "Discriminant: D = b^2 - 4ac",
+                "Roots: x = (-b +- sqrt(D)) / 2a"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Try factorisation first, formula if it does not factor",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-05",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 5,
+      "chapter_title": {
+        "en": "Arithmetic Progressions",
+        "kn": ""
+      },
+      "summary": {
+        "en": "AP: each term = previous term + common difference d d = a2 - a1",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-05-topic-1",
+          "topic_title": {
+            "en": "Arithmetic Progressions — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "AP: each term = previous term + common difference d",
+                "d = a2 - a1",
+                "Key formulas and relations:",
+                "nth term: an = a + (n-1)d",
+                "Sum of n terms: Sn = n/2 [2a + (n-1)d]",
+                "Sum with last term: Sn = n/2 (a + l)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Three terms in AP: a-d, a, a+d",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-06",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 6,
+      "chapter_title": {
+        "en": "Triangles",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Similar triangles: equal angles, proportional sides Criteria: AAA, SAS, SSS",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-06-topic-1",
+          "topic_title": {
+            "en": "Triangles — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Similar triangles: equal angles, proportional sides",
+                "Criteria: AAA, SAS, SSS",
+                "BPT: a line parallel to one side divides the other two sides in equal ratio",
+                "Pythagoras theorem applies to right-angled triangles only",
+                "Key formulas and relations:",
+                "BPT: AD/DB = AE/EC",
+                "Area ratio: ar(T1)/ar(T2) = (side1/side2)^2",
+                "Pythagoras: h^2 = b^2 + p^2"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Common triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-07",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 7,
+      "chapter_title": {
+        "en": "Coordinate Geometry",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Distance formula comes from Pythagoras theorem Three points are collinear if area of triangle = 0",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-07-topic-1",
+          "topic_title": {
+            "en": "Coordinate Geometry — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Distance formula comes from Pythagoras theorem",
+                "Three points are collinear if area of triangle = 0",
+                "Key formulas and relations:",
+                "Distance: d = sqrt((x2-x1)^2 + (y2-y1)^2)",
+                "Section formula: ((m1x2+m2x1)/(m1+m2), (m1y2+m2y1)/(m1+m2))",
+                "Midpoint: ((x1+x2)/2, (y1+y2)/2)",
+                "Area of triangle: 1/2 |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Distance of point from origin = sqrt(x^2 + y^2)",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-08",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 8,
+      "chapter_title": {
+        "en": "Introduction to Trigonometry",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Ratios are defined for acute angles in a right triangle sin and cos of an angle never exceed 1",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-08-topic-1",
+          "topic_title": {
+            "en": "Introduction to Trigonometry — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Ratios are defined for acute angles in a right triangle",
+                "sin and cos of an angle never exceed 1",
+                "Key formulas and relations:",
+                "sin: sin A = opposite/hypotenuse",
+                "cos: cos A = adjacent/hypotenuse",
+                "tan: tan A = opposite/adjacent = sin A/cos A",
+                "Identity 1: sin^2 A + cos^2 A = 1",
+                "Identity 2: 1 + tan^2 A = sec^2 A",
+                "Identity 3: 1 + cot^2 A = cosec^2 A",
+                "Complementary: sin(90-A) = cos A, tan(90-A) = cot A"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Values for 0, 30, 45, 60, 90 deg: sin = 0, 1/2, 1/sqrt2, sqrt3/2, 1 | cos values are sin values in reverse order",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-09",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 9,
+      "chapter_title": {
+        "en": "Some Applications of Trigonometry",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Angle of elevation: looking up from horizontal Angle of depression: looking down from horizontal",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-09-topic-1",
+          "topic_title": {
+            "en": "Some Applications of Trigonometry — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Angle of elevation: looking up from horizontal",
+                "Angle of depression: looking down from horizontal",
+                "Draw a neat figure first, then pick sin, cos or tan",
+                "Key formulas and relations:",
+                "Height from distance: h = d x tan(theta)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Use tan when both height and base are involved",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-10",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 10,
+      "chapter_title": {
+        "en": "Circles",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Tangent touches the circle at exactly one point Tangent is perpendicular to the radius at the point of contact",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-10-topic-1",
+          "topic_title": {
+            "en": "Circles — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Tangent touches the circle at exactly one point",
+                "Tangent is perpendicular to the radius at the point of contact",
+                "Two tangents from an external point are equal in length",
+                "Key formulas and relations:",
+                "Tangent length: PT = sqrt(OP^2 - r^2)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Join centre to point of contact to form a right angle",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-11",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 11,
+      "chapter_title": {
+        "en": "Areas Related to Circles",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Sector is a part of a circle between two radii Segment is the region between a chord and its arc",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-11-topic-1",
+          "topic_title": {
+            "en": "Areas Related to Circles — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Sector is a part of a circle between two radii",
+                "Segment is the region between a chord and its arc",
+                "Key formulas and relations:",
+                "Circumference: 2 x pi x r",
+                "Area of circle: pi x r^2",
+                "Arc length: (theta/360) x 2 x pi x r",
+                "Sector area: (theta/360) x pi x r^2",
+                "Segment area: Sector area - Triangle area"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Use pi = 22/7 unless told otherwise",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-12",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 12,
+      "chapter_title": {
+        "en": "Surface Areas and Volumes",
+        "kn": ""
+      },
+      "summary": {
+        "en": "CSA = curved surface area, TSA = total surface area For combined solids, add volumes; do not add hidden joined faces",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-12-topic-1",
+          "topic_title": {
+            "en": "Surface Areas and Volumes — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "CSA = curved surface area, TSA = total surface area",
+                "For combined solids, add volumes; do not add hidden joined faces",
+                "Key formulas and relations:",
+                "Cylinder CSA: 2 pi r h",
+                "Cylinder TSA: 2 pi r (r + h)",
+                "Cylinder volume: pi r^2 h",
+                "Cone slant height: l = sqrt(r^2 + h^2)",
+                "Cone CSA: pi r l",
+                "Cone TSA: pi r (r + l)",
+                "Cone volume: 1/3 pi r^2 h",
+                "Sphere surface area: 4 pi r^2",
+                "Sphere volume: 4/3 pi r^3",
+                "Hemisphere CSA: 2 pi r^2",
+                "Hemisphere TSA: 3 pi r^2",
+                "Hemisphere volume: 2/3 pi r^3"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "When a solid is melted and recast, volume stays the same",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-13",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 13,
+      "chapter_title": {
+        "en": "Statistics",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Mean, median and mode are measures of central tendency Mode is the most frequent value; modal class has highest frequency",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-13-topic-1",
+          "topic_title": {
+            "en": "Statistics — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Mean, median and mode are measures of central tendency",
+                "Mode is the most frequent value; modal class has highest frequency",
+                "Key formulas and relations:",
+                "Mean (direct): x_bar = sum(fx) / sum(f)",
+                "Mean (assumed mean): x_bar = a + sum(fd) / sum(f)",
+                "Median: l + ((n/2 - cf)/f) x h",
+                "Mode: l + ((f1 - f0)/(2f1 - f0 - f2)) x h",
+                "Empirical relation: Mode = 3 Median - 2 Mean"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Make a cumulative frequency column before finding median",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-mathematics-14",
+      "class": 10,
+      "subject": "Mathematics",
+      "chapter_number": 14,
+      "chapter_title": {
+        "en": "Probability",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Probability of a sure event = 1, impossible event = 0 A deck has 52 cards: 26 red, 26 black, 4 suits of 13",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-mathematics-14-topic-1",
+          "topic_title": {
+            "en": "Probability — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Probability of a sure event = 1, impossible event = 0",
+                "A deck has 52 cards: 26 red, 26 black, 4 suits of 13",
+                "A die has outcomes 1 to 6; a coin has H or T",
+                "Key formulas and relations:",
+                "Probability: P(E) = favourable outcomes / total outcomes",
+                "Range: 0 <= P(E) <= 1",
+                "Complement: P(E) + P(not E) = 1"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Probability can never be negative or more than 1",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-01",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Chemical Reactions and Equations",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Always balance a chemical equation (mass is conserved) Combination: A + B -> AB",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-01-topic-1",
+          "topic_title": {
+            "en": "Chemical Reactions and Equations — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Chemistry",
+                "Always balance a chemical equation (mass is conserved)",
+                "Combination: A + B -> AB",
+                "Decomposition: AB -> A + B (heat, light or electricity)",
+                "Displacement: a more reactive metal displaces a less reactive one",
+                "Double displacement: exchange of ions, often gives a precipitate",
+                "Oxidation = gain of oxygen or loss of electrons; reduction is the opposite",
+                "Corrosion (rusting) and rancidity are oxidation in daily life",
+                "Key formulas and relations:",
+                "Photosynthesis: 6CO2 + 6H2O -> C6H12O6 + 6O2",
+                "Quicklime with water: CaO + H2O -> Ca(OH)2 + heat",
+                "Electrolysis of water: 2H2O -> 2H2 + O2"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Endothermic absorbs heat, exothermic releases heat",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-02",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 2,
+      "chapter_title": {
+        "en": "Acids, Bases and Salts",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Acids: sour, turn blue litmus red, pH below 7 Bases: bitter, soapy, turn red litmus blue, pH above 7",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-02-topic-1",
+          "topic_title": {
+            "en": "Acids, Bases and Salts — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Chemistry",
+                "Acids: sour, turn blue litmus red, pH below 7",
+                "Bases: bitter, soapy, turn red litmus blue, pH above 7",
+                "Neutral: pH = 7",
+                "Neutralisation: acid + base -> salt + water",
+                "Acid + metal -> salt + hydrogen gas",
+                "Acid + carbonate -> salt + water + CO2",
+                "Strong acid has low pH; pH scale runs 0 to 14",
+                "Key formulas and relations:",
+                "Baking soda: NaHCO3 (sodium hydrogencarbonate)",
+                "Washing soda: Na2CO3.10H2O",
+                "Bleaching powder: CaOCl2",
+                "Plaster of Paris: CaSO4.1/2H2O",
+                "Gypsum: CaSO4.2H2O",
+                "Chlor-alkali process: 2NaCl + 2H2O -> 2NaOH + Cl2 + H2"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Tooth decay starts when mouth pH falls below 5.5",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-03",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 3,
+      "chapter_title": {
+        "en": "Metals and Non-metals",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Metals: lustrous, malleable, ductile, good conductors Non-metals: brittle, dull, poor conductors (graphite is an exception)",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-03-topic-1",
+          "topic_title": {
+            "en": "Metals and Non-metals — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Chemistry",
+                "Metals: lustrous, malleable, ductile, good conductors",
+                "Non-metals: brittle, dull, poor conductors (graphite is an exception)",
+                "Reactivity series: K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Hg, Ag, Au",
+                "Ionic compounds: high melting point, conduct in molten or aqueous state",
+                "Ores are purified by electrolysis, reduction or roasting depending on reactivity",
+                "Alloy is a homogeneous mixture of metals",
+                "Key formulas and relations:",
+                "Roasting: 2ZnS + 3O2 -> 2ZnO + 2SO2",
+                "Thermit reaction: Fe2O3 + 2Al -> 2Fe + Al2O3 + heat"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Rusting needs both air and moisture | Gold and platinum are least reactive",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-04",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 4,
+      "chapter_title": {
+        "en": "Carbon and its Compounds",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Carbon is tetravalent and forms covalent bonds Catenation: carbon forms long chains and rings",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-04-topic-1",
+          "topic_title": {
+            "en": "Carbon and its Compounds — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Chemistry",
+                "Carbon is tetravalent and forms covalent bonds",
+                "Catenation: carbon forms long chains and rings",
+                "Saturated: single bonds (alkanes); unsaturated: double or triple bonds",
+                "Functional groups: alcohol -OH, aldehyde -CHO, ketone C=O, acid -COOH",
+                "Esterification: acid + alcohol -> ester + water",
+                "Soap cleans by forming micelles around grease",
+                "Key formulas and relations:",
+                "Alkane: CnH(2n+2)",
+                "Alkene: CnH2n",
+                "Alkyne: CnH(2n-2)",
+                "Combustion: CH4 + 2O2 -> CO2 + 2H2O + heat",
+                "Esterification: CH3COOH + C2H5OH -> CH3COOC2H5 + H2O"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Methane 1C, Ethane 2C, Propane 3C, Butane 4C, Pentane 5C",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-05",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 5,
+      "chapter_title": {
+        "en": "Periodic Classification of Elements",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Mendeleev arranged elements by atomic mass Modern periodic law: properties depend on atomic number",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-05-topic-1",
+          "topic_title": {
+            "en": "Periodic Classification of Elements — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Chemistry",
+                "Mendeleev arranged elements by atomic mass",
+                "Modern periodic law: properties depend on atomic number",
+                "18 groups and 7 periods",
+                "Across a period: atomic size decreases, metallic character decreases",
+                "Down a group: atomic size increases, metallic character increases",
+                "Group 1 alkali metals, Group 17 halogens, Group 18 noble gases"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Valence electrons equal group number for Group 1 and 2",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-06",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 6,
+      "chapter_title": {
+        "en": "Life Processes",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Life processes: nutrition, respiration, transport, excretion Photosynthesis happens in chloroplasts using sunlight, CO2 and water",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-06-topic-1",
+          "topic_title": {
+            "en": "Life Processes — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Biology",
+                "Life processes: nutrition, respiration, transport, excretion",
+                "Photosynthesis happens in chloroplasts using sunlight, CO2 and water",
+                "Stomata exchange gases; guard cells control opening",
+                "Aerobic respiration gives more energy than anaerobic",
+                "Human heart has 4 chambers; double circulation",
+                "Blood vessels: arteries carry blood away from heart, veins bring it back",
+                "Kidney unit is the nephron; it filters blood to form urine",
+                "Digestion: mouth, oesophagus, stomach, small intestine, large intestine",
+                "Key formulas and relations:",
+                "Aerobic respiration: Glucose + O2 -> CO2 + H2O + energy",
+                "Anaerobic in yeast: Glucose -> Ethanol + CO2 + energy",
+                "Energy currency: ATP"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Absorption of digested food happens in villi of small intestine",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-07",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 7,
+      "chapter_title": {
+        "en": "Control and Coordination",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Neuron is the unit of the nervous system Reflex action is quick and involuntary, controlled by spinal cord",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-07-topic-1",
+          "topic_title": {
+            "en": "Control and Coordination — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Biology",
+                "Neuron is the unit of the nervous system",
+                "Reflex action is quick and involuntary, controlled by spinal cord",
+                "Brain parts: fore-brain, mid-brain, hind-brain",
+                "Plant hormones: auxin (growth), gibberellin (stem growth), cytokinin (cell division), ABA (inhibits growth)",
+                "Animal hormones: insulin (lowers blood sugar), thyroxine (metabolism), adrenaline (emergency)",
+                "Tropism: phototropism, geotropism, hydrotropism, chemotropism"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Reflex arc: receptor -> sensory neuron -> spinal cord -> motor neuron -> effector",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-08",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 8,
+      "chapter_title": {
+        "en": "How do Organisms Reproduce",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Asexual: fission, budding, fragmentation, spore formation, vegetative propagation Sexual reproduction gives variation",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-08-topic-1",
+          "topic_title": {
+            "en": "How do Organisms Reproduce — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Biology",
+                "Asexual: fission, budding, fragmentation, spore formation, vegetative propagation",
+                "Sexual reproduction gives variation",
+                "Flower parts: sepal, petal, stamen (male), pistil (female)",
+                "Pollination then fertilisation then fruit and seed formation",
+                "Male system: testis, vas deferens, urethra",
+                "Female system: ovary, fallopian tube, uterus",
+                "Contraceptives prevent pregnancy; they do not protect fully from all infections"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Binary fission: Amoeba; budding: Yeast and Hydra; spores: Rhizopus",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-09",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 9,
+      "chapter_title": {
+        "en": "Heredity and Evolution",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Mendel worked on pea plants Dominant trait shows in F1; recessive reappears in F2",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-09-topic-1",
+          "topic_title": {
+            "en": "Heredity and Evolution — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Biology",
+                "Mendel worked on pea plants",
+                "Dominant trait shows in F1; recessive reappears in F2",
+                "Human sex determination: XX female, XY male; father decides the sex of the child",
+                "Acquired traits are not inherited",
+                "Speciation, natural selection and genetic drift drive evolution",
+                "Homologous organs show common ancestry; analogous organs do not",
+                "Key formulas and relations:",
+                "Monohybrid F2 phenotype ratio: 3 : 1",
+                "Monohybrid F2 genotype ratio: 1 : 2 : 1",
+                "Dihybrid F2 ratio: 9 : 3 : 3 : 1"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Human body cell has 23 pairs (46) of chromosomes",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-10",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 10,
+      "chapter_title": {
+        "en": "Light - Reflection and Refraction",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Laws of reflection: angle of incidence = angle of reflection Concave mirror converges light; convex mirror diverges light",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-10-topic-1",
+          "topic_title": {
+            "en": "Light - Reflection and Refraction — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Physics",
+                "Laws of reflection: angle of incidence = angle of reflection",
+                "Concave mirror converges light; convex mirror diverges light",
+                "Convex lens converges; concave lens diverges",
+                "Convex mirror always gives a virtual, erect, diminished image",
+                "Sign convention: distances measured from pole in direction of incident light are positive",
+                "Light bends towards the normal when entering a denser medium",
+                "Key formulas and relations:",
+                "Focal length of mirror: f = R/2",
+                "Mirror formula: 1/v + 1/u = 1/f",
+                "Lens formula: 1/v - 1/u = 1/f",
+                "Magnification (mirror): m = h2/h1 = -v/u",
+                "Magnification (lens): m = h2/h1 = v/u",
+                "Snell's law: sin i / sin r = constant",
+                "Refractive index: n = c / v",
+                "Power of lens: P = 1/f (f in metres), unit dioptre"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Concave mirror used in headlights and shaving mirrors; convex in rear-view mirrors",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-11",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 11,
+      "chapter_title": {
+        "en": "Human Eye and Colourful World",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Eye lens forms a real inverted image on the retina Myopia (short-sightedness): corrected with a concave lens",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-11-topic-1",
+          "topic_title": {
+            "en": "Human Eye and Colourful World — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Physics",
+                "Eye lens forms a real inverted image on the retina",
+                "Myopia (short-sightedness): corrected with a concave lens",
+                "Hypermetropia (long-sightedness): corrected with a convex lens",
+                "Presbyopia: old age; bifocal lens is used",
+                "Near point of normal eye is 25 cm",
+                "Dispersion: white light splits into VIBGYOR through a prism",
+                "Scattering explains blue sky and red sunrise and sunset"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "VIBGYOR: Violet, Indigo, Blue, Green, Yellow, Orange, Red | Red scatters the least",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-12",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 12,
+      "chapter_title": {
+        "en": "Electricity",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Current is the flow of charge; unit ampere Ammeter is connected in series, voltmeter in parallel",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-12-topic-1",
+          "topic_title": {
+            "en": "Electricity — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Physics",
+                "Current is the flow of charge; unit ampere",
+                "Ammeter is connected in series, voltmeter in parallel",
+                "Resistance depends on length, area and material",
+                "In series the current is the same; in parallel the voltage is the same",
+                "Fuse protects circuits from overloading",
+                "Key formulas and relations:",
+                "Current: I = Q / t",
+                "Ohm's law: V = I R",
+                "Resistance: R = rho x l / A",
+                "Series: Rs = R1 + R2 + R3",
+                "Parallel: 1/Rp = 1/R1 + 1/R2 + 1/R3",
+                "Heating effect: H = I^2 R t",
+                "Power: P = V I = I^2 R = V^2 / R",
+                "Energy: E = P x t",
+                "1 kWh: 3.6 x 10^6 J"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Unit of power is watt; commercial unit of energy is kWh (one unit of electricity)",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-13",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 13,
+      "chapter_title": {
+        "en": "Magnetic Effects of Electric Current",
+        "kn": ""
+      },
+      "summary": {
+        "en": "A current-carrying wire produces a magnetic field (Oersted) Right-hand thumb rule gives the direction of the field around a wire",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-13-topic-1",
+          "topic_title": {
+            "en": "Magnetic Effects of Electric Current — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Physics",
+                "A current-carrying wire produces a magnetic field (Oersted)",
+                "Right-hand thumb rule gives the direction of the field around a wire",
+                "Fleming's left-hand rule gives the direction of force on a conductor",
+                "Electric motor converts electrical energy to mechanical energy",
+                "Generator converts mechanical energy to electrical energy (induction)",
+                "Fleming's right-hand rule gives the direction of induced current",
+                "AC changes direction; India's AC frequency is 50 Hz",
+                "Household wires: red (live), black (neutral), green (earth)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Field lines never cross; they emerge from North and enter South",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-science-14",
+      "class": 10,
+      "subject": "Science",
+      "chapter_number": 14,
+      "chapter_title": {
+        "en": "Our Environment",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Food chain: producers -> herbivores -> carnivores Only about 10% of energy passes to the next trophic level",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-science-14-topic-1",
+          "topic_title": {
+            "en": "Our Environment — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Biology",
+                "Food chain: producers -> herbivores -> carnivores",
+                "Only about 10% of energy passes to the next trophic level",
+                "Biodegradable waste is broken down by microbes; non-biodegradable is not",
+                "Ozone layer protects from UV; CFCs damage it",
+                "Biomagnification: harmful chemicals build up along the food chain",
+                "Reduce, Reuse, Recycle",
+                "Key formulas and relations:",
+                "Ozone formation: O2 -> O + O, then O + O2 -> O3",
+                "10 percent law: Energy passed on = 10% of energy at the previous level"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Producers are green plants; decomposers are bacteria and fungi",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-01",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Impact of World Wars",
+        "kn": ""
+      },
+      "summary": {
+        "en": "World War I: 1914 to 1918; World War II: 1939 to 1945 Causes of WWI: militarism, alliances, imperialism, nationalism",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-01-topic-1",
+          "topic_title": {
+            "en": "Impact of World Wars — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: History",
+                "World War I: 1914 to 1918; World War II: 1939 to 1945",
+                "Causes of WWI: militarism, alliances, imperialism, nationalism",
+                "Immediate cause of WWI: assassination of Archduke Franz Ferdinand (1914)",
+                "League of Nations formed in 1920 after WWI; it failed to stop WWII",
+                "United Nations formed in 1945 to maintain world peace",
+                "WWII ended after atom bombs on Hiroshima and Nagasaki (1945)"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Allies vs Axis (Germany, Italy, Japan) in WWII",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-02",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 2,
+      "chapter_title": {
+        "en": "Indian Freedom Movement",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Indian National Congress founded in 1885 Revolt of 1857 is called the First War of Independence",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-02-topic-1",
+          "topic_title": {
+            "en": "Indian Freedom Movement — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: History",
+                "Indian National Congress founded in 1885",
+                "Revolt of 1857 is called the First War of Independence",
+                "Jallianwala Bagh massacre: 1919",
+                "Non-Cooperation Movement: 1920; Dandi (Salt) March: 1930",
+                "Quit India Movement: 1942, 'Do or Die'",
+                "India became independent on 15 August 1947"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Remember the order: 1857, 1885, 1919, 1920, 1930, 1942, 1947",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-03",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 3,
+      "chapter_title": {
+        "en": "Unification of Karnataka",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Kannada-speaking regions were under different rulers before 1956 Karnataka formed on 1 November 1956 (then called Mysore State)",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-03-topic-1",
+          "topic_title": {
+            "en": "Unification of Karnataka — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: History",
+                "Kannada-speaking regions were under different rulers before 1956",
+                "Karnataka formed on 1 November 1956 (then called Mysore State)",
+                "Renamed Karnataka in 1973",
+                "Kannada Rajyotsava is celebrated on 1 November"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-04",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 4,
+      "chapter_title": {
+        "en": "The Indian Constitution",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Constitution adopted on 26 November 1949 and came into force on 26 January 1950 Dr B. R. Ambedkar was chairman of the Drafting Committee",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-04-topic-1",
+          "topic_title": {
+            "en": "The Indian Constitution — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Political Science",
+                "Constitution adopted on 26 November 1949 and came into force on 26 January 1950",
+                "Dr B. R. Ambedkar was chairman of the Drafting Committee",
+                "India is a sovereign, socialist, secular, democratic republic",
+                "Six Fundamental Rights: equality, freedom, against exploitation, religion, cultural and educational, constitutional remedies",
+                "Fundamental Duties are 11 in number",
+                "Directive Principles guide the government but cannot be enforced in court"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Republic Day: 26 January; Constitution Day: 26 November",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-05",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 5,
+      "chapter_title": {
+        "en": "Government and Democracy",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Parliament: President, Lok Sabha and Rajya Sabha Lok Sabha: lower house, members elected by the people",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-05-topic-1",
+          "topic_title": {
+            "en": "Government and Democracy — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Political Science",
+                "Parliament: President, Lok Sabha and Rajya Sabha",
+                "Lok Sabha: lower house, members elected by the people",
+                "Rajya Sabha: upper house, a permanent house",
+                "Prime Minister is head of the government; President is head of the state",
+                "Voting age in India is 18 years",
+                "Panchayat Raj: gram panchayat, taluk panchayat, zilla panchayat"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Election Commission conducts free and fair elections",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-06",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 6,
+      "chapter_title": {
+        "en": "Social Issues",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Major issues: caste discrimination, gender inequality, child labour, poverty, illiteracy Untouchability is abolished by the Constitution",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-06-topic-1",
+          "topic_title": {
+            "en": "Social Issues — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Sociology",
+                "Major issues: caste discrimination, gender inequality, child labour, poverty, illiteracy",
+                "Untouchability is abolished by the Constitution",
+                "Right to Education: free and compulsory for children aged 6 to 14",
+                "Education, awareness and strong laws help remove social evils"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-07",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 7,
+      "chapter_title": {
+        "en": "Physical Features of India",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Six divisions: Himalayas, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains, Islands Himalayas are young fold mountains; Mount Everest is the highest peak",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-07-topic-1",
+          "topic_title": {
+            "en": "Physical Features of India — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Geography",
+                "Six divisions: Himalayas, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains, Islands",
+                "Himalayas are young fold mountains; Mount Everest is the highest peak",
+                "Major rivers: Ganga, Brahmaputra, Godavari, Krishna, Kaveri",
+                "Western Ghats and Eastern Ghats meet near the Nilgiris",
+                "Monsoon brings most of India's rainfall"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Karnataka rivers: Kaveri, Krishna, Tungabhadra, Sharavathi",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-08",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 8,
+      "chapter_title": {
+        "en": "Resources",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Natural resources: land, water, soil, forest, minerals Renewable: solar, wind, water; non-renewable: coal, petroleum",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-08-topic-1",
+          "topic_title": {
+            "en": "Resources — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Geography",
+                "Natural resources: land, water, soil, forest, minerals",
+                "Renewable: solar, wind, water; non-renewable: coal, petroleum",
+                "Soils: alluvial, black (cotton), red, laterite",
+                "Conserve water, plant trees, avoid wasting resources"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Black soil is best for cotton",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-09",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 9,
+      "chapter_title": {
+        "en": "Agriculture",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Seasons: Kharif (June to Sept), Rabi (Oct to March), Zaid (summer) Kharif crops: rice, jowar, ragi, cotton",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-09-topic-1",
+          "topic_title": {
+            "en": "Agriculture — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Geography",
+                "Seasons: Kharif (June to Sept), Rabi (Oct to March), Zaid (summer)",
+                "Kharif crops: rice, jowar, ragi, cotton",
+                "Rabi crops: wheat, barley, mustard, gram",
+                "Cash crops: cotton, sugarcane, jute, coffee, tea",
+                "Karnataka grows coffee, ragi, sugarcane and silk"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Green Revolution increased food grain production",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-10",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 10,
+      "chapter_title": {
+        "en": "Industries, Transport and Communication",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Iron and steel industry is called a basic industry Cotton textile and sugar are agro-based industries",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-10-topic-1",
+          "topic_title": {
+            "en": "Industries, Transport and Communication — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Geography",
+                "Iron and steel industry is called a basic industry",
+                "Cotton textile and sugar are agro-based industries",
+                "Karnataka is known for IT (Bengaluru), silk and sandalwood",
+                "Road, rail, air and water are the main modes of transport",
+                "Golden Quadrilateral connects Delhi, Mumbai, Chennai and Kolkata",
+                "Communication: post, telephone, internet, TV, radio"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Bengaluru is called the Silicon Valley of India",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-11",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 11,
+      "chapter_title": {
+        "en": "Disaster Management",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Natural disasters: floods, earthquakes, cyclones, droughts, landslides Man-made disasters: fire accidents, industrial accidents",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-11-topic-1",
+          "topic_title": {
+            "en": "Disaster Management — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Geography",
+                "Natural disasters: floods, earthquakes, cyclones, droughts, landslides",
+                "Man-made disasters: fire accidents, industrial accidents",
+                "Stages: preparedness, response, recovery",
+                "Emergency helpline: 112"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Earthquake: drop, cover, hold on",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-12",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 12,
+      "chapter_title": {
+        "en": "Money and Banking",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Reserve Bank of India (RBI) is the central bank, started in 1935 RBI issues currency notes (except the Re 1 note)",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-12-topic-1",
+          "topic_title": {
+            "en": "Money and Banking — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Economics",
+                "Reserve Bank of India (RBI) is the central bank, started in 1935",
+                "RBI issues currency notes (except the Re 1 note)",
+                "Commercial banks accept deposits and give loans",
+                "Savings, fixed and recurring deposits are common bank accounts",
+                "Key formulas and relations:",
+                "Simple interest: SI = (P x R x T) / 100"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-13",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 13,
+      "chapter_title": {
+        "en": "Rural Development",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Rural development aims to improve the lives of village people Schemes: MGNREGA gives 100 days of guaranteed wage employment",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-13-topic-1",
+          "topic_title": {
+            "en": "Rural Development — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Economics",
+                "Rural development aims to improve the lives of village people",
+                "Schemes: MGNREGA gives 100 days of guaranteed wage employment",
+                "Self-help groups (SHGs) help women save and start small businesses",
+                "Better roads, electricity, schools and health care help villages grow"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-14",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 14,
+      "chapter_title": {
+        "en": "Entrepreneurship",
+        "kn": ""
+      },
+      "summary": {
+        "en": "An entrepreneur starts and runs a business and takes risks Qualities: hard work, confidence, decision making, risk taking",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-14-topic-1",
+          "topic_title": {
+            "en": "Entrepreneurship — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Economics",
+                "An entrepreneur starts and runs a business and takes risks",
+                "Qualities: hard work, confidence, decision making, risk taking",
+                "Entrepreneurship creates jobs and boosts the economy",
+                "Schemes like Start-up India and Mudra loans support new businesses",
+                "Key formulas and relations:",
+                "Profit: Profit = Selling price - Cost price"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c10-social-science-15",
+      "class": 10,
+      "subject": "Social Science",
+      "chapter_number": 15,
+      "chapter_title": {
+        "en": "Consumer Education and Protection",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Consumer is a person who buys goods or services Consumer rights: safety, information, choice, to be heard, redressal, consumer education",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c10-social-science-15-topic-1",
+          "topic_title": {
+            "en": "Consumer Education and Protection — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Section: Economics",
+                "Consumer is a person who buys goods or services",
+                "Consumer rights: safety, information, choice, to be heard, redressal, consumer education",
+                "Consumer Protection Act 2019 protects buyers",
+                "Check the ISI, AGMARK, FSSAI marks, MRP and expiry date before buying",
+                "Always take a bill for purchases; National Consumer Helpline: 1915"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "ISI mark: industrial goods; AGMARK: farm products; Hallmark: gold",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "class10_uploaded_notes"
+      }
+    },
+    {
+      "id": "vp-c1-maths-01",
+      "class": 1,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Count numbers from 1 to 100 Before, after and between numbers",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c1-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Count numbers from 1 to 100",
+                "Before, after and between numbers",
+                "Add and subtract small numbers (up to 20)",
+                "Shapes: circle, square, triangle, rectangle"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c1-english-01",
+      "class": 1,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "26 letters: 5 vowels (a, e, i, o, u) and 21 consonants Use 'a' before consonant sounds and 'an' before vowel sounds",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c1-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "26 letters: 5 vowels (a, e, i, o, u) and 21 consonants",
+                "Use 'a' before consonant sounds and 'an' before vowel sounds",
+                "One thing is singular, many things are plural",
+                "Start every sentence with a capital letter"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c1-evs-01",
+      "class": 1,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "EVS — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Our body: eyes see, ears hear, nose smells, tongue tastes, skin feels Family members: mother, father, grandparents, brothers, sisters",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c1-evs-01-topic-1",
+          "topic_title": {
+            "en": "EVS — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Our body: eyes see, ears hear, nose smells, tongue tastes, skin feels",
+                "Family members: mother, father, grandparents, brothers, sisters",
+                "Plants give us food, shade and air",
+                "Keep yourself clean: bathe daily, wash hands before eating"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c2-maths-01",
+      "class": 2,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Place value: ones and tens Addition and subtraction with carrying and borrowing",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c2-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Place value: ones and tens",
+                "Addition and subtraction with carrying and borrowing",
+                "Learn tables of 2, 5 and 10",
+                "Telling time and counting money"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c2-english-01",
+      "class": 2,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Noun: name of a person, place, animal or thing Pronoun replaces a noun: he, she, it, they",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c2-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Noun: name of a person, place, animal or thing",
+                "Pronoun replaces a noun: he, she, it, they",
+                "Singular and plural: boy-boys, box-boxes",
+                "Opposites: big-small, hot-cold"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c2-evs-01",
+      "class": 2,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "EVS — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Plants need water, air, sunlight and soil to grow Animals: pets, farm animals and wild animals",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c2-evs-01-topic-1",
+          "topic_title": {
+            "en": "EVS — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Plants need water, air, sunlight and soil to grow",
+                "Animals: pets, farm animals and wild animals",
+                "Drink clean, boiled or filtered water",
+                "Community helpers: doctor, teacher, farmer, police"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c3-maths-01",
+      "class": 3,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Multiplication is repeated addition Division is sharing equally",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c3-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Multiplication is repeated addition",
+                "Division is sharing equally",
+                "Fractions: half, one-third, quarter",
+                "Units: cm and m for length, g and kg for weight, ml and l for liquid",
+                "Key formulas and relations:",
+                "Units: 1 m = 100 cm, 1 kg = 1000 g, 1 l = 1000 ml"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c3-english-01",
+      "class": 3,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Verb: an action word (run, eat, write) Adjective describes a noun (red, tall, sweet)",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c3-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Verb: an action word (run, eat, write)",
+                "Adjective describes a noun (red, tall, sweet)",
+                "Sentence ends with a full stop, question mark or exclamation mark",
+                "Use is, am, are with the present and was, were with the past"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c3-evs-01",
+      "class": 3,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "EVS — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Living things eat, grow, breathe and have babies; non-living things do not Food comes from plants and animals",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c3-evs-01-topic-1",
+          "topic_title": {
+            "en": "EVS — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Living things eat, grow, breathe and have babies; non-living things do not",
+                "Food comes from plants and animals",
+                "Animals live in homes like nest, burrow, den and shed",
+                "Save water and do not waste food"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c4-maths-01",
+      "class": 4,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Numbers up to 10,000 and their place values Factors and multiples",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c4-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Numbers up to 10,000 and their place values",
+                "Factors and multiples",
+                "Perimeter is the distance around a shape",
+                "Area is the space inside a shape",
+                "Key formulas and relations:",
+                "Perimeter of rectangle: 2 x (l + b)",
+                "Area of rectangle: l x b",
+                "Area of square: side x side"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c4-english-01",
+      "class": 4,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Simple tenses: past, present, future Adverb tells how, when or where an action happens",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c4-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Simple tenses: past, present, future",
+                "Adverb tells how, when or where an action happens",
+                "Conjunctions join words: and, but, or, because",
+                "Use capital letters for names of people and places"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c4-evs-01",
+      "class": 4,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "EVS — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Plants have roots, stem, leaves, flowers and fruits Water cycle: evaporation, clouds, rain",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c4-evs-01-topic-1",
+          "topic_title": {
+            "en": "EVS — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Plants have roots, stem, leaves, flowers and fruits",
+                "Water cycle: evaporation, clouds, rain",
+                "Animals are herbivores, carnivores or omnivores",
+                "Know safety rules: roads, fire, electricity"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c5-maths-01",
+      "class": 5,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Add and subtract fractions with the same denominator Decimals: tenths and hundredths",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c5-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Add and subtract fractions with the same denominator",
+                "Decimals: tenths and hundredths",
+                "Average means total divided by the number of items",
+                "Learn tables up to 20 for fast calculation",
+                "Key formulas and relations:",
+                "Average: Sum of values / number of values",
+                "Area of triangle: 1/2 x base x height"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c5-english-01",
+      "class": 5,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Prepositions show position: in, on, under, between Simple present, past and future tenses",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c5-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Prepositions show position: in, on, under, between",
+                "Simple present, past and future tenses",
+                "Synonyms (same meaning) and antonyms (opposite meaning)",
+                "Write short paragraphs with a clear beginning and end"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c5-evs-01",
+      "class": 5,
+      "subject": "EVS",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "EVS — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Sources of water: rain, rivers, wells, lakes, ponds Keep surroundings clean: dispose waste properly",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c5-evs-01-topic-1",
+          "topic_title": {
+            "en": "EVS — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Sources of water: rain, rivers, wells, lakes, ponds",
+                "Keep surroundings clean: dispose waste properly",
+                "Natural resources: air, water, soil, forest, sunlight",
+                "Balanced diet keeps the body healthy",
+                "Plant more trees to protect the environment"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c6-maths-01",
+      "class": 6,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "HCF is the greatest common factor; LCM is the smallest common multiple Fractions: add, subtract, compare, convert to decimals",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c6-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "HCF is the greatest common factor; LCM is the smallest common multiple",
+                "Fractions: add, subtract, compare, convert to decimals",
+                "Ratio compares two quantities of the same kind",
+                "Algebra: a letter stands for an unknown number",
+                "Key formulas and relations:",
+                "Perimeter of square: 4 x side",
+                "Area of rectangle: l x b",
+                "Ratio: a : b = a/b"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c6-english-01",
+      "class": 6,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Eight parts of speech: noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection Articles: a, an, the",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c6-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Eight parts of speech: noun, pronoun, verb, adjective, adverb, preposition, conjunction, interjection",
+                "Articles: a, an, the",
+                "Use a comma to separate items in a list",
+                "Subject and verb must agree: he runs, they run"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c6-science-01",
+      "class": 6,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Food has carbohydrates, proteins, fats, vitamins and minerals Separate mixtures by filtration, evaporation or sieving",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c6-science-01-topic-1",
+          "topic_title": {
+            "en": "Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Food has carbohydrates, proteins, fats, vitamins and minerals",
+                "Separate mixtures by filtration, evaporation or sieving",
+                "Motion: moving, rotating and vibrating objects",
+                "Plants make food by photosynthesis",
+                "Key formulas and relations:",
+                "Speed: Speed = Distance / Time"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c6-social-science-01",
+      "class": 6,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Social Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Early humans used stone tools and learned to make fire Agriculture and the wheel changed human life",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c6-social-science-01-topic-1",
+          "topic_title": {
+            "en": "Social Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Early humans used stone tools and learned to make fire",
+                "Agriculture and the wheel changed human life",
+                "Indus Valley Civilisation: Harappa and Mohenjo-daro, well-planned cities",
+                "Buddha and Mahavira taught non-violence and truth",
+                "Earth is the third planet from the Sun; it spins once in 24 hours",
+                "Equator is 0 degree latitude; Prime Meridian is 0 degree longitude",
+                "Three levels of government: central, state and local"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c7-maths-01",
+      "class": 7,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Integers: positive and negative whole numbers Same signs add, different signs subtract; negative x negative = positive",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c7-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Integers: positive and negative whole numbers",
+                "Same signs add, different signs subtract; negative x negative = positive",
+                "Percentage means 'out of 100'",
+                "Angles of a triangle add up to 180 degrees",
+                "Key formulas and relations:",
+                "Percentage: (Part / Whole) x 100",
+                "Simple interest: SI = P x R x T / 100",
+                "Pythagoras: h^2 = b^2 + p^2",
+                "Area of circle: pi x r^2"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c7-english-01",
+      "class": 7,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Twelve tenses: simple, continuous, perfect, perfect continuous in past, present and future Degrees of comparison: good, better, best",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c7-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Twelve tenses: simple, continuous, perfect, perfect continuous in past, present and future",
+                "Degrees of comparison: good, better, best",
+                "Direct speech uses quotation marks",
+                "Formal letters have address, date, subject, salutation, body and closing"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c7-science-01",
+      "class": 7,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Acids turn blue litmus red; bases turn red litmus blue Heat moves by conduction, convection and radiation",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c7-science-01-topic-1",
+          "topic_title": {
+            "en": "Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Acids turn blue litmus red; bases turn red litmus blue",
+                "Heat moves by conduction, convection and radiation",
+                "Respiration releases energy from food",
+                "Light travels in a straight line and reflects from mirrors",
+                "Key formulas and relations:",
+                "Speed: Speed = Distance / Time"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c7-social-science-01",
+      "class": 7,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Social Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Medieval India: Delhi Sultanate and the Mughal Empire Akbar was a great Mughal ruler known for religious tolerance",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c7-social-science-01-topic-1",
+          "topic_title": {
+            "en": "Social Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Medieval India: Delhi Sultanate and the Mughal Empire",
+                "Akbar was a great Mughal ruler known for religious tolerance",
+                "Vijayanagara Empire founded in 1336; capital Hampi in Karnataka",
+                "Layers of the Earth: crust, mantle, core",
+                "Atmosphere protects life; air, water and land are interlinked",
+                "Government makes laws, implements them and settles disputes"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c8-maths-01",
+      "class": 8,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Squares, cubes and their roots Linear equations: do the same operation on both sides",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c8-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Squares, cubes and their roots",
+                "Linear equations: do the same operation on both sides",
+                "Profit and loss, discount, compound interest",
+                "Algebraic identities save time in calculation",
+                "Key formulas and relations:",
+                "Profit: SP - CP",
+                "Loss: CP - SP",
+                "Profit %: (Profit / CP) x 100",
+                "(a+b)^2: a^2 + 2ab + b^2",
+                "(a-b)^2: a^2 - 2ab + b^2",
+                "a^2 - b^2: (a+b)(a-b)",
+                "Cube volume: side^3",
+                "Cuboid volume: l x b x h"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c8-english-01",
+      "class": 8,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Active voice: subject does the action; passive voice: subject receives it Passive: object + be-verb + past participle",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c8-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Active voice: subject does the action; passive voice: subject receives it",
+                "Passive: object + be-verb + past participle",
+                "Reported speech: change tense and pronouns",
+                "Write notices, emails and short essays in clear steps"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c8-science-01",
+      "class": 8,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Force is a push or pull; pressure is force on an area Cell is the basic unit of life; plant cell has a cell wall",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c8-science-01-topic-1",
+          "topic_title": {
+            "en": "Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Force is a push or pull; pressure is force on an area",
+                "Cell is the basic unit of life; plant cell has a cell wall",
+                "Microorganisms can be useful (curd, medicines) or harmful (disease)",
+                "Sound is produced by vibrations and needs a medium to travel",
+                "Key formulas and relations:",
+                "Pressure: P = Force / Area"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c8-social-science-01",
+      "class": 8,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Social Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "British East India Company came to trade and gained power Battle of Plassey 1757 and Battle of Buxar 1764 strengthened British rule",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c8-social-science-01-topic-1",
+          "topic_title": {
+            "en": "Social Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "British East India Company came to trade and gained power",
+                "Battle of Plassey 1757 and Battle of Buxar 1764 strengthened British rule",
+                "Revolt of 1857 is called the First War of Independence",
+                "Constitution gives rights and sets rules for the government",
+                "Resources: land, water, forest, minerals; conserve them",
+                "Judiciary: Supreme Court, High Courts, district courts"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c9-maths-01",
+      "class": 9,
+      "subject": "Maths",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Maths — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Number systems: natural, whole, integers, rational and irrational numbers Polynomials: degree, zeros and factorisation",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c9-maths-01-topic-1",
+          "topic_title": {
+            "en": "Maths — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Number systems: natural, whole, integers, rational and irrational numbers",
+                "Polynomials: degree, zeros and factorisation",
+                "Linear equations in two variables have infinitely many solutions",
+                "Mean, median and mode describe data",
+                "Key formulas and relations:",
+                "Area of triangle: 1/2 x b x h",
+                "Circle area: pi r^2",
+                "Cylinder volume: pi r^2 h",
+                "Cone volume: 1/3 pi r^2 h",
+                "Sphere volume: 4/3 pi r^3",
+                "Mean: Sum of values / number of values"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c9-english-01",
+      "class": 9,
+      "subject": "English",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "English — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Revise all tenses, active-passive and direct-indirect speech Use linkers: however, therefore, moreover",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c9-english-01-topic-1",
+          "topic_title": {
+            "en": "English — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Revise all tenses, active-passive and direct-indirect speech",
+                "Use linkers: however, therefore, moreover",
+                "Formal letter and informal letter have different formats",
+                "Read the passage first, then underline answers"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c9-science-01",
+      "class": 9,
+      "subject": "Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "Matter exists as solid, liquid and gas Atom is the smallest particle of an element; molecule is a group of atoms",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c9-science-01-topic-1",
+          "topic_title": {
+            "en": "Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "Matter exists as solid, liquid and gas",
+                "Atom is the smallest particle of an element; molecule is a group of atoms",
+                "Newton's laws: inertia, F = ma, action and reaction",
+                "Gravity pulls objects towards the Earth; g = 9.8 m/s^2",
+                "Work is done when force moves an object",
+                "Key formulas and relations:",
+                "Velocity: v = u + at",
+                "Distance: s = ut + 1/2 at^2",
+                "Third equation: v^2 = u^2 + 2as",
+                "Force: F = m x a",
+                "Work: W = F x s",
+                "Kinetic energy: KE = 1/2 m v^2",
+                "Potential energy: PE = m g h",
+                "Density: Mass / Volume"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    },
+    {
+      "id": "vp-c9-social-science-01",
+      "class": 9,
+      "subject": "Social Science",
+      "chapter_number": 1,
+      "chapter_title": {
+        "en": "Social Science — Quick Revision",
+        "kn": ""
+      },
+      "summary": {
+        "en": "French Revolution 1789: liberty, equality, fraternity Russian Revolution 1917 ended the rule of the Tsar",
+        "kn": ""
+      },
+      "topics": [
+        {
+          "topic_id": "vp-c9-social-science-01-topic-1",
+          "topic_title": {
+            "en": "Social Science — Quick Revision — Quick Study Notes",
+            "kn": ""
+          },
+          "learning_material": {
+            "detailed_explanation": {
+              "en": "This chapter's study points are organised below. Review each point and use the revision tips for quick recall.",
+              "kn": ""
+            },
+            "important_definitions": [],
+            "chapter_notes": {
+              "en": [
+                "French Revolution 1789: liberty, equality, fraternity",
+                "Russian Revolution 1917 ended the rule of the Tsar",
+                "Democracy means rule by the people through elected representatives",
+                "Indian Constitution gives fundamental rights to all citizens",
+                "India has Himalayas, plains, plateau, desert, coasts and islands",
+                "Climate depends on latitude, altitude and monsoon winds"
+              ],
+              "kn": []
+            },
+            "important_keywords": [],
+            "real_life_examples": {
+              "en": [],
+              "kn": []
+            },
+            "revision_notes": {
+              "en": "Revise the key points and formulas listed above.",
+              "kn": ""
+            },
+            "practice_exercises": []
+          }
+        }
+      ],
+      "important_qa": [],
+      "quiz": [],
+      "verification": {
+        "question_bank_status": "PENDING REVIEW",
+        "kannada_translation_status": "PENDING REVIEW",
+        "textbook_reference": "Uploaded revision notes; exact KTBS textbook alignment pending",
+        "academic_year": "2026-27",
+        "content_status": "Imported from user-provided notes; academic review pending",
+        "source_kind": "classes1to9_uploaded_quick_revision"
+      }
+    }
+  ]
+}
