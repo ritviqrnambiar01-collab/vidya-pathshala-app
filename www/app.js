@@ -1,3 +1,4 @@
+
 let chapters = [];
 let allFormulas = [];
 let deck = [];
@@ -169,6 +170,31 @@ function getChapterTitle(ch) {
   return String(ch.chapter ?? ch.title ?? "Untitled Chapter").trim();
 }
 
+// Normalize subject names so Maths, Math and Mathematics match.
+function normalizeSubject(subject) {
+  const value = String(subject ?? "").trim().toLowerCase();
+
+  if (["math", "maths", "mathematics"].includes(value)) {
+    return "mathematics";
+  }
+
+  if (["science", "general science"].includes(value)) {
+    return "science";
+  }
+
+  return value;
+}
+
+// Supports both old class_range and newer classLevel formula formats.
+function formulaMatchesClass(formula, targetClass) {
+  if (!targetClass) return false;
+
+  return matchesClassFilter(
+    formula.class_range ?? formula.classLevel ?? formula.class,
+    targetClass
+  );
+}
+
 function populateSubjects() {
   const subjectSelect = document.getElementById("subjectSelect");
   const chapterSelect = document.getElementById("chapterSelect");
@@ -186,21 +212,45 @@ function populateSubjects() {
     return;
   }
 
-  const subjects = [...new Set(
-    chapters
-      .filter(ch => getClassValue(ch) === selectedClass)
-      .map(ch => getSubjectValue(ch))
-      .filter(Boolean)
-  )];
+  // Subjects available in study notes.
+  const chapterSubjects = chapters
+    .filter(ch => getClassValue(ch) === selectedClass)
+    .map(ch => getSubjectValue(ch));
 
-  subjects.forEach(subj => {
+  // Subjects available in the formula collection.
+  const formulaSubjects = allFormulas
+    .filter(f => formulaMatchesClass(f, selectedClass))
+    .map(f => f.subject);
+
+  const subjectMap = new Map();
+
+  [...chapterSubjects, ...formulaSubjects]
+    .filter(Boolean)
+    .forEach(subject => {
+      const key = normalizeSubject(subject);
+      if (!key || subjectMap.has(key)) return;
+
+      const chapterLabel = chapterSubjects.find(
+        s => normalizeSubject(s) === key
+      );
+
+      const label = chapterLabel || (
+        key === "mathematics" ? "Mathematics" :
+        key === "science" ? "Science" :
+        String(subject).trim()
+      );
+
+      subjectMap.set(key, label);
+    });
+
+  subjectMap.forEach(label => {
     const opt = document.createElement("option");
-    opt.value = subj;
-    opt.textContent = subj;
+    opt.value = label;
+    opt.textContent = label;
     subjectSelect.appendChild(opt);
   });
 
-  subjectSelect.disabled = subjects.length === 0;
+  subjectSelect.disabled = subjectMap.size === 0;
   selectedSubject = "";
 }
 
@@ -216,7 +266,8 @@ function populateChapters() {
   }
 
   const matching = chapters.filter(
-    ch => getClassValue(ch) === selectedClass && getSubjectValue(ch) === selectedSubject
+    ch => getClassValue(ch) === selectedClass &&
+      getSubjectValue(ch) === selectedSubject
   );
 
   matching.forEach((ch, idx) => {
@@ -241,6 +292,7 @@ function onSubjectChange() {
   selectedSubject = document.getElementById("subjectSelect").value;
   populateChapters();
   renderNotes();
+  resetDeck();
 }
 
 function onChapterChange() {
@@ -503,18 +555,33 @@ function matchesClassFilter(classRangeOrLevel, targetClass) {
   const raw = String(classRangeOrLevel ?? "").trim();
   if (!raw) return true;
   if (/^\d+$/.test(raw)) return Number(raw) === target;
+
   const rangeMatch = raw.match(/^(\d+)\s*[-–]\s*(\d+)$/);
   if (rangeMatch) {
     return target >= Number(rangeMatch[1]) && target <= Number(rangeMatch[2]);
   }
+
   return raw.split(",").map(s => s.trim()).includes(String(target));
 }
 
 function resetDeck() {
-  deck = allFormulas.filter(f => matchesClassFilter(f.class_range ?? f.classLevel, selectedClass));
+  deck = allFormulas.filter(formula => {
+    if (!formulaMatchesClass(formula, selectedClass)) return false;
+    if (!selectedSubject) return false;
+
+    return normalizeSubject(formula.subject) ===
+      normalizeSubject(selectedSubject);
+  });
+
   deckIndex = 0;
+  mastered = 0;
+
+  const masteredEl = document.getElementById("masteredCount");
+  if (masteredEl) masteredEl.textContent = mastered;
+
   const flipEl = document.getElementById("flipCard");
   if (flipEl) flipEl.classList.remove("flipped");
+
   renderCard();
 }
 
@@ -524,24 +591,60 @@ function renderCard() {
   flipEl.classList.remove("flipped");
 
   if (!deck.length) {
-    document.getElementById("cardMeta").textContent = "Deck";
-    document.getElementById("cardQ").textContent = "No formula cards for this filter yet.";
-    document.getElementById("cardAns").textContent = "—";
-    document.getElementById("cardTip").textContent = "Select another class or switch back to Study Materials.";
-    document.getElementById("deckCounter").textContent = "0 cards";
+    const cardMeta = document.getElementById("cardMeta");
+    const cardQ = document.getElementById("cardQ");
+    const cardAns = document.getElementById("cardAns");
+    const cardTip = document.getElementById("cardTip");
+    const deckCounter = document.getElementById("deckCounter");
+
+    if (cardMeta) {
+      cardMeta.textContent = !selectedClass
+        ? "Formula Deck"
+        : !selectedSubject
+          ? `Class ${selectedClass}`
+          : `Class ${selectedClass} • ${selectedSubject}`;
+    }
+
+    if (cardQ) {
+      cardQ.textContent = !selectedClass
+        ? "Select a class to begin."
+        : !selectedSubject
+          ? "Now choose a subject."
+          : "No formula cards for this selection yet.";
+    }
+
+    if (cardAns) cardAns.textContent = "—";
+
+    if (cardTip) {
+      cardTip.textContent = !selectedClass
+        ? "Choose a class from the selection above."
+        : !selectedSubject
+          ? "Choose Mathematics or Science to see formula cards."
+          : "Try another class or subject, or add more formula cards.";
+    }
+
+    if (deckCounter) deckCounter.textContent = "0 cards";
     return;
   }
 
   const item = deck[deckIndex];
-  const classInfo = item.class_range ? `Classes ${item.class_range}` : `Class ${item.classLevel ?? ""}`;
+  const classInfo = `Class ${selectedClass}`;
   const topicInfo = item.topic ? ` • ${item.topic}` : "";
-  const tipParts = [item.explanation ?? item.tip, item.example ? `Example: ${item.example}` : ""].filter(Boolean);
+  const tipParts = [
+    item.explanation ?? item.tip,
+    item.example ? `Example: ${item.example}` : ""
+  ].filter(Boolean);
 
-  document.getElementById("cardMeta").textContent = `${classInfo} • ${item.subject ?? ""}${topicInfo}`;
-  document.getElementById("cardQ").textContent = item.title ?? item.q ?? "Formula Card";
+  document.getElementById("cardMeta").textContent =
+    `${classInfo} • ${item.subject ?? ""}${topicInfo}`;
+
+  document.getElementById("cardQ").textContent =
+    item.title ?? item.q ?? "Formula Card";
+
   document.getElementById("cardAns").textContent = item.formula ?? "";
   document.getElementById("cardTip").textContent = tipParts.join(" — ");
-  document.getElementById("deckCounter").textContent = `Card ${deckIndex + 1} of ${deck.length}`;
+  document.getElementById("deckCounter").textContent =
+    `Card ${deckIndex + 1} of ${deck.length}`;
 }
 
 function flipCard() {
@@ -552,16 +655,20 @@ function flipCard() {
 
 function rateCard(gotIt) {
   if (!deck.length) return;
+
   if (gotIt) {
     mastered++;
     document.getElementById("masteredCount").textContent = mastered;
     deck.splice(deckIndex, 1);
+
     if (deckIndex >= deck.length) deckIndex = 0;
   } else {
     const missed = deck.splice(deckIndex, 1)[0];
     deck.push(missed);
+
     if (deckIndex >= deck.length) deckIndex = 0;
   }
+
   renderCard();
 }
 
