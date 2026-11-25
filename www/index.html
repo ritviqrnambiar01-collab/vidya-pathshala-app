@@ -1,104 +1,280 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vidya Pathshala (Classes 1–10)</title>
+  <meta name="theme-color" content="#6f3037" />
+  <title>Vidya Pathshala | Karnataka Learning Companion</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Opening Splash Screen Animation -->
+
+  <!-- KARNATAKA HERITAGE SPLASH SCREEN -->
   <div id="splashScreen" class="splash-screen" aria-hidden="true">
+    <div class="splash-pattern"></div>
     <div class="splash-content">
-      <div class="splash-badge">📘</div>
-      <h1 class="splash-title">Vidya Pathshala</h1>
-      <p class="splash-sub">Classes 1–10 • Offline Study Companion</p>
+      <div class="splash-emblem">✦</div>
+      <div class="splash-kannada">ಜ್ಞಾನವೇ ಶಕ್ತಿ</div>
+      <h1 class="splash-title">ವಿದ್ಯಾ ಪಾಠಶಾಲೆ</h1>
+      <h2 class="splash-english">Vidya Pathshala</h2>
+      <p class="splash-sub">A Journey of Learning • Classes 1–10</p>
+      <div class="splash-line"></div>
     </div>
   </div>
 
+  <!-- TOP HEADER -->
   <header class="app-header">
-    <div>
-      <h1>Vidya Pathshala</h1>
-      <span class="badge">Offline Study Companion • Classes 1–10</span>
+    <div class="brand-area">
+      <div class="brand-symbol">ವ</div>
+      <div class="brand-text">
+        <h1>ವಿದ್ಯಾ ಪಾಠಶಾಲೆ</h1>
+        <span>Vidya Pathshala</span>
+      </div>
     </div>
+
     <div class="header-controls">
-      <div class="lang-toggle" role="group" aria-label="Language Switcher">
-        <button type="button" id="langEnBtn" class="lang-btn active" onclick="setLanguage('en')">EN</button>
-        <button type="button" id="langKnBtn" class="lang-btn" onclick="setLanguage('kn')">ಕನ್ನಡ</button>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" id="langEnBtn"
+          class="lang-btn active" onclick="setLanguage('en')">EN</button>
+        <button type="button" id="langKnBtn"
+          class="lang-btn" onclick="setLanguage('kn')">ಕನ್ನಡ</button>
       </div>
       <div class="progress-pill" id="progressText">0/0 Completed</div>
     </div>
   </header>
 
-  <nav class="mode-nav">
-    <button class="mode-btn active" id="tabNotes" onclick="switchMode('notes')">📘 Study Materials</button>
-    <button class="mode-btn" id="tabDeck" onclick="switchMode('deck')">🃏 3D Formula Deck</button>
+  <!-- MAIN NAVIGATION -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <button class="nav-item active" id="navHome"
+      onclick="showView('home')">
+      <span class="nav-icon">⌂</span>
+      <span>Home</span>
+    </button>
+
+    <button class="nav-item" id="navStudy"
+      onclick="showView('study')">
+      <span class="nav-icon">▤</span>
+      <span>Study</span>
+    </button>
+
+    <button class="nav-item" id="navDeck"
+      onclick="showView('deck')">
+      <span class="nav-icon">◇</span>
+      <span>Formula Deck</span>
+    </button>
+
+    <button class="nav-item" id="navLearning"
+      onclick="showView('learning')">
+      <span class="nav-icon">☆</span>
+      <span>My Learning</span>
+    </button>
   </nav>
 
-  <!-- Step 1: Class -> Step 2: Subject -> Step 3: Specific Chapter -->
-  <section class="controls-bar">
-    <div class="filter-group">
-      <label for="classSelect"><strong>1. Class (1–10):</strong></label>
-      <select id="classSelect" onchange="onClassChange()">
-        <option value="">Select Class</option>
-        <option value="1">Class 1</option>
-        <option value="2">Class 2</option>
-        <option value="3">Class 3</option>
-        <option value="4">Class 4</option>
-        <option value="5">Class 5</option>
-        <option value="6">Class 6</option>
-        <option value="7">Class 7</option>
-        <option value="8">Class 8</option>
-        <option value="9">Class 9</option>
-        <option value="10">Class 10</option>
-      </select>
-    </div>
+  <!-- HOME DASHBOARD -->
+  <main id="homeView" class="app-view home-view">
 
-    <div class="filter-group">
-      <label for="subjectSelect"><strong>2. Subject:</strong></label>
-      <select id="subjectSelect" onchange="onSubjectChange()" disabled>
-        <option value="">Select Subject</option>
-      </select>
-    </div>
+    <section class="welcome-banner">
+      <div class="welcome-decoration">❖</div>
+      <div class="welcome-content">
+        <span class="eyebrow">KARNATAKA • LEARNING FOR EVERYONE</span>
+        <h2>ನಮಸ್ಕಾರ!</h2>
+        <h3>Welcome to Vidya Pathshala</h3>
+        <p>
+          Discover, learn and grow. Your learning journey
+          begins with one small step every day.
+        </p>
+        <button class="primary-action"
+          onclick="showView('study')">
+          Explore Learning <span>→</span>
+        </button>
+      </div>
+      <div class="welcome-motif">✦</div>
+    </section>
 
-    <div class="filter-group">
-      <label for="chapterSelect"><strong>3. Chapter:</strong></label>
-      <select id="chapterSelect" onchange="onChapterChange()" disabled>
-        <option value="">All Chapters in Subject</option>
-      </select>
-    </div>
+    <section class="dashboard-section">
+      <div class="section-heading">
+        <div>
+          <span class="section-eyebrow">YOUR CLASSROOM</span>
+          <h2>Your Learning Space</h2>
+        </div>
+        <span class="heading-decoration">❖</span>
+      </div>
 
-    <div class="filter-group">
-      <label for="searchInput"><strong>Search:</strong></label>
-      <input type="text" id="searchInput" placeholder="Search topic or keyword..." oninput="renderNotes()" />
-    </div>
-  </section>
+      <div class="dashboard-grid">
 
-  <!-- STUDY MATERIALS VIEW -->
-  <main id="notesView">
+        <button class="dashboard-card study-card"
+          onclick="showView('study')">
+          <span class="dashboard-icon">📚</span>
+          <span class="dashboard-card-title">Study Materials</span>
+          <span class="dashboard-card-desc">
+            Explore subjects and chapters
+          </span>
+          <span class="card-arrow">Explore →</span>
+        </button>
+
+        <button class="dashboard-card formula-card"
+          onclick="showView('deck')">
+          <span class="dashboard-icon">🧮</span>
+          <span class="dashboard-card-title">Formula 3D Deck</span>
+          <span class="dashboard-card-desc">
+            Learn and revise important formulas
+          </span>
+          <span class="card-arrow">Explore →</span>
+        </button>
+
+        <button class="dashboard-card bookmark-card"
+          onclick="showView('learning')">
+          <span class="dashboard-icon">🔖</span>
+          <span class="dashboard-card-title">My Bookmarks</span>
+          <span class="dashboard-card-desc">
+            Revisit your saved chapters
+          </span>
+          <span class="card-arrow">View saved →</span>
+        </button>
+
+        <button class="dashboard-card progress-card"
+          onclick="showView('learning')">
+          <span class="dashboard-icon">🏆</span>
+          <span class="dashboard-card-title">My Progress</span>
+          <span class="dashboard-card-desc">
+            Keep track of your learning
+          </span>
+          <span class="card-arrow">View progress →</span>
+        </button>
+
+      </div>
+    </section>
+
+    <section class="dashboard-section progress-overview">
+      <div class="section-heading">
+        <div>
+          <span class="section-eyebrow">YOUR JOURNEY</span>
+          <h2>A Little Progress Every Day</h2>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-icon">✓</span>
+          <strong id="homeCompletedCount">0</strong>
+          <span>Completed Chapters</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-icon">🔖</span>
+          <strong id="homeSavedCount">0</strong>
+          <span>Saved Chapters</span>
+        </div>
+
+        <div class="stat-card">
+          <span class="stat-icon">📖</span>
+          <strong id="homeTotalCount">0</strong>
+          <span>Available Chapters</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="thought-card">
+      <span class="thought-symbol">❝</span>
+      <p>ಜ್ಞಾನವೇ ಶಕ್ತಿ</p>
+      <span>Knowledge is Power</span>
+    </section>
+
+  </main>
+
+  <!-- STUDY MATERIALS -->
+  <main id="studyView" class="app-view" style="display:none;">
+
+    <section class="page-heading">
+      <span class="section-eyebrow">LEARN AT YOUR OWN PACE</span>
+      <h2>Study Materials</h2>
+      <p>Choose your class, subject and chapter to begin.</p>
+    </section>
+
+    <section class="controls-bar">
+      <div class="filter-group">
+        <label for="classSelect">1. Class</label>
+        <select id="classSelect" onchange="onClassChange()">
+          <option value="">Select Class</option>
+          <option value="1">Class 1</option>
+          <option value="2">Class 2</option>
+          <option value="3">Class 3</option>
+          <option value="4">Class 4</option>
+          <option value="5">Class 5</option>
+          <option value="6">Class 6</option>
+          <option value="7">Class 7</option>
+          <option value="8">Class 8</option>
+          <option value="9">Class 9</option>
+          <option value="10">Class 10</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="subjectSelect">2. Subject</label>
+        <select id="subjectSelect" onchange="onSubjectChange()" disabled>
+          <option value="">Select Subject</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="chapterSelect">3. Chapter</label>
+        <select id="chapterSelect" onchange="onChapterChange()" disabled>
+          <option value="">All Chapters in Subject</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="searchInput">Search</label>
+        <input type="text" id="searchInput"
+          placeholder="Search topics or keywords..."
+          oninput="renderNotes()" />
+      </div>
+    </section>
+
     <div class="sub-tabs">
-      <button class="sub-tab active" data-filter="all" onclick="setSubFilter('all', this)">All Chapters</button>
-      <button class="sub-tab" data-filter="saved" onclick="setSubFilter('saved', this)">Bookmarked (<span id="savedCount">0</span>)</button>
+      <button class="sub-tab active" data-filter="all"
+        onclick="setSubFilter('all', this)">All Chapters</button>
+      <button class="sub-tab" data-filter="saved"
+        onclick="setSubFilter('saved', this)">
+        Bookmarked (<span id="savedCount">0</span>)
+      </button>
     </div>
+
     <div id="notesContainer"></div>
   </main>
 
-  <!-- 3D FORMULA DECK VIEW -->
-  <section id="deckView" style="display:none;">
+  <!-- FORMULA DECK -->
+  <main id="deckView" class="app-view" style="display:none;">
+
+    <section class="page-heading">
+      <span class="section-eyebrow">REVISE • REMEMBER • MASTER</span>
+      <h2>Formula 3D Deck</h2>
+      <p>Flip the cards and strengthen your understanding.</p>
+    </section>
+
+    <section class="deck-filter-note">
+      Select a class and subject using the Study Materials filters
+      to load the matching formula cards.
+    </section>
+
     <div class="deck-header">
       <span id="deckCounter">Card 1 of 1</span>
-      <span class="mastered-pill">Mastered: <strong id="masteredCount">0</strong></span>
+      <span class="mastered-pill">
+        Mastered: <strong id="masteredCount">0</strong>
+      </span>
     </div>
 
     <div class="scene" onclick="flipCard()">
       <div class="flip-card" id="flipCard">
         <div class="face front">
-          <div class="card-meta" id="cardMeta">Class 10 • Physics</div>
-          <div class="card-q" id="cardQ">Think of the formula...</div>
-          <div class="hint">Tap card to flip &amp; check answer</div>
+          <div class="card-meta" id="cardMeta">Formula Deck</div>
+          <div class="card-q" id="cardQ">Choose a class and subject.</div>
+          <div class="hint">Tap the card to reveal the answer</div>
         </div>
+
         <div class="face back">
-          <div class="card-meta">Formula &amp; Memory Trick</div>
+          <div class="card-meta">Formula & Memory Trick</div>
           <div class="card-ans" id="cardAns"></div>
           <div class="card-tip" id="cardTip"></div>
         </div>
@@ -106,13 +282,66 @@
     </div>
 
     <div class="deck-actions">
-      <button class="btn retry-btn" onclick="rateCard(false)">Practice Again</button>
-      <button class="btn gotit-btn" onclick="rateCard(true)">Got It!</button>
+      <button class="btn retry-btn" onclick="rateCard(false)">
+        Practice Again
+      </button>
+      <button class="btn gotit-btn" onclick="rateCard(true)">
+        Got It!
+      </button>
     </div>
-  </section>
+
+    <button class="text-action" onclick="showView('study')">
+      Change Class or Subject →
+    </button>
+  </main>
+
+  <!-- MY LEARNING -->
+  <main id="learningView" class="app-view" style="display:none;">
+
+    <section class="page-heading">
+      <span class="section-eyebrow">YOUR PERSONAL LEARNING SPACE</span>
+      <h2>My Learning</h2>
+      <p>See your progress and return to saved chapters.</p>
+    </section>
+
+    <div class="learning-summary">
+      <div class="learning-stat">
+        <strong id="learningCompleted">0</strong>
+        <span>Completed</span>
+      </div>
+      <div class="learning-stat">
+        <strong id="learningSaved">0</strong>
+        <span>Bookmarked</span>
+      </div>
+      <div class="learning-stat">
+        <strong id="learningTotal">0</strong>
+        <span>Total Chapters</span>
+      </div>
+    </div>
+
+    <section class="saved-section">
+      <div class="section-heading">
+        <div>
+          <span class="section-eyebrow">KEEP THEM CLOSE</span>
+          <h2>Your Bookmarked Chapters</h2>
+        </div>
+      </div>
+      <div id="learningBookmarks"></div>
+    </section>
+
+    <button class="primary-action learning-study-button"
+      onclick="showView('study')">
+      Continue Studying →
+    </button>
+  </main>
 
   <footer class="disclaimer">
-    <strong>Disclaimer:</strong> Independent student community project. Not affiliated with KTBS, KSEAB, or Govt. of Karnataka. Created to support Classes 1–10 revision and offline access.
+    <strong>Vidya Pathshala</strong>
+    <p>
+      Independent student community project. Not affiliated with
+      KTBS, KSEAB or the Government of Karnataka.
+    </p>
+    <span>Made for learning • Built for offline access</span>
   </footer>
 
   <script src="app.js"></script>
