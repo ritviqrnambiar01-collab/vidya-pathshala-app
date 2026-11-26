@@ -3,7 +3,7 @@
   "name": "Vidya Pathshala",
   "short_name": "Vidya",
   "description": "A bilingual learning companion for Classes 1 to 10.",
-  "start_url": "./index.html",
+ "start_url": "./index.html?pwa=1",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
