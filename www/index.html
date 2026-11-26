@@ -353,16 +353,19 @@
   <script src="app.js"></script>
 
   <!-- PWA SERVICE WORKER REGISTRATION -->
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js")
-          .catch(error => {
-            console.log("PWA registration failed:", error);
-          });
-      });
-    }
-  </script>
+ <script>
+  const enablePWA =
+    new URLSearchParams(window.location.search).get("pwa") === "1";
+
+  if (enablePWA && "serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./service-worker.js")
+        .catch(error => {
+          console.log("PWA registration failed:", error);
+        });
+    });
+  }
+</script>
 
 </body>
 </html>
