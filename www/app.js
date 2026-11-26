@@ -31,18 +31,49 @@ function escapeHtml(str) {
     .replace(/"/g, "&quot;");
 }
 
+
 function pickText(field) {
   if (!field) return "";
+
   if (typeof field === "string") return field;
-  return field[currentLang] ?? field.en ?? field.kn ?? "";
+
+  if (currentLang === "kn") {
+    const kannadaText = field.kn;
+
+    if (
+      typeof kannadaText === "string" &&
+      kannadaText.trim() !== ""
+    ) {
+      return kannadaText;
+    }
+  }
+
+  return field.en || field.kn || "";
 }
 
 function pickList(field) {
   if (!field) return [];
+
   if (Array.isArray(field)) return field;
-  const arr = field[currentLang] ?? field.en ?? field.kn ?? [];
-  return Array.isArray(arr) ? arr : [];
+
+  if (currentLang === "kn") {
+    const kannadaList = field.kn;
+
+    if (
+      Array.isArray(kannadaList) &&
+      kannadaList.length > 0
+    ) {
+      return kannadaList;
+    }
+  }
+
+  if (Array.isArray(field.en) && field.en.length > 0) {
+    return field.en;
+  }
+
+  return Array.isArray(field.kn) ? field.kn : [];
 }
+
 
 function saveState(key, value) {
   try {
